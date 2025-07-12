@@ -1,4 +1,4 @@
-# ATPL Questions Clone - Architecture Analysis & Implementation
+# AvPrep - Architecture Analysis & Implementation
 
 ## Original Application Analysis
 
