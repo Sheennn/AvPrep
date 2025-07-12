@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: 'Ubuntu', system-ui, sans-serif;
+  }
+  
+  body {
+    @apply bg-gray-50 dark:bg-gray-900 text-gray-900 dark:text-gray-100;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply px-4 py-2 rounded-lg font-medium transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2;
+  }
+  
+  .btn-primary {
+    @apply bg-primary-600 text-white hover:bg-primary-700 focus:ring-primary-500;
+  }
+  
+  .btn-secondary {
+    @apply bg-gray-200 text-gray-900 hover:bg-gray-300 focus:ring-gray-500 dark:bg-gray-700 dark:text-gray-100 dark:hover:bg-gray-600;
+  }
+  
+  .btn-success {
+    @apply bg-success-600 text-white hover:bg-success-700 focus:ring-success-500;
+  }
+  
+  .btn-danger {
+    @apply bg-danger-600 text-white hover:bg-danger-700 focus:ring-danger-500;
+  }
+  
+  .card {
+    @apply bg-white dark:bg-gray-800 rounded-lg shadow-sm border border-gray-200 dark:border-gray-700;
+  }
+  
+  .question-option {
+    @apply border border-gray-300 dark:border-gray-600 rounded-lg p-4 cursor-pointer transition-all duration-200 hover:border-primary-500 hover:bg-primary-50 dark:hover:bg-primary-900/20;
+  }
+  
+  .question-option.selected {
+    @apply border-primary-500 bg-primary-50 dark:bg-primary-900/20;
+  }
+  
+  .question-option.correct {
+    @apply border-success-500 bg-success-50 dark:bg-success-900/20;
+  }
+  
+  .question-option.incorrect {
+    @apply border-danger-500 bg-danger-50 dark:bg-danger-900/20;
+  }
+  
+  .flag-button {
+    @apply p-2 rounded-full transition-colors duration-200 hover:bg-gray-100 dark:hover:bg-gray-700;
+  }
+  
+  .flag-button.active {
+    @apply bg-primary-100 dark:bg-primary-900/30 text-primary-600 dark:text-primary-400;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+} 
