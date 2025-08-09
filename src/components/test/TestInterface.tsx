@@ -14,7 +14,7 @@ import QuestionGrid from './QuestionGrid';
 import Timer from './Timer';
 import { useTestStore } from '@/stores/testStore';
 import { useSubjectStore } from '@/stores/subjectStore';
-import { getSampleQuestions } from '@/utils/dataParser';
+import { loadSubjectQuestions } from '@/utils/questionDataLoader';
 import { Test } from '@/types/Test';
 
 import { FlagType } from '@/types/Question';
@@ -39,7 +39,7 @@ const TestInterface = () => {
     endTest
   } = useTestStore();
 
-  const { selectedMode } = useSubjectStore();
+  const { selectedMode, selectedSubject } = useSubjectStore();
   const [showCorrectAnswers, setShowCorrectAnswers] = useState(false);
   const [showFeedback, setShowFeedback] = useState(false);
   const [feedbackMessage, setFeedbackMessage] = useState('');
@@ -50,27 +50,29 @@ const TestInterface = () => {
 
   // Initialize test if not already started
   useEffect(() => {
-    if (!currentTest) {
-      const questions = getSampleQuestions();
-      const test: Test = {
-        id: 'sample-test-1',
-        name: selectedMode?.id === 'study' ? 'Study Mode' : 'Exam Mode',
-        category: 'ATPL(A) Air Law',
-        questions,
-        currentQuestion: 1,
-        answers: {},
-        flags: {},
-        startTime: new Date(),
-        isCompleted: false,
-        totalQuestions: questions.length,
-        correctAnswers: 0,
-        timeLimit: selectedMode?.id === 'exam' ? 60 : 0, // No time limit for study mode
-        allowReview: true,
-        shuffleQuestions: false
-      };
-      startTest(test);
+    if (!currentTest && selectedSubject && selectedMode) {
+      (async () => {
+        const questions = await loadSubjectQuestions(selectedSubject.id);
+        const test: Test = {
+          id: `${selectedSubject.id}-${selectedMode.id}-${Date.now()}`,
+          name: `${selectedSubject.name} — ${selectedMode.name}`,
+          category: selectedSubject.name,
+          questions,
+          currentQuestion: 1,
+          answers: {},
+          flags: {},
+          startTime: new Date(),
+          isCompleted: false,
+          totalQuestions: questions.length,
+          correctAnswers: 0,
+          timeLimit: selectedMode.id === 'exam' ? 60 : 0, // No time limit for study mode
+          allowReview: true,
+          shuffleQuestions: false
+        };
+        startTest(test);
+      })();
     }
-  }, [currentTest, startTest, selectedMode]);
+  }, [currentTest, startTest, selectedMode, selectedSubject]);
 
   const handleAnswerSelect = (answerIndex: number) => {
     if (currentTest) {
@@ -146,7 +148,7 @@ const TestInterface = () => {
         testName={currentTest.name}
         currentQuestion={currentQuestionIndex + 1}
         totalQuestions={currentTest.questions.length}
-        questionNumber={currentQuestion?.id.toString() || ''}
+        questionNumber={(currentQuestion as any)?.code || currentQuestion?.id.toString() || ''}
         timeRemaining={selectedMode?.id === 'exam' ? timeRemaining : 0}
         onFlagQuestion={handleFlagQuestion}
         onPrevious={previousQuestion}

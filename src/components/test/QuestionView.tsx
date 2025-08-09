@@ -85,6 +85,20 @@ const QuestionView = ({
               </p>
             </div>
 
+            {/* Question Images */}
+            {question.imageUrls && question.imageUrls.length > 0 && (
+              <div className="space-y-3">
+                {question.imageUrls.map((src, idx) => (
+                  <img
+                    key={idx}
+                    src={src}
+                    alt={`Question image ${idx + 1}`}
+                    className="max-h-96 rounded border border-gray-200 dark:border-gray-700"
+                  />
+                ))}
+              </div>
+            )}
+
             {/* Question Options */}
             <ul className="space-y-3">
               {question.options.map((option, index) => (
@@ -146,6 +160,20 @@ const QuestionView = ({
                 </p>
               </div>
             )}
+
+            {/* Explanation Images */}
+            {question.explanationImageUrls && question.explanationImageUrls.length > 0 && (
+              <div className="space-y-3">
+                {question.explanationImageUrls.map((src, idx) => (
+                  <img
+                    key={idx}
+                    src={src}
+                    alt={`Explanation image ${idx + 1}`}
+                    className="max-h-96 rounded border border-gray-200 dark:border-gray-700"
+                  />
+                ))}
+              </div>
+            )}
           </div>
         )}
 
@@ -166,10 +194,14 @@ const QuestionView = ({
         )}
 
         {activeTab === 'comments' && (
-          <div className="text-gray-600 dark:text-gray-400">
-            <p className="text-sm text-gray-500 dark:text-gray-500 italic">
-              No comments available for this question.
-            </p>
+          <div className="text-gray-600 dark:text-gray-400 space-y-3">
+            {question.commentsText ? (
+              <pre className="whitespace-pre-wrap text-sm leading-relaxed">{question.commentsText}</pre>
+            ) : (
+              <p className="text-sm text-gray-500 dark:text-gray-500 italic">
+                No comments available for this question.
+              </p>
+            )}
           </div>
         )}
       </div>

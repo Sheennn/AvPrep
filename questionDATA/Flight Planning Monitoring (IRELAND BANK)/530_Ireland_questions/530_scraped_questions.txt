@@ -1,0 +1,4195 @@
+Question Number: AT00001
+Subject: ATPL(A) (EASA 2020) | 033 - Flight Planning Monitoring
+
+Refer to figure.
+In the figure, all fuel figures are in kg. For this flight, how does the fuel consumption from top of climb to TORDU compare to the planned fuel consumption? The actual fuel consumption is…
+
+Images:
+- images/AT00001_img_1.png
+
+Explanation:
+The aircraft according to the planned fuel calculations should burn from Top of Climb to TORDU: 360 - 241 = 119 kg in 19:45 - 18:52 = 53 min.
+Thus, its planned fuel consumption is: 119 kg / (53/60) hr = 134.7 kg/hr.
+But, actually the aircraft burns 375 kg - 360 kg = 15 kg less, so at TORDU the actual remaining fuel after the pilot's fuel check will be: 241 kg + 15 kg = 256 kg.
+Thus, the aircraft will burn from Top of Climb to TORDU: 375 kg - 256 kg = 119 kg in 19:42 - 18:52 = 50 min.
+So, its actual fuel consumption will be: 119 kg / (50/60) = 142.8 kg/hr.
+Therefore, its actual fuel consumption will be: 142.8 kg/hr - 134.7 kg/hr = 8.1 kg/hr higher than planned.
+
+Options:
+A. A
+The same as planned.
+B. C
+3 kg/h lower than planned.
+C. D
+5 kg/h higher than planned.
+D. B
+8 kg/h higher than planned. ✓ (CORRECT)
+
+Correct Answer: D.
+
+--------------------
+
+Question Number: AT00002
+Subject: ATPL(A) (EASA 2020) | 033 - Flight Planning Monitoring
+
+Which selection best describes the Point of Safe Return (PSR)? The furthest point along a planned route…
+
+Explanation:
+Time to PSR (Point of Safe Return):
+The Point of Safe Return (PSR) is the last point on a route at which it is possible to return to the departure airfield arriving back with the required fuel reserves still available in the tanks. Continuing passed the PSR you are now committed to landing at your destination.
+Time (to PSR) = E x H / (O + H)
+E = Safe Endurance based on available fuel
+H = Ground speed Home
+O = Ground speed Out
+Correct Answer: to which an aircraft can fly to destination or back to the departure, or alternate with reserves intact.
+
+Note: Safe return means arriving at the departure aerodrome with reserves.
+
+Options:
+A. A
+to which an aircraft can fly to destination or back to the departure, or alternate in the same time.
+B. B
+to which an aircraft can fly to destination or back to the departure, or alternate with no reserves intact.
+C. D
+to which an aircraft can fly to destination or back to the departure, or alternate with safe endurance.
+D. C
+to which an aircraft can fly to destination or back to the departure, or alternate with reserves intact. ✓ (CORRECT)
+
+Correct Answer: D.
+
+--------------------
+
+Question Number: AT00003
+Subject: ATPL(A) (EASA 2020) | 033 - Flight Planning Monitoring
+
+What statement below is correct regarding the difference between an RNAV STAR and an RNAV STAR overlay?
+
+Explanation:
+The conventional Standard Arrival Route procedures (STARs) use ground navigational aids, while the RNAV STARs use Fly-by and Fly-over waypoints and are followed by the FMS.
+RNAV equipment tends to be more accurate than basic fixing and can be based on either VOR/DME information, satellite systems, inertial systems or combinations of these.
+An RNAV STAR overlay is a traditional STAR that allows pilots to use GPS equipment to fly existing, conventional STAR procedures, without replacing it. It follows the same route as the conventional procedure, with waypoints defined by coordinates instead of bearings and distances from ground navigation aids. In most cases, each ground navigation aid or intersection point of the conventional STAR, corresponds to an RNAV waypoint. Additionally, some RNAV waypoints (Fly-by or Fly-over) may be added, non-existing in the conventional STAR, to facilitate the turns.
+An RNAV STAR overlay may be either shorter or longer in distance than an RNAV STAR, depending on the design.
+
+Options:
+A. B
+An RNAV STAR overlay CANNOT follow the same route as a STAR that is defined by ground based navigation aids.
+B. C
+An RNAV STAR overlay will have a longer route distance than an RNAV STAR as it has less constraints.
+C. D
+An RNAV STAR overlay will have a shorter route distance than an RNAV STAR as it has less constraints.
+D. A
+An RNAV STAR overlay will follow the same route as a STAR that is defined by ground based navigation aids. ✓ (CORRECT)
+
+Correct Answer: D.
+
+--------------------
+
+Question Number: AT00004
+Subject: ATPL(A) (EASA 2020) | 033 - Flight Planning Monitoring
+
+If the actual in-flight wind produces a greater headwind than the forecast wind input into the FMC, what should be expected?
+
+Explanation:
+The Flight Management Computer (FMC) contains two databases:
+A navigation database, which is updated every 28 days, including waypoints, airways, SIDs, STARs, approach procedures, runway lengths and minimum altitudes.
+A performance database, which is updated only when rquired and is able to calculate maximum and optimum cruise altitudes, the optimum speeds for climb, cruise and descent and the required thrust settings for different phases of flight.
+The FMC has, also, the ability to calculate speeds to arrive over a waypoint at a defined time, a selection known as RTA (Required Time of Arrival). In case the wind component is not as expected and input into the FMC, then it adjusts the speed so as to maintain the desired ETAs.
+Thus, in case the actual in-flight wind produces a greater headwind than the forecast wind input into the FMC, then speeds will be increased to maintain ETAs.
+
+Options:
+A. A
+Earlier ETAs will be generated by the FMC.
+B. B
+A new cruise level will be generated by the FMC.
+C. D
+The optimum level will be lowered.
+D. C
+Speeds will be increased to maintain ETAs. ✓ (CORRECT)
+
+Correct Answer: D.
+
+--------------------
+
+Question Number: AT00005
+Subject: ATPL(A) (EASA 2020) | 033 - Flight Planning Monitoring
+
+The flight crew has 1 hour flight time remaining of a 4 hours flight towards the destination aerodrome. The FMS displays the message DEST EFOB BELOW MIN and the Commander looks at the FMS data to see that there is an estimated 0.3 tonnes less fuel than required when arriving at the destination. Under NORMAL circumstances for a commercial Air transport flight with one destination alternate nominated, what is the minimum fuel to be expected on board when arriving at the destination aerodrome?
+
+Explanation:
+Final Reserve Fuel is a quantity of fuel that should never be used, but is carried in order to provide a final safety net. You should always land with Final Reserve Fuel intact in the tanks.
+Alternate fuel is the fuel required from the missed approach point to the nominated alternate, including the fuel required for climb, cruise, descent, approach and landing.
+According to the OPS 1.375 "In-flight fuel management":
+The flight must be conducted so that the expected usable fuel remaining on arrival at the destination aerodrome is not less than:
+(i) the required alternate fuel plus final reserve fuel, or
+(ii) the final reserve fuel, if no alternate aerodrome is required.
+
+Options:
+A. A
+Contingency fuel plus alternate fuel plus final reserve fuel.
+B. B
+Final reserve fuel only.
+C. D
+Contingency fuel plus final reserve fuel.
+D. C
+Alternate fuel plus final reserve fuel. ✓ (CORRECT)
+
+Correct Answer: D.
+
+--------------------
+
+Question Number: AT00006
+Subject: ATPL(A) (EASA 2020) | 033 - Flight Planning Monitoring
+
+An IFR flight has been given descent instructions below the Minimum Safe Altitude (MSA) but above the Minimum Vectoring Altitude (MVA). The temperature is ISA -10°C. Who is responsible for terrain separation?
+
+Explanation:
+Radar vectoring is when ATC gives instructions for heading and altitude in order for an aircraft to follow a specific path, for example so that it can achieve VFR or join a procedure. ATC also makes sure to direct the aircraft to avoid conflicting traffic. When under radar vectors, ATC is fully responsible for separation with terrain and other traffic.
+The Minimum Vectoring Altitude (MVA), also known as the Minimum Radar Vectoring Altitude (MRVA), is the lowest altitude, expressed in feet AMSL, to which a radar controller may issue aircraft altitude clearances during vectoring. It may be below the MSA and when under radar vectors the PIC can safely accept the routing.
+This question does not specifically mention that the pilot is under radar vectors and as such the PIC is fully responsible for any terrain separation. Since the pilot is not being radar vectored, they should also not descend below the MSA, unless they are following a published procedure like a STAR (which does not appear to be the case in this question).
+If a descent clearance places the aircraft below the Minimum Safe Altitude (MSA), the PIC must ensure terrain clearance by applying temperature corrections to account for ISA deviations, however there is no reason to descend below the MSA unless being vectored or following a published procedure. MSA includes a buffer for terrain clearance, but it does not account for lower-than-standard temperatures unless corrected by the pilot.
+
+Options:
+A. A
+The PIC and the PIC should accept the routing.
+B. B
+The Controller and the PIC should not accept the routing.
+C. C
+The Controller and the PIC should accept the routing.
+D. D
+The PIC and the routing should not be accepted. ✓ (CORRECT)
+
+Correct Answer: D.
+
+--------------------
+
+Question Number: AT00007
+Subject: ATPL(A) (EASA 2020) | 033 - Flight Planning Monitoring
+
+Refer to GSPRM Jeppesen E(LO)2.
+You want to fly from POLE HILL POL 112.1 (N53 45 W002 06) to OTBED (N53 18 E000 02). Which route would you select?
+
+Images:
+- images/AT00007_img_1.png
+
+Explanation:
+Refer to figure.
+"POL N57 DESIG L975 GOLES Y70 OTBED" Incorrect.
+DESIG is not a point on airway N57.
+"POL Y70 GOLES Y70 OTBED" Incorrect.
+Y70 is a one way airway, direction GOLES to POLE.
+"POL N601 DESIG L60 OTBED" Incorrect.
+N601 is a one way airway northbound and does not connect with DESIG.
+
+Explanation Images:
+- images/explanation_AT00007_img_1.png
+
+Options:
+A. B
+POL N57 DESIG L975 GOLES Y70 OTBED
+B. C
+POL N601 DESIG L60 OTBED
+C. D
+POL Y70 GOLES Y70 OTBED
+D. A
+POL N57 DENBY L975 GOLES Y70 OTBED ✓ (CORRECT)
+
+Correct Answer: D.
+
+--------------------
+
+Question Number: AT00008
+Subject: ATPL(A) (EASA 2020) | 033 - Flight Planning Monitoring
+
+Refer to Stuttgart 12-2 chart from Jeppesen GSPRM 2017.
+If you carry out an RNP approach to runway 25 at Stuttgart airport, what will be the distance covered from the Initial Approach Fix (IAF) to the Rwy 25 threshold?
+
+Images:
+- images/AT00008_img_1.png
+
+Explanation:
+Refer to figure.
+Initial Approach Fix (IAF) is a fix that marks the beginning of the initial approach segment and the end of the arrival segment (STAR), if applicable, i.e. it is a common fix point for both a STAR and an Approach procedure.
+The approach chart depicts the "RNP Rwy 25" approach procedure, which begins from the IAF "LBU" RNAV waypoint. Information for the ground distance of each flight leg of the approach procedure, can be extracted from both the Approach Planview and the Approach Profile View.
+Thus, the total distance from the IAF to the runway's threshold is:
+5.3 NM (IAF LBU - DSS518) + 4.0 NM (DS518 - DS511) + 4.0 NM (DS511 - IF DS512) + 4.0 NM (IF DS512 - UNSER) + 4.0 NM + 4.7 NM (UNSER - RW25 threshold) = 26 NM.
+NOTE: The distance from the Final Approach Fix "UNSER" to the runway's threshold is depicted on the Approach Profile View.
+
+Explanation Images:
+- images/explanation_AT00008_img_1.png
+
+Options:
+A. A
+21.3 NM
+B. B
+12.7 NM
+C. D
+20.4 NM
+D. C
+26 NM ✓ (CORRECT)
+
+Correct Answer: D.
+
+--------------------
+
+Question Number: AT00009
+Subject: ATPL(A) (EASA 2020) | 033 - Flight Planning Monitoring
+
+Refer to E(LO)6 chart from the Jeppesen GSPRM 2017. An aircraft is flying from VALENCIA (VLC) VOR/DME (39° 29'N, 000° 29'W) to ALMERIA (AMR) VOR/DME (36° 49'N, 002° 15'W) with the LE(R)-63 activated, using a conventional ATS route. What is the best route to avoid passing through this area?
+
+Images:
+- images/AT00009_img_1.png
+
+Explanation:
+Refer to figure.
+First of all, find the position of VALENCIA (VLC) VOR/DME and ALMERIA (AMR) VOR/DME, using the coordinates given and locate, also, the LE(R)-63 airspace.
+LE(R)-63 is a restricted airspace of defined dimensions with its boundaries as depicted in the figure in purple colour, probably activated by a NOTAM, which restricts any aircraft to pass through.
+After examining each route carefully, the only route that sidesteps the LE(R)-63 is: VLC - B28 - VIBAS - N865 - AMR. All the other routes partially pass through the restricted area.
+
+Explanation Images:
+- images/explanation_AT00009_img_1.png
+
+Options:
+A. B
+VLC - B28 - BAZAS - M192 - AMR
+B. C
+VLC - A34 - ALT - W810 - VSJ - W820 - AMR
+C. D
+VLC - G850 - AMR
+D. A
+VLC - B28 - VIBAS - N865 - AMR ✓ (CORRECT)
+
+Correct Answer: D.
+
+--------------------
+
+Question Number: AT00010
+Subject: ATPL(A) (EASA 2020) | 033 - Flight Planning Monitoring
+
+Refer to figure or to VFR chart ED-4 from the Jeppesen GSPRM 2017.
+You are planning a VFR flight from Schärding Süben (LOLS) (48°24'11"N, 013°26'53"E) to Pfarrkirchen (EDNP) (48°25'12"N, 012°51'53"E) aerodromes, which of the following statements are true?
+1. The cruising altitude should be 5500 ft
+2. Your route follows the river "Rott" Westwards
+3. The cruising altitude should be 6500 ft
+4. You will enter class F airspace during the final approach
+5. Your route follows the A3 motorway Northwards
+6. You will enter class E airspace during the final approach
+
+Images:
+- images/AT00010_img_1.png
+
+Explanation:
+Refer to figure.
+Firstly, find the exact position of the two aerodromes, using the coordinates given and examine each statement carefully.
+The aircraft follows a Westerly magnetic track from Schärding Süben (LOLS) to Pfarrkirchen (EDNP) aerodromes. According to the ICAO VFR semi-circular rule, for a westerly magnetic track, Even FLs/Altitudes + 500 ft should be flown (2 500 ft, 4 500 ft, 6 500 ft, etc.). So, a cruise altitude of 6 500 ft can be followed, which apart from being according to the ICAO rule, it provides obstacle clearance too. It is a bit higher than you might usually use for this route, but it is perfectly acceptable nonetheless.
+Line features (rivers, motorways, railways, etc.) are highly recommended for navigation in VFR flights. The Rott river, as a line feature, is very helpful, because it is aligned with the Westerly flight direction and runs very close to the route. The A3 motorway does not follow the route.
+The aircraft during its descent towards Pfarrkirchen (EDNP) destination aerodrome, will be within a Class F airspace with vertical limits from 1 500 ft AGL - 2500 ft AGL, initially, and as approaching to the destination aerodrome will remain within a Class F airspace with vertical limits from GND - 2500 ft AGL.
+
+Explanation Images:
+- images/explanation_AT00010_img_1.png
+
+Options:
+A. A
+3, 4 and 5.
+B. C
+1, 2 and 5.
+C. D
+3, 4 and 6.
+D. B
+2, 3 and 4. ✓ (CORRECT)
+
+Correct Answer: D.
+
+--------------------
+
+Question Number: AT00011
+Subject: ATPL(A) (EASA 2020) | 033 - Flight Planning Monitoring
+
+Given the following information, calculate the maximum attainable flight time and range.
+Average fuel flow: 9.6 US gal/h
+Available fuel: 50 US gal
+TAS: 100 kt
+Wind component: 15 kt tailwind
+The flight time is (1) _____ and the range is (2) _____.
+
+Explanation:
+With an Average fuel flow of 9.6 US gal/h and Available fuel of 50 US gal, the maximum flight time is: 50 US gal / 9.6 US gal/h = 5.20 hr or 5 hr 12 minutes, which is very close to 5 hours 13 minutes.
+Because of the 15 kts tailwind, the Groundspeed is: TAS + tailwind velocity = 100 kt + 15 kt = 115 kt.
+Thus, the range covered will be: Groundspeed x Flight time = 115 kt x 5.20 hr = 598 NM, which is close to 599 NM.
+
+Options:
+A. A
+(1) 5 hours 20 minutes; (2) 521 NM
+B. C
+(1) 5 hours 13 minutes; (2) 521 NM
+C. D
+(1) 5 hours 20 minutes: (2) 599 NM
+D. B
+(1) 5 hours 13 minutes; (2) 599 NM ✓ (CORRECT)
+
+Correct Answer: D.
+
+--------------------
+
+Question Number: AT00012
+Subject: ATPL(A) (EASA 2020) | 033 - Flight Planning Monitoring
+
+Which temperature correction must be applied during an instrument approach?
+
+Explanation:
+When doing an approach in cold conditions, a temperature error correction must be applied since your aircraft will be lower than the indicated altitude. This is very dangerous, as it reduces vertical separation between your aircraft and obstacles. In warm conditions (>ISA), this is not as much of an issue since your aircraft will be at a higher altitude than the one indicated and you will have greater vertical separation from obstacles, however it is still good to make the correction to get an accurate altitude.
+A good mnemonic to remember is "high to low lookout below". This mnemonic works for both temperature and pressure. If your aircraft is going from a high temperature/pressure area to a low temperature/pressure area, your altimeter will show you an indication that is higher than your true altitude. This means that you will be lower than desired, your vertical separation will be reduced and hence you must "lookout below".
+In cold conditions, you must add a temperature error correction to the DH, MDH or MDA.
+The temperature correction must be applied at the aerodrome level. This is because approach altitudes, such as the MDA or DA, are directly related to the aerodrome's elevation. Conditions are taken at the aerodrome level in order to get accurate altimeter readings and ensure terrain and obstacle clearance during landing. Altitudes at TOD are higher and less critical for terrain clearance.
+
+Options:
+A. B
+Warmer than the temperature at the Top of Descent.
+B. C
+Warmer than the temperature at aerodrome level.
+C. D
+Colder than the temperature at the Top of Descent.
+D. A
+Colder than the temperature at aerodrome level. ✓ (CORRECT)
+
+Correct Answer: D.
+
+--------------------
+
+Question Number: AT00013
+Subject: ATPL(A) (EASA 2020) | 033 - Flight Planning Monitoring
+
+A piston-engined aeroplane on an IFR Commercial Air Transport flight arrives at its destination with the minimum fuel on board. During the approach procedure, the aircraft is forced to divert from the missed approach point to the alternate. Given the following information:
+Trip Fuel: 235 litres
+Alternate Fuel: 38 litres
+Fuel for go around and one approach: 22 litres
+Fuel flow at cruise speed: 80 l/h
+Fuel flow at holding speed: 60 l/h
+The minimum fuel required at the destination is (1) _____ and the minimum fuel required at the alternate is (2) _____.
+
+Explanation:
+Final Reserve Fuel is a quantity of fuel that should never be used, but is carried in order to provide a final safety net. You should always land with Final Reserve Fuel intact in the tanks.
+According to the OPS 1.375 "In-flight fuel management-Aeroplane":
+The flight must be conducted so that the expected usable fuel remaining on arrival at the destination aerodrome is not less than:
+(i) the required alternate fuel plus final reserve fuel, or
+(ii) the final reserve fuel, if no alternate aerodrome is required.
+Final reserve fuel for a piston-engined aeroplane is the minimum fuel required to fly for 45 minutes: 45/60 hr x Holding Fuel flow = 45/60 hr x 60 l/h = 45 l.
+Thus, the minimum fuel required at the:
+Destination is: Final Reserve Fuel + Alternate Fuel = 45 litres + 38 litres = 83 litres.
+Alternate is: Final Reserve Fuel = 45 litres.
+NOTE:
+Regarding the Final Reserve Fuel, for an aircraft with reciprocating engine, the definition just says that "It is equal with an amount of fuel to fly for 45 minutes". The selection between the Cruise Fuel Flow and the Holding Fuel Flow is according to the correct answer provided by feedback. Any feedback with the exact wording would be appreciated so as to make clear which fuel flow must be applied in each case.
+
+Options:
+A. A
+(1) 100 litres; (2) 40 litres
+B. B
+(1) 98 litres; (2) 60 litres
+C. C
+(1) 95 litres; (2) 57 litres
+D. D
+(1) 83 litres; (2) 45 litres ✓ (CORRECT)
+
+Correct Answer: D.
+
+--------------------
+
+Question Number: AT00014
+Subject: ATPL(A) (EASA 2020) | 033 - Flight Planning Monitoring
+
+An aircraft flies from airport A to airport B, covering a total distance of 460 NM. After 1 h 11 min, it has covered a distance of 183 NM, and its remaining fuel is equal to 780 lb plus reserves. Determine the remaining fuel at airport B, assuming conditions remain the same and given:
+TAS: 185 kt
+Headwind: 30 kt
+Trip fuel: 1 098 lb
+Fuel flow: 370 lb/h
+
+Explanation:
+Note: Question asks us to assume that conditions remain the same, meaning that we should calculate the actual fuel consumption and groound speed during the first 183 NM (disregarding the Fuel Flow/GS provided by the question).
+1) Determine Fuel consumed and fuel consumption during the first 183 NM:
+Fuel Consumed = 1 098 lb - 780 lb = 318 lb
+Fuel Consumption = (318 lb / 71 min) x 60 min/h
+Fuel Consumption = 269 lb/h
+2) Calculate actual Ground Speed during the first 183 NM:
+Ground Speed = (183 NM / 71 min) x 60 min/h = 155 kt
+3) Calculate remaining distance and flight time:
+Remaining distance = 460 NM - 183 NM = 277 NM
+Remaining Flight time = 277 NM / 155 kt = 1.79 h
+4) Calculate fuel consumed during the remaining distance:
+Fuel Consumed = 1.79 h x 269 lb/h = 481.5 lb
+5) Remaining fuel at airport B:
+780 lb - 481.5 lb = 298.5 lb = 299 lb + reserves
+
+Options:
+A. A
+235 lb + reserves
+B. B
+119 lb + reserves
+C. C
+385 lb + reserves
+D. D
+299 lb + reserves ✓ (CORRECT)
+
+Correct Answer: D.
+
+--------------------
+
+Question Number: AT00015
+Subject: ATPL(A) (EASA 2020) | 033 - Flight Planning Monitoring
+
+During the pre-flight preparation on 19th April 2021, the crew discuss NANU messages. The only currently applicable message is shown below.
+GPS SATELLITE SVN65 (PRN24) WILL BE UNUSABLE ON JDAY 102 (12 APR 2021) BEGINNING 1545 ZULU UNTIL JDAY 116 (26 APR 2021) ENDING 1545 ZULU.
+What impact does this message have on the flight?
+
+Explanation:
+GPS SATELLITE SVN65 (PRN24) WILL BE UNUSABLE ON JDAY 102 (12 APR 2021) BEGINNING 1545 ZULU UNTIL JDAY 116 (26 APR 2021) ENDING 1545 ZULU.
+GPS Satellite SVN65 (PRN24) will be unusable from the 102nd day of the year (12 April) at 1545 z until the 116th day of the year (26 April) at 1545 z.
+On April 19th, the GPS satellite SVN65 (PRN24) will not be available for the flight, but GNSS remains operational.
+
+Options:
+A. A
+EGNOS SBAS will only use one of the two available satellites, and the range of GNSS services is reduced.
+B. C
+A new satellite will be added to the GPS constellation, but this has NO impact on the flight.
+C. D
+There is a major outage of GPS, greatly reducing GNSS achievability and therefore significantly impacting the flight.
+D. B
+There is an outage of a particular GPS satellite, but GNSS should still be fully achievable. ✓ (CORRECT)
+
+Correct Answer: D.
+
+--------------------
+
+Question Number: AT00016
+Subject: ATPL(A) (EASA 2020) | 033 - Flight Planning Monitoring
+
+Who is responsible for terrain separation during an IFR flight on an ATS route?
+
+Explanation:
+At all times, whether flying inside or outside controlled airspace in IFR, the Pilot-In-Command (PIC) remains responsible for terrain and collision avoidance.
+When "under vectors", it means that a radar control service is being provided, i.e. the PIC must do what he is told by the radar unit and the ATC assumes responsibility for separation and terrain clearance in flight, providing bearing, distance and height information.
+Therefore, the Pilot-In-Command is responsible for terrain separation in flight at all times, unless under vectors by radar.
+
+Options:
+A. B
+The Operator.
+B. C
+Air Traffic Control service.
+C. D
+The aircraft owner.
+D. A
+The Pilot-in-Command. ✓ (CORRECT)
+
+Correct Answer: D.
+
+--------------------
+
+Question Number: AT00017
+Subject: ATPL(A) (EASA 2020) | 033 - Flight Planning Monitoring
+
+Refer to Nantes/Atlantique Chart 19-2 from Jeppesen GSPRM 2017.
+You are taking-off from RWY 03, abeam holding point B. What is the take-off length available?
+
+Images:
+- images/AT00017_img_1.png
+
+Explanation:
+Refer to figure.
+Plate 19-2 provides the aerodrome layout, including the runway and taxiways. The full runway length is marked as 2900 metres. Taxiway B is clearly shown on the diagram, and the information box in the bottom-left corner states that if an aircraft enters Runway 03 via Taxiway B, without backtracking, the available runway length is 2000 metres.
+
+Explanation Images:
+- images/explanation_AT00017_img_1.png
+
+Options:
+A. B
+2900 ft
+B. C
+2690 m
+C. D
+2900 m
+D. A
+2000 m ✓ (CORRECT)
+
+Correct Answer: D.
+
+--------------------
+
+Question Number: AT00018
+Subject: ATPL(A) (EASA 2020) | 033 - Flight Planning Monitoring
+
+Refer to ALICANTE - chart 11-1 from Jeppesen GSPRM 2017.What is the elevation of the highest obstacle - natural or man-made on the chart?
+
+Images:
+- images/AT00018_img_1.png
+
+Explanation:
+Definition of Arrow in the manual : "Arrow indicates the highest of the portrayed high points within the planview area only."
+The highest obstacle (4 252') is marked by a bigger bold arrow in the chart.
+
+Options:
+A. A
+625 ft
+B. B
+7000 ft
+C. D
+3718 ft
+D. C
+4252 ft ✓ (CORRECT)
+
+Correct Answer: D.
+
+--------------------
+
+Question Number: AT00019
+Subject: ATPL(A) (EASA 2020) | 033 - Flight Planning Monitoring
+
+Refer to figure.
+What is the lower limit for the temporarily-established restricted area (ZRT)?
+
+Images:
+- images/AT00019_img_1.png
+
+Explanation:
+Refer to figure.
+Temporary restricted area from MELUM AD (LFPM), so it extend from aerodrome level (ground) upwards.
+
+Explanation Images:
+- images/explanation_AT00019_img_1.png
+
+Options:
+A. A
+1500 ft AMSL
+B. C
+500 ft AGL
+C. D
+3500 ft AMSL
+D. B
+Ground ✓ (CORRECT)
+
+Correct Answer: D.
+
+--------------------
+
+Question Number: AT00020
+Subject: ATPL(A) (EASA 2020) | 033 - Flight Planning Monitoring
+
+An aircraft is making a 2D (LNAV) approach under IMC, to an aerodrome where the temperature is significantly different from ISA. Which of the following is correct regarding temperature corrections to the MDA?
+
+Explanation:
+If the temperature is lower or colder than ISA, then the aircraft's true altitude will be lower than the indicated altitude and a correction needs to be made to all minimum altitudes/heights to maintain the required separation from terrain.
+LNAV is a GNSS (RNAV) approach using internal aids (GPS) for a non-precision (2D) approach, where no vertical guidance is provided, only lateral. The pilot must calculate a rate of descent and normally use a Continuous Descent Final Approach (CDFA) method.
+Therefore, the pilot is responsible for temperature error corrections and cannot rely on ATC.
+
+Options:
+A. A
+The Pilot-In-Command is responsible for making a correction if the temperature is much higher than ISA.
+B. B
+The Controller will pass on a correction when the temperature is much higher than ISA.
+C. D
+The Controller will pass on a correction when the temperature is much lower than ISA.
+D. C
+The Pilot-In-Command is responsible for making a correction if the temperature is much lower than ISA. ✓ (CORRECT)
+
+Correct Answer: D.
+
+--------------------
+
+Question Number: AT00021
+Subject: ATPL(A) (EASA 2020) | 033 - Flight Planning Monitoring
+
+Given the following information, what is the Ground Speed of the aircraft?
+TAS: 300 kt
+Heading: 090°
+Wind: 330°/46 kt
+
+Explanation:
+Refer to figure.
+CALCULATING GROUND SPEED using the Flight computer (Knowing HDG, TAS and WV):
+Set wind direction under True Index – 330º
+Mark windspeed down from centre point – let’s say, set centre point over TAS and mark 46 kt down => in this case, 254
+Set True Heading under True Index - 090º
+Slide centre point to True airspeed of 300 kts.
+You can directly read GS => 325 kts
+
+Explanation Images:
+- images/explanation_AT00021_img_1.png
+
+Options:
+A. A
+330 kt
+B. B
+320 kt
+C. D
+280 kt
+D. C
+325 kt ✓ (CORRECT)
+
+Correct Answer: D.
+
+--------------------
+
+Question Number: AT00022
+Subject: ATPL(A) (EASA 2020) | 033 - Flight Planning Monitoring
+
+Refer to figure.
+Given: Planned and actual data as shown in the Flight Log excerpt.
+Provided that flight conditions on the leg GAMMA to DELTA remain unchanged and fuel consumption remains unchanged, what fuel remaining should be expected at waypoint DELTA?
+
+Images:
+- images/AT00022_img_1.png
+
+Explanation:
+First Step: Calculate the actual fuel consumption BETA - GAMMA
+Fuel consumed BETA - GAMMA = Actual Fuel remaining at BETA - Actual Fuel Remaining at GAMMA
+5200 kg – 4850 kg = 350 kg
+Time BETA – GAMMA = 2:18 – 1:53 = 25 min
+Fuel Consumption = 350 / 25 = 14 kg/min
+Second Step: Calculate fuel consumed GAMMA - DELTA
+Note: provided that the flight conditions will not change, the ATA over DELTA will be equal to ETA => 3:03.
+TIME GAMMA - DELTA = 3:03 - 2:18 = 45 min
+Fuel consumed: 45 min x 14 kg/min = 630 kg
+Third Step: Calculate Fuel remaining at DELTA
+FUEL at DELTA = Actual Fuel over GAMMA - Fuel Consumed (GAMMA - DELTA)
+FUEL at DELTA = 4850 kg – 630 kg = 4220 kg
+
+Options:
+A. B
+4340 kg
+B. C
+4430 kg
+C. D
+3800 kg
+D. A
+4220 kg ✓ (CORRECT)
+
+Correct Answer: D.
+
+--------------------
+
+Question Number: AT00023
+Subject: ATPL(A) (EASA 2020) | 033 - Flight Planning Monitoring
+
+Refer to figure.
+The annex shows the fuel breakdown for a flight from VOGO (Goa) to EGCC (Manchester). The pilots decide to carry an extra 1500 kg of fuel due to weather at the destination. Using a fuel flow of 4.6 tonnes per hour, how much extra holding time in minutes will this extra fuel give at the destination of EGCC, if required?
+
+Images:
+- images/AT00023_img_1.png
+
+Explanation:
+Refer to figure.
+Fuel flow of 4600 kg per hour is given.
+If you check the table extra 1000 kg of fuel has a penalty of 236 kg fuel. This means it costs 236 kg of fuel to carry an extra 1000 kg of fuel.
+Therefore extra 1500 kg of fuel will cause 1.5 x 236 = 354 kg fuel penalty.
+It will leave us 1500 - 354 = 1146 kg of usable fuel for holding.
+1146/4600 = 0.25 hours, which, when multiplied by 60, equates to 15 min of fuel burn.
+
+Explanation Images:
+- images/explanation_AT00023_img_1.png
+
+Options:
+A. A
+24 min
+B. B
+28 min
+C. D
+20 min
+D. C
+15 min ✓ (CORRECT)
+
+Correct Answer: D.
+
+--------------------
+
+Question Number: AT00024
+Subject: ATPL(A) (EASA 2020) | 033 - Flight Planning Monitoring
+
+You are flying a heading of 020° with a TAS of 180 kt. If the wind is from 060° at 30 kt, what will be your drift angle and ground speed?
+
+Explanation:
+Refer to figures.
+For this question using your Navigation/Flight computer, apply the following steps:
+Place the centre dot over TAS 180 kt.
+Rotate the disk until wind direction 060o is under the True index.
+Mark wind velocity 30 kt below the centre dot.
+Rotate the disc until the heading 020o is under the True index.
+The mark shows a drift 7o left and Groundspeed 158 kt.
+
+Explanation Images:
+- images/explanation_AT00024_img_1.png
+- images/explanation_AT00024_img_2.png
+
+Options:
+A. A
+6ºL; 155 kt
+B. C
+8ºL; 158 kt
+C. D
+6°L; 157 kt
+D. B
+7°L; 158 kt ✓ (CORRECT)
+
+Correct Answer: D.
+
+--------------------
+
+Question Number: AT00025
+Subject: ATPL(A) (EASA 2020) | 033 - Flight Planning Monitoring
+
+If the Pre determined Point PDP procedure has to be applied for a Commercial Air Transport flight, the remaining fuel at the PDP must be sufficient for continuation to
+
+Explanation:
+Predetermined point (PDP)
+This procedure is used when there is not enough fuel tank capacity to fly first to the destination airport and then to the alternate airport and still have final reserve fuel on board. A predetermined point is selected along the route at which the crew decides whether continuing to the intended destination reasonably assures successful landing or whether the alternate destination is a safer choice.
+Regulation (EU) No 965/2012
+AMC1 CAT.OP.MPA.150(b) Fuel policy
+(c) Predetermined point (PDP) procedure
+If the operator’s fuel policy includes planning to a destination alternate aerodrome where the distance between the destination aerodrome and the destination alternate aerodrome is such that a flight can only be routed via a predetermined point to one of these aerodromes, the amount of usable fuel, on board for departure, should be the greater of (c)(1) or (c)(2):
+(1) The sum of:
+(i) taxi fuel;
+(ii) trip fuel from the departure aerodrome to the destination aerodrome, via the predetermined point;
+(iii) contingency fuel calculated in accordance with (a)(3);
+(iv) additional fuel if required, but not less than:
+(A) for aeroplanes with reciprocating engines, fuel to fly for 45 minutes plus 15 % of the flight time planned to be spent at cruising level or 2 hours, whichever is less; or
+(B) for aeroplanes with turbine engines, fuel to fly for 2 hours at normal cruise consumption above the destination aerodrome, this should not be less than final reserve fuel; and
+(v) extra fuel if required by the commander.
+(2) The sum of:
+(i) taxi fuel;
+(ii) trip fuel from the departure aerodrome to the destination alternate aerodrome, via the predetermined point;
+(iii) contingency fuel calculated in accordance with (a)(3);
+(iv) additional fuel if required, but not less than:
+(A) for aeroplanes with reciprocating engines: fuel to fly for 45 minutes; or
+(B) for aeroplanes with turbine engines: fuel to fly for 30 minutes at holding speed at 1 500 ft (450 m) above the destination alternate aerodrome elevation in standard conditions, this should not be less than final reserve fuel; and
+(v) extra fuel if required by the commander.
+
+Options:
+A. A
+the destination and afterwards to the departure.
+B. C
+either the destination or the departure.
+C. D
+the destination and afterwards to the alternate.
+D. B
+either the destination or the alternate. ✓ (CORRECT)
+
+Correct Answer: D.
+
+--------------------
+
+Question Number: AT00026
+Subject: ATPL(A) (EASA 2020) | 033 - Flight Planning Monitoring
+
+Refer to VFR Chart ED-4 from the Jeppesen GSPRM 2017.
+For an aircraft flying VFR from Straubing (EDMS) aerodrome (N48°54.0’ E012°31.1’) to Linz International (LOWL) aerodrome (N48°14.1’ E014°11.3’), what is the ideal cruise level between the following options?
+
+Images:
+- images/AT00026_img_1.png
+
+Explanation:
+Refer to figure.
+Firstly, find the exact position of the two aerodromes, using the coordinates given, draw a straight line as a route between them and examine each statement carefully. Before the route is recorded on the flight plan, we need to consider the altitude to fly at. The Minimum Grid Area Altitudes along the route are 5 400 ft, 7 200 ft and 4 100 ft. For this VFR flight, the minimum safe altitude along the whole route is 7 200 ft. But, we have to also consider the ICAO VFR cruising altitudes and select an appropriate altitude for this easterly magnetic track. According to the ICAO VFR semi-circular rule, for an easterly magnetic track, Odd FLs/Altitudes + 500 ft must be followed (3 500 ft, 5 500 ft, 7 500 ft, 9 500 ft etc.). So, a cruise altitude of 9 500 ft can be followed, which apart from being according to the ICAO rule, it provides enough obstacle clearance too. The entire route can be flown at a lower altitude, such as 7 500 ft, but 9 500 ft is the altitude that provides the minimum obstacle clearance appropriate to the destination between the available options.
+
+Explanation Images:
+- images/explanation_AT00026_img_1.png
+
+Options:
+A. A
+FL090
+B. C
+FL105
+C. D
+FL070
+D. B
+FL095 ✓ (CORRECT)
+
+Correct Answer: D.
+
+--------------------
+
+Question Number: AT00027
+Subject: ATPL(A) (EASA 2020) | 033 - Flight Planning Monitoring
+
+You are flying an ILS approach with a course of 245º(M) and an approach speed of 115 kt. The tower gives a wind of 280º/18 kt. In order to maintain the approach track, the nose of the aircraft has to be corrected (1)_____ with a corresponding groundspeed of (2)_____.
+
+Explanation:
+Refer to figure.
+The Drift and Groundspeed can be found using the wind side of a suitable flight computer.
+First, set the wind vector and TAS
+Set wind direction 280º(M) under the "TRUE INDEX" index at the top.
+Mark the wind velocity 18 kt above from the centre point. (Any speed can be at the center point as long as you mark the point on the display 18 kts above the center.)
+The ground speed is 100 kt and the wind correction angle is 5 degrees to the right.
+
+Explanation Images:
+- images/explanation_AT00027_img_1.png
+
+Options:
+A. A
+(1) 6° to the right; (2) 129 kt
+B. C
+(1) 5° to the left; (2) 133 kt
+C. D
+(1) 6° to the left; (2) 108 kt
+D. B
+(1) 5° to the right; (2) 100 kt ✓ (CORRECT)
+
+Correct Answer: D.
+
+--------------------
+
+Question Number: AT00028
+Subject: ATPL(A) (EASA 2020) | 033 - Flight Planning Monitoring
+
+Refer to figure.
+The sector time from WPT C to DEST in line 4 of the Navigation Plan is (1) _____, and the accumulated time to the ALTN in line 5 is (2) _____.
+
+Images:
+- images/AT00028_img_1.png
+
+Explanation:
+Refer to figure.
+The question asks for the estimated (planned) sector and accumulated times, because all the given times until WPT C are based on estimated (planned) Groundspeeds.
+Sector time from C to DEST: Sector distance from C to DEST / Est. GS = 15 NM/80 kt x 60 = 11 min.
+Sector time from DEST to ALTN: Sector distance from DEST to ALTN / Est GS = 20 NM/60 kt x 60 = 20 min. Thus, the accumulated time at ALTN will be: Accumulated time at B + Sector time from B to C + Sector time from C to DEST + Sector time from DEST to ALTN = 29 min + 25 min + 11 min + 20 min = 85 min or 1hr and 25 min.
+
+Explanation Images:
+- images/explanation_AT00028_img_1.png
+
+Options:
+A. B
+(1) 8 minutes; (2) 46 minutes
+B. C
+(1) 8 minutes; (2) 1 hour and 15 minutes
+C. D
+(1) 11 minutes; (2) 56 minutes
+D. A
+(1) 11 minutes; (2) 1 hour and 25 minutes ✓ (CORRECT)
+
+Correct Answer: D.
+
+--------------------
+
+Question Number: AT00029
+Subject: ATPL(A) (EASA 2020) | 033 - Flight Planning Monitoring
+
+Given the following information for a Commercial Air Transport operation, calculate the maximum possible Extra Fuel, including any fuel penalty, that can be uplifted.
+MTOM: 233 000 kg
+MLM: 182 000 kg
+MZFM: 170 000 kg
+DOM: 122 550 kg
+Traffic Load: 43217 kg
+Trip Fuel: 45854 kg
+Planned T/O Fuel: 51616 kg
+Taxi Fuel: 300 kg
+Fuel penalty for carrying Extra Fuel: 394 kg per 1000 kg of Extra Fuel
+Fuel tank capacity: 110 000 kg
+
+Explanation:
+In order to find out the amount of fuel which can be uplifted you have to calculate the MTOM, MLM and tank capacity limitation
+Note: MZFM does not limit fuel.
+BASED ON MTOM:
+MTOM – (ATOM) = 233 000 kg - 217 383 kg = 15 617 kg
+ATOM = DOM + Traffic Load + Take Off fuel = 122 550 kg + 43 217 kg + 51 616 kg = 217 383 kg
+BASED ON MLM:
+MLM – Landing mass = 182 000 kg - 171 529 kg = 10 471 kg
+LM = ATOM - Trip fuel = 217 383 kg - 45 854 kg = 171 529 kg
+On top of this calculation, for the MLM limitation we have to apply the fuel penalty - which will be burned off during the flight
+Rule of thumb: to calculate fuel penalty, use the following formula:
+(MLM extra / 1000) x Y
+- where "Y" is the variable given by the question, in this case = 394
+(10 471/1000) x 394 = 4126 kg
+Extra fuel that can be loaded is the sum of MLM extra (10 471 lb) and fuel penalty:
+10 471 kg + 4126 kg = 14 597 kg
+=> The most restricting value in based on MLM 14 597 kg
+
+Options:
+A. A
+10471 kg
+B. B
+4233 kg
+C. D
+15617 kg
+D. C
+14597 kg ✓ (CORRECT)
+
+Correct Answer: D.
+
+--------------------
+
+Question Number: AT00030
+Subject: ATPL(A) (EASA 2020) | 033 - Flight Planning Monitoring
+
+When completing an ATC flight plan for a flight commencing under IFR but possibly changing to VFR, the letters entered in Item 8 (FLIGHT RULES) would be:
+
+Explanation:
+Refer to figure.
+(Source ICAO Doc 4444)
+Contents of a Flight Plan
+Item 8 - FLIGHT RULES AND TYPE OF FLIGHT (2 characters)
+Insert in item 8 one of the following letters to denote the category of flight rules with which the pilot intends to comply:
+I if it is intended that the entire flight will be operated under the IFR
+V if it is intended that the entire flight will be operated under the VFR
+Y if the flight initially will be operated under the IFR, followed by one or more subsequent changes of flight rules
+Z if the flight initially will be operated under the VFR, followed by one or more subsequent changes of flight rules
+
+Explanation Images:
+- images/explanation_AT00030_img_1.png
+- images/explanation_AT00030_img_2.png
+- images/explanation_AT00030_img_3.png
+
+Options:
+A. A
+N/S
+B. B
+G
+C. D
+X
+D. C
+Y ✓ (CORRECT)
+
+Correct Answer: D.
+
+--------------------
+
+Question Number: AT00031
+Subject: ATPL(A) (EASA 2020) | 033 - Flight Planning Monitoring
+
+Which option is correct as regards checking the availability of the GNSS service for flights that will rely on GNSS information for guidance?
+
+Explanation:
+Global Navigation Satellite System (GNSS) refers to a constellation of satellites providing signals from space that transmit positioning and timing data to GNSS receivers. The receivers then use this data to determine location.
+The GNSS system requires a "notional" constellation, a design minimum to make the system work.
+Thus, it is important, before flight, to check that there will be enough satellites visible for an accurate position at all stages of the flight.
+This GNSS achievability can be verified by checking NOTAMs and the notice advisory to NANU messages, which provide updates on the GPS constellation.
+
+Options:
+A. B
+The availability of satellites is dependent on ground-based navigation aids.
+B. C
+The availability of satellites is dependent on the aircraft's equipment.
+C. D
+Satellites may NOT be available due to terrain and/or antenna masking.
+D. A
+Satellites may NOT be available due to the status of the constellation. ✓ (CORRECT)
+
+Correct Answer: D.
+
+--------------------
+
+Question Number: AT00032
+Subject: ATPL(A) (EASA 2020) | 033 - Flight Planning Monitoring
+
+Refer to figure.
+You are flying local at EDNA Airport and the radio station is unserviceable there. You need to know the height of the cloud base, visibility, and runway in use at Munich. What is the best frequency to use for this information?
+
+Images:
+- images/AT00032_img_1.png
+
+Explanation:
+The ATIS (Automatic Terminal Information Service) is a continuous broadcast of recorded aeronautical information at airports. It provides pilots with essential information, including weather conditions, runway in use, available approaches, and any other pertinent information that may affect flight operations.
+The cloud base information is obtained from the ATIS. In this case, Munich ATIS.
+
+Options:
+A. A
+Erding Tower, 122.10
+B. B
+Munich Info, 120.65
+C. C
+Munich Weather Radar, 121.20
+D. D
+Munich ATIS, 123.12 ✓ (CORRECT)
+
+Correct Answer: D.
+
+--------------------
+
+Question Number: AT00033
+Subject: ATPL(A) (EASA 2020) | 033 - Flight Planning Monitoring
+
+Refer to figure or CAP file 4.3.1.a.
+Using the simplified Flight Planning Charts, given the following information:
+Trip distance: 300 NM
+ISA deviation: +10ºC
+Average wind: 75 kt headwind
+Pressure altitude: 29 000 ft
+Estimated Landing Weight: 40 000 kg
+Long Range Cruise
+Determine the fuel required.
+
+Images:
+- images/AT00033_img_1.png
+
+Explanation:
+The Simplified Planning Charts can be used to determine the estimated trip time and the fuel required from the brakes release point:
+1. Start with the trip distance (300 NM).
+2. Travel vertically to the wind component reference line.
+3. Follow the grid lines to reach the appropriate wind component (75 kt headwind).
+4. From this point continue vertically to intercept the appropriate Cruise Pressure Altitude grid line (29 000 ft).
+5. From this intersection, travel right horizontally to the Landing Weight grid reference line.
+6. Travel from the reference line to intersect the Landing Weight input (40 000 kg).
+7. Continue horizontally right to the right vertical axis to read the fuel required (2480 kg)
+
+Explanation Images:
+- images/explanation_AT00033_img_1.png
+
+Options:
+A. A
+2000 kg
+B. B
+2580 kg
+C. D
+1700 kg
+D. C
+2480 kg ✓ (CORRECT)
+
+Correct Answer: D.
+
+--------------------
+
+Question Number: AT00034
+Subject: ATPL(A) (EASA 2020) | 033 - Flight Planning Monitoring
+
+When reviewing the wind charts in the briefing room, you notice that the average wind in cruise will be 25 kt tailwind. Given following data, what will be the flight time to destination?
+Time to top of climb: 30 min
+Cruise leg: 740 NM
+FL380
+TAS: 460 kt
+ISA: -10°C
+Time to from top of descent to landing: 22 minutes
+
+Explanation:
+Let's begin by finding the cruise groundspeed:
+Cruise GS = TAS + tailwind = 460 kt + 25 kt = 485 kt
+Now, with the groundspeed determined, we can compute the cruising flight time:
+Time = (Distance ÷ GS)
+Time = 740 NM ÷ 485 kt = 1.52577 hours = 91.55 minutes
+Finally, we can calculate the flight time to the destination:
+Flight time to destination = Time to top of climb + cruise + Time from top of descent to landing
+Flight time to destination = 30 minutes + 91.55 minutes + 22 minutes = 143.8 minutes
+Flight time to destination = 2 hours 24 minutes
+
+Options:
+A. A
+1 h 36 mins
+B. B
+1 h 42 mins
+C. D
+2 h 34 mins
+D. C
+2 h 24 mins ✓ (CORRECT)
+
+Correct Answer: D.
+
+--------------------
+
+Question Number: AT00035
+Subject: ATPL(A) (EASA 2020) | 033 - Flight Planning Monitoring
+
+Refer to DUBROVNIK - charts 19-1 and 19-2 from Jeppesen GSPRM 2017. How many VFR arrivals to Dubrovnik are published?
+
+Images:
+- images/AT00035_img_1.png
+- images/AT00035_img_2.png
+
+Explanation:
+There are 5 reporting points in the chart refer to A2, F2, C2, D2 and E5, all published to reporting point B2.
+
+Options:
+A. B
+4
+B. C
+1
+C. D
+8
+D. A
+5 ✓ (CORRECT)
+
+Correct Answer: D.
+
+--------------------
+
+Question Number: AT00036
+Subject: ATPL(A) (EASA 2020) | 033 - Flight Planning Monitoring
+
+Given the following NOTAM information, what operational restriction can be expected for ENTRY/EXIT N4W?
+>>> EGLL LONDON HEATHROW RWY 09RL/27LR <<< MLS SERVING RUNWAY 09R IS NOW CAT 1: NOTAM EG/A0513/16 RWY 09R/27L ENTRY/EXIT N4W CLOSED DUE TO WIP: NOTAM EG/A0506/16 >>> END OF BULLETIN <<<
+
+Explanation:
+This question refers to this section: "CLOSED DUE TO WIP".
+WIP means Work in Progress
+
+Options:
+A. A
+Clearance is required due to Work in Progress.
+B. B
+Out of service due to Water in Patches.
+C. D
+Clearance is required due to Water in Patches.
+D. C
+Out of service due to Work in Progress. ✓ (CORRECT)
+
+Correct Answer: D.
+
+--------------------
+
+Question Number: AT00037
+Subject: ATPL(A) (EASA 2020) | 033 - Flight Planning Monitoring
+
+Refer to figure.
+Due to operational requirements, fuel must be tankered on departure from the aerodrome.
+Given a departure/destination fuel price ratio of 0.93 and the provided data, determine the optimum amount of fuel that can be tankered:
+Cruise flight level: FL350
+Air distance to be covered: 2 000 NM
+Planned Take-Off Mass: 180 000 kg (with a minimum prescribed fuel quantity of 30 000 kg that includes a Trip Fuel of 22 000 kg)
+Maximum Landing Mass: 170 000 kg
+Maximum Take-Off Mass: 210 000 kg
+Maximum tank capacity: 40 000 kg
+
+Images:
+- images/AT00037_img_1.png
+- images/AT00037_img_2.png
+
+Explanation:
+Refer to figure.
+[1] Enter the graph with the fuel price ratio set at 0.93.
+[2] Move horizontally to the Air distance of 2 000 NM.
+[3] Then, drop vertically to locate the Optimum weight at 184 000 kg. The Planned Takeoff Mass (TOM) is specified as 180 000 kg. Therefore, this indicates that they may be able to tanker 4 000 kg of fuel.
+Next, we need to assess the feasibility of tankering an additional 4 000 kg of fuel by considering tank capacity, Maximum Takeoff Mass (MTOM), and Maximum Landing Mass (MLM) limitations:
+The tank capacity is 40 000 kg, and the planned fuel is 30 000 kg, indicating that tankering 4 000 kg is feasible.
+Considering the MTOM of 210 000 kg, tankering is also permissible within this constraint.
+Calculating the Planned Landing Mass (PLM) as 180 000 kg - 22 000 kg (trip fuel) = 158 000 kg. The MLM is 170 000 kg, indicating that tankering 4 000 kg is within limits.
+
+Explanation Images:
+- images/explanation_AT00037_img_1.png
+
+Options:
+A. A
+10 000 kg
+B. B
+12 000 kg
+C. C
+30 000 kg
+D. D
+4 000 kg ✓ (CORRECT)
+
+Correct Answer: D.
+
+--------------------
+
+Question Number: AT00038
+Subject: ATPL(A) (EASA 2020) | 033 - Flight Planning Monitoring
+
+Refer to Alicante (LEAL) chart 13-4 from the Jeppesen GSPRM 2017.
+An aircraft is approaching aerodrome Alicante (LEAL) following the 243° radial onto the ALT VOR/DME and receives clearance for the VOR Y Rwy 28 procedure. What is the Minimum Safe (Sector) Altitude (MSA)?
+
+Images:
+- images/AT00038_img_1.png
+
+Explanation:
+Refer to figures.
+The Minimum Safe (Sector) Altitude (MSA) is printed on the instrument approach charts. It identifies the minimum altitude that provides a 1 000 ft vertical clearance above obstacles within 25 NM of the navigational facility. It may be given as one value or could be divided into sectors, each sector having a different value.
+The MSA is for emergency use only and on the approach charts, it is depicted at the top right corner.
+For this approach chart, the MSA is with reference to the ALT VOR/DME. Between the inbound magnetic bearings 060º and 175º, or between Radial 240º and Radial 355º correspondingly, the MSA is 5 900 ft within 25 NM.
+Since the aircraft is approaching from Radial 243° (between R240º and R355º) , then the MSA is 5 900 ft.
+
+Explanation Images:
+- images/explanation_AT00038_img_1.png
+- images/explanation_AT00038_img_2.png
+
+Options:
+A. B
+3 500 ft
+B. C
+6 900 ft
+C. D
+3 000 ft
+D. A
+5 900 ft ✓ (CORRECT)
+
+Correct Answer: D.
+
+--------------------
+
+Question Number: AT00039
+Subject: ATPL(A) (EASA 2020) | 033 - Flight Planning Monitoring
+
+What does the following NOTAM indicate?
+Q EUAD/QOLAS/IV/M/E/000/004/5626N00214W001 A EUAD B FROM: 26 Jan 2016 17:32C TO: 26 Feb 2016 23:59 E AIR NAV OBST UK0150J492F BLDG INCH CAPE O/S MET MAST SINGLE LGT U/S, PSN 562624.274N 0021429.366W, ELEV 381FT AMSL
+
+Explanation:
+This question refers to the following section of the NOTAM:
+"Q EUAD/QOLAS/IV/M/E/000/004/5626N00214W001 A EUAD B FROM: 26 Jan 2016 17:32C TO: 26 Feb 2016 23:59 E AIR NAV OBST UK0150J492F BLDG INCH CAPE O/S MET MAST SINGLE LGT U/S, PSN 562624.274N 0021429.366W, ELEV 381FT AMSL"
+Obstacle with light unserviceable.
+Alternatively,
+Here is the decoded information:
+Q: This is a NOTAM identifier code.
+EUAD: This refers to the area of the United Kingdom (FIR where the affected place, equipment or service is located).
+QOLAS: This is the type of NOTAM, which stands for "Obstacle Limitation Surface."
+IV: Traffic affected, in this case, IFR and VFR.
+M: Purpose or significance of the NOTAM - Miscellaneous, not subject for a briefing, but available on request.
+E: Flight phase affected - En-route.
+000/004: The vertical limit of the obstacle is from 0 feet to 400 feet above ground level (AGL).
+5626N00214W001: Coordinates and radius, indicates the coodinates and radius of the centre and size of the lateral limits of the place affectes by the NOTAM.
+Item A) affected location: EUAD (four-letter ICAO aerodrome or FIR).
+Item B) valid from: 26 Jan 2016 17:32.
+Item C) valid to: 26 Feb 2016 23:59.
+Item E) NOTAM message (AIR NAV OBST UK0150J492F BLDG INCH CAPE O/S MET MAST SINGLE LGT U/S, PSN 562624.274N 0021429.366W, ELEV 381FT AMSL): This is the description of the obstacle. It is a building located outside of the meteorological mast (MET MAST) at Inch Cape, with a single light (SINGLE LGT) out of service (U/S). The location of the building is specified in latitude and longitude coordinates, and the height of the obstacle is given as 381 feet above mean sea level (AMSL).
+
+Options:
+A. A
+A building has been removed.
+B. B
+A building has been put in place.
+C. C
+A lighted mast has been placed on a building.
+D. D
+An obstacle light is unserviceable. ✓ (CORRECT)
+
+Correct Answer: D.
+
+--------------------
+
+Question Number: AT00040
+Subject: ATPL(A) (EASA 2020) | 033 - Flight Planning Monitoring
+
+You are flying VFR to an aerodrome which only has GNSS procedures available. You check the availability of the satellites before departure. From what time must you ensure that you have full satellite availability so that you can proceed with your flight?
+
+Explanation:
+Since you are flying VFR, it is not necessary to have GNSS availability during take-off or cruise as you are going to be navigating visually. The main concern in this scenario is making sure that you will have GNSS availability when you actually need it which is during the approach phase. Since the approach phase starts at the IAF, this is the time from which we must ensure we have full satellite availability.
+Flying a GNSS approach as a VFR flight, still requires you to have visual reference to the ground and the runway. It still demands that you meet the requirements in terms of visibility and separation from clouds.
+
+Options:
+A. A
+Before the planned ToD (14:40)
+B. C
+1 hour before your flight (12:00)
+C. D
+Before taking-off (13:00)
+D. B
+At the planned IAF (14:50) ✓ (CORRECT)
+
+Correct Answer: D.
+
+--------------------
+
+Question Number: AT00041
+Subject: ATPL(A) (EASA 2020) | 033 - Flight Planning Monitoring
+
+An aircraft is flying at FL035 above an airfield with an elevation of 1416 ft. If the airfield QNH is 1025 hPa, and the temperature is 12°C below ISA, what is the true height above the aerodrome datum?
+(Assume 30 ft per hPa.)
+
+Explanation:
+Refer to figure.
+In this question, we are given a pressure altitude (in the form of a flight level) and are asked for the terrain clearance, therefore we need to determine the corresponding true altitude.
+The first step is to compute the pressure correction by considering the deviation from the standard mean sea level pressure of 1013 hPa: 1025 hPa - 1013 hPa = 12 hPa. The question provides a barometric lapse rate near the surface of 30 ft/hPa, the pressure correction can be calculated as follows: Pressure correction = 12 hPa x 30 ft/hPa = ­­­360 ft. This value needs to be added to the pressure altitude as per the rules below:
+Indicated altitude = 3500 ft + 360 ft = 3860 ft.
+Next, we need to determine the temperature correction. The ISA deviation is ISA -12°C. For temperature correction, the airfield elevation must be taken into account: 3860 ft - 1416 ft = 2444 ft. Based on the 4% rule and its calculation mentioned in the rules below, the height correction for the temperature can be calculated as follows: Height correction for temperature = 4 × (-12) × (2444/1000) = 117 ft.
+The temperature correction is subtracted from the indicated altitude as per the rules below, to give a true altitude of 3860 ft - 117 ft = 3743 ft.
+Thus, the true height of the aircraft above the airfield datum will be: True Altitude - Airfield datum elevation = 3743 ft - 1416 ft = 2327 ft, which is very close to 2330 ft.
+RULES. The following rules should be considered for altimetry calculations:
+All calculations are based on rounded pressure values to the nearest lower hPa.
+The value for the barometric lapse rate between MSL and 500 hPa to be used is 30 ft/hPa as an acceptable approximation of the barometric lapse rate.
+To determine the true altitude/height, the following rule of thumb, called the ‘4 %-rule’, shall be used: the altitude/height changes by 4% for each 10°C temperature deviation from ISA.
+For simplification: Height correction for the temp = 4 × (ISA DEV) × Indicated alt/1000 = ___ ft
+If no further information is given, the deviation of the outside-air temperature from ISA is considered to be the same throughout the whole layer.
+The elevation of the aerodrome has to be taken into account. The temperature correction has to be considered for the layer between the station (usually an aerodrome) and the position of the aircraft.
+IF
+THEN
+Higher pressure
+Indicated Altitude > Pressure Altitude
+Lower pressure
+Indicated Altitude < Pressure Altitude
+Warmer than ISA
+True Altitude > Indicated Altitude
+Colder than ISA
+True Altitude < Indicated Altitude
+Definitions
+Pressure Altitude: The altimeter indication with standard pressure (1013.2 hPa) set.
+Indicated Altitude: The altimeter indication with local QNH set.
+True altitude: The actual altitude of the aircraft above mean sea level.
+
+Explanation Images:
+- images/explanation_AT00041_img_1.png
+
+Options:
+A. A
+3680 ft
+B. B
+1640 ft
+C. C
+4050 ft
+D. D
+2330 ft ✓ (CORRECT)
+
+Correct Answer: D.
+
+--------------------
+
+Question Number: AT00042
+Subject: ATPL(A) (EASA 2020) | 033 - Flight Planning Monitoring
+
+Refer to figure.
+The annex depicts a pilot's flight plan/log from LPFR to LEMG extracted by a flight planning software. When approaching VJF, the pilots realizes abnormal airframe vibrations and reduces speed from VJF. When overhead Tarifa, the pilot calculates that according to the new speed, the flight time from Tarifa to LEMG will be 47 minutes. Taking into account the latest fuel flow after VJF, the fuel consumption will be...
+
+Images:
+- images/AT00042_img_1.png
+
+Explanation:
+Refer to figure.
+The Planned Remaining fuel at LEMG is: Planned Block fuel - Planned Fuel Consumed = 430 kg - 309.6 kg = 120.4 kg.
+Actual Fuel Flow from VJF to Tarifa: 40 kg in 17 min = 141 kg/hr.
+Fuel consumption from Tarifa to LEMG: Revised Time from Tarifa to LEMG x Actual Fuel Flow from VJF to Tarifa = 47/60 hr x 141 kg/h = 111 kg.
+Actual Remaining fuel at LEMG: Actual Fuel On-Board at Tarifa - Fuel consumption from Tarifa to LEMG = 207 kg - 111 kg = 96 kg.
+Thus, the fuel flow may be less, due to the decreased speed, but the fuel consumption will be greater, since the fuel remaining at LEMG will be: Planned Remaining fuel at LEMG - Actual Remaining fuel at LEMG = 120.4 kg - 96 kg = 24 kg Less than planned.
+
+Explanation Images:
+- images/explanation_AT00042_img_1.png
+
+Options:
+A. A
+lower since the lower speed gives a lower fuel flow which results in landing with 24 kg more fuel than planned in LEMG.
+B. C
+lower since the fuel flow has reduced to 141 kg/h giving 120 kg fuel remaining when landing in LEMG.
+C. D
+greater since the fuel flow has increased to 163 kg/h giving 120 kg fuel remaining when landing in LEMG.
+D. B
+greater since the effect of the reduced fuel flow is offset by the lower speed giving 24 kg less fuel than planned in LEMG. ✓ (CORRECT)
+
+Correct Answer: D.
+
+--------------------
+
+Question Number: AT00043
+Subject: ATPL(A) (EASA 2020) | 033 - Flight Planning Monitoring
+
+The minimum altitude for the route being flown is 7000 ft. Considering headwinds ranging from 9 to 16 knots, you need to determine the highest ground mileage per gallon of fuel. The true airspeeds (TAS) provided range between 169 and 175 knots, and the fuel flow is constant at 15.5 GPH at all altitudes. Which altitude provides the highest ground mileage per GPH?
+
+Explanation:
+Let's calculate all of the options to find the nautical miles covered per gallon of fuel at the different altitudes:
+"6000 ft - TAS: 175 knots, Headwind: 9 knots"
+175 kt - 9 kt = 166 kt
+166 kt / 15.5 GPH = 10.7 NM per gallon
+"7000 ft - TAS: 173 knots, Headwind: 10 knots"
+173 kt - 10 kt = 163 kt
+163 kt / 15.5 GPH = 10.5 NM per gallon
+"8000 ft - TAS: 171 knots, Headwind: 12 knots"
+171 kt - 12 kt = 159 kt
+159 kt / 15.5 GPH = 10.3 NM per gallon
+"9000 ft - TAS: 169 knots, Headwind: 16 knots"
+169 kt - 16 kt = 153 kt
+153 kt / 15.5 GPH = 9.9 NM per gallon
+From this we can see that the altitude that provides the highest ground mileage per gallon is 6000 ft. This is the correct answer.
+Note: The question states that the minimum altitude for the route is 7000 ft, so it is very strange that correct answer is below that altitude. Please report the correct answer to us, if you get this question in your exam.
+
+Options:
+A. A
+7000 ft - TAS: 173 knots, Headwind: 10 knots
+B. B
+8000 ft - TAS: 171 knots, Headwind: 12 knots
+C. C
+9000 ft - TAS: 169 knots, Headwind: 16 knots
+D. D
+6000 ft - TAS: 175 knots, Headwind: 9 knots ✓ (CORRECT)
+
+Correct Answer: D.
+
+--------------------
+
+Question Number: AT00044
+Subject: ATPL(A) (EASA 2020) | 033 - Flight Planning Monitoring
+
+Refer to Jeppesen GSPRM Training Route Manual - Chart "E LO 2".
+On a flight on airway P600 you are passing TURNBERRY VOR (TRN, N55°19' W004° 47') and intersections GIRVA, TUNSO and BLACA. What is the MOCA between GIRVA and TUNSO?
+
+Images:
+- images/AT00044_img_1.png
+
+Explanation:
+Refer to figure.
+5000T (with suffix “T”) is the Minimum Obstruction Clearance Altitude (MOCA).
+FL60 (no prefix or suffix) is the Minimum Enroute Altitude (MEA).
+Note: Both the MEA and MOCA provide the same obstruction clearance.
+The only difference is that the Nav aid signal coverage is provided for the entire airway segment at the MEA.
+But the MOCA provides signal coverage only within 22 nm of the nav aid.
+
+Explanation Images:
+- images/explanation_AT00044_img_1.png
+
+Options:
+A. A
+FL60
+B. B
+6000 ft
+C. D
+FL70
+D. C
+5000 ft ✓ (CORRECT)
+
+Correct Answer: D.
+
+--------------------
+
+Question Number: AT00045
+Subject: ATPL(A) (EASA 2020) | 033 - Flight Planning Monitoring
+
+Refer to Jeppesen GSPRM Training Route Manual - Chart "E LO 2".
+The section of a routing is via airway Y96 from NORBO to TALLA (TLA, N55°30' W003°21'). Find the true course to TLA?
+
+Images:
+- images/AT00045_img_1.png
+
+Explanation:
+Refer to figure.
+Courses on the chart are Magnetic tracks.
+Read Magnetic track 099° from NORBO
+Compass to true - add East.
+Magnetic Variation line running through the middle of the Airway = 003° W
+099° - 003° = 096°
+See annex for location of this data.
+
+Explanation Images:
+- images/explanation_AT00045_img_1.png
+
+Options:
+A. A
+095º
+B. B
+099°
+C. D
+102°
+D. C
+096° ✓ (CORRECT)
+
+Correct Answer: D.
+
+--------------------
+
+Question Number: AT00046
+Subject: ATPL(A) (EASA 2020) | 033 - Flight Planning Monitoring
+
+Refer to figure.
+Given the following information, calculate Taxi fuel required for a Commercial Air Transport flight?
+Planned APU usage at the parking position: 25 minutes prior to taxi
+Planned taxi time: 10 minutes at the departure aerodrome and 5 minutes at the destination aerodrome
+
+Images:
+- images/AT00046_img_1.png
+
+Explanation:
+In the regulation below, it is stated that the taxi fuel is calculated for the departure aerodrome only, therefore don't get confused by the question which also mentions taxi time at destination. Additionally we have to consider APU fuel:
+In the attached document we can see that the taxi fuel is 11 kg/min and that the APU consumes 115 kg/h:
+10 minutes × 11 kg/min = 110 kg
+115 kg / 25 min = 48 kg
+110 kg + 48 kg = 158 kg
+EASA AIR OPS - Part-CAT AMC1 CAT.OP.MPA.150(b) Fuel policy - Planning Criteria - Aeroplanes
+The operator should base the defined fuel policy, including calculation of the amount of fuel to be on board for departure, on the following planning
+criteria:
+(a) Basic procedure
+The usable fuel to be on board for departure should be the sum of the following:
+(1) Taxi fuel, which should not be less than the amount expected to be used prior to take-off. Local conditions at the departure aerodrome and auxiliary power unit (APU) consumption should be taken into account. [...]
+
+Options:
+A. A
+165 kg
+B. C
+110 kg
+C. D
+213 kg
+D. B
+158 kg ✓ (CORRECT)
+
+Correct Answer: D.
+
+--------------------
+
+Question Number: AT00047
+Subject: ATPL(A) (EASA 2020) | 033 - Flight Planning Monitoring
+
+Refer to Jeppesen GSPRM Training Route Manual - ALICANTE - Chart 10-2B.
+The distance from KOVAM to BESOR is:
+
+Images:
+- images/AT00047_img_1.png
+
+Explanation:
+Refer to figure.
+Let's start by locating KOVAN (non-compulsory waypoint) and BESOR (compulsory waypoint).
+The distance from KOVAN to BESOR can be taken directly from the chart => about half way through this route, you can read "61" which means 61 NM.
+"FL70", underneath "61", indicates the Minimum En-route Altitude (MEA) for the route.
+
+Explanation Images:
+- images/explanation_AT00047_img_1.png
+
+Options:
+A. B
+70 NM
+B. C
+82 NM
+C. D
+37 NM
+D. A
+61 NM ✓ (CORRECT)
+
+Correct Answer: D.
+
+--------------------
+
+Question Number: AT00048
+Subject: ATPL(A) (EASA 2020) | 033 - Flight Planning Monitoring
+
+Refer to ALICANTE - charts 19-1, 19-2 and 19-3 from Jeppesen GSPRM 2017. Along which route do you proceed if you experience a communication failure?
+
+Images:
+- images/AT00048_img_1.png
+- images/AT00048_img_2.png
+- images/AT00048_img_3.png
+
+Explanation:
+Refer to figures.
+According to the VFR chart ALICANTE 19-1, a flight path with a dotted line is depicted for "ACFT with Radio Failure", which lies East off the South Route, with a maximum altitude of 800 ft.
+Also, according to the Notes on page 19-3, it states that: ACFT with communication failure must proceed via REPs SW to S at 800' MAX ALT and expect visual signals clearance from TWR. The fore mentioned flight path from REP "SW" to REP "S", passes East off the South Route.
+
+Explanation Images:
+- images/explanation_AT00048_img_1.png
+- images/explanation_AT00048_img_2.png
+
+Options:
+A. A
+Tabarca route
+B. C
+North corridor
+C. D
+North route
+D. B
+East of South route ✓ (CORRECT)
+
+Correct Answer: D.
+
+--------------------
+
+Question Number: AT00049
+Subject: ATPL(A) (EASA 2020) | 033 - Flight Planning Monitoring
+
+Given the following information for a Commercial Air Transport operation, calculate the maximum possible Extra Fuel to be uplifted.
+Maximum Zero Fuel Mass MZFM: 2000 kg
+Actual Zero Fuel Mass AZFM: 2000 kg
+Regulated Take-Off Mass RTOM: 3000 kg
+Maximum Landing Mass MLM: 2200 kg
+Fuel Tank Capacity: 550 kg
+Trip Fuel TF: 190 kg
+Minimum Block Fuel (BF): 300 kg
+
+Explanation:
+In order to find out the amount of fuel which can be uplifted you have to calculate the MTOM, MLM and tank capacity limitation
+Note: MZFM does not limit fuel.
+BASED ON RTOM:
+RTOM – (ATOM) = 3000 kg - 2300 kg = 700 kg
+ATOM = AZFM + Take Off fuel = 2000 kg + 300 kg = 2300 kg
+Since we are not provided with taxi fuel => we will assume our take off fuel equals our block fuel.
+BASED ON MLM:
+MLM – Landing mass = 2200 kg - 2110 kg = 90kg
+LM = ATOM - Trip fuel = 2300 kg - 190 kg = 2110 kg
+BASED ON TANK CAPACITY:
+550 kg - 300 kg = 250 kg
+=> The most restricting value in based on MLM 90 kg.
+
+Options:
+A. A
+Not able to carry Extra Fuel.
+B. C
+250 kg.
+C. D
+60 kg.
+D. B
+90 kg. ✓ (CORRECT)
+
+Correct Answer: D.
+
+--------------------
+
+Question Number: AT00050
+Subject: ATPL(A) (EASA 2020) | 033 - Flight Planning Monitoring
+
+According to the following NOTAM, what is the maximum height of the balloon involved?
+Q) EUAD/QWCLW/IV/M/W/000/004/5339N00135W001 A) EUAD B) FROM: 15/12/14 13:48C) TO: 16/03/06 18:30 E) UNMANNED CAPTIVE BALLOON IN LOW FLYING AREA AVOIDANCE AREA WI 1NM RADIUS. MAX HEIGHT 200FT AGL/324FT AMSL. 15/12/06/OPSLF. LOWER: Surface, UPPER: 324 Feet AMSL SCHEDULE: DEC 14 1348-1600, DEC 15-31 0700-1600, JAN 01-31 0700-1630, FEB 01-29 0700-1730, MAR 01-06 0600-1830
+
+Explanation:
+The NOTAM below:
+Q) EUAD/QWCLW/IV/M/W/000/004/5339N00135W001 A) EUAD B) FROM: 15/12/14 13:48C) TO: 16/03/06 18:30 E) UNMANNED CAPTIVE BALLOON IN LOW FLYING AREA AVOIDANCE AREA WI 1NM RADIUS. MAX HEIGHT 200FT AGL/324FT AMSL. 15/12/06/OPSLF. LOWER: Surface, UPPER: 324 Feet AMSL SCHEDULE: DEC 14 1348-1600, DEC 15-31 0700-1600, JAN 01-31 0700-1630, FEB 01-29 0700-1730, MAR 01-06 0600-1830.
+Correct Answer: 324 feet AMSL.
+
+Options:
+A. A
+The height is variable.
+B. B
+324 feet AGL.
+C. C
+200 feet AMSL.
+D. D
+324 feet AMSL. ✓ (CORRECT)
+
+Correct Answer: D.
+
+--------------------
+
+Question Number: AT00051
+Subject: ATPL(A) (EASA 2020) | 033 - Flight Planning Monitoring
+
+Consider the following NOTAM. Which of the following statements correctly describes the content of item E?
+QEDGG/QIXLT/I/BO/A/000/999/5002N00834E005 B FROM: 13/10/24 09:21 E ILS 25C LO, IDENT FR, 297KHZ, RANGE LIMITED TO 10NM. REF AIP AD2 EDDF 1-10 The range of the
+
+Explanation:
+QEDGG/QIXLT/I/BO/A/000/999/5002N00834E005 B FROM: 13/10/24 09:21 E ILS 25C LO, IDENT FR, 297KHZ, RANGE LIMITED TO 10NM.
+LLZ - localiser
+LOC - localizer
+LO - locator, outer
+LM - locator, middle
+Furthermore, given the frequency "297kHz" => this has to be a LOCATOR
+Note: LCA - Local or locally or location or located.
+
+Options:
+A. A
+identification is limited to 10 NM.
+B. B
+localiser is limited to 10 NM.
+C. C
+ILS is limited to 10 NM.
+D. D
+locator is limited to 10 NM. ✓ (CORRECT)
+
+Correct Answer: D.
+
+--------------------
+
+Question Number: AT00052
+Subject: ATPL(A) (EASA 2020) | 033 - Flight Planning Monitoring
+
+Given the following information, calculate the maximum attainable flight time and range.
+Average fuel flow: 31.5 kg/h
+Available fuel: 76 kg
+TAS: 85 kt
+Wind component: 20 kt tailwind
+The flight time is (1) __ and the range is (2) __.
+
+Explanation:
+Flight time = ((Available fuel)/(Average fuel flow) = (76 kg)/(31.5 kg/h) = 2.41 hrs = 2 hr and 25 min)
+Ground speed = 85 + 20 (Tail wind) = 105 kts
+Ground range = Flight time x GS
+= 2.41 X 105 = 253 NM
+
+Options:
+A. A
+(1) 2 hours 41 minutes; (2) 282 NM
+B. C
+(1) 2 hours 41 minutes; (2) 157 NM
+C. D
+(1) 2 hours 25 minutes; (2) 205 NM
+D. B
+(1) 2 hours 25 minutes; (2) 253 NM ✓ (CORRECT)
+
+Correct Answer: D.
+
+--------------------
+
+Question Number: AT00053
+Subject: ATPL(A) (EASA 2020) | 033 - Flight Planning Monitoring
+
+Refer to figure or CAP 697 Figure 3.4.
+Given the following conditions and in order to complete a navigation plan, calculate the True Air Speed TAS during cruise, for a VFR flight with a multi engined piston aeroplane at FL075.
+OAT: +10° C
+Power: Economy
+
+Images:
+- images/AT00053_img_1.png
+
+Explanation:
+Vertical Line up from OAT +10° to FL75
+Economy Power setting - Top right corner of the chart = 65%
+Plot line across to 65%
+Vertical Line down to read 171 kts
+
+Explanation Images:
+- images/explanation_AT00053_img_1.png
+
+Options:
+A. A
+140 kt
+B. B
+156 kt
+C. D
+189 kt
+D. C
+171 kt ✓ (CORRECT)
+
+Correct Answer: D.
+
+--------------------
+
+Question Number: AT00054
+Subject: ATPL(A) (EASA 2020) | 033 - Flight Planning Monitoring
+
+A Commercial Air Transport operator has a fleet of turbine engine aeroplanes. For this operator, an isolated aerodrome is one for which the alternate and final fuel reserve required to the nearest adequate destination alternate aerodrome is more than the fuel to fly for
+
+Explanation:
+Statement from the regulation:
+EASA PART CAT OP.MPA.183 - Fuel Scheme for Isolated aerodromes:
+“Use of isolated aerodromes — aeroplanes (a) Using an isolated aerodrome as destination aerodrome with aeroplanes requires the prior approval by the competent authority.
+An isolated aerodrome is one for which the alternate and final fuel reserve required to the nearest adequate destination alternate aerodrome is more than:
+(1) for aeroplanes with reciprocating engines, fuel to fly for 45 minutes plus 15 % of the flying time planned to be spent at cruising level or 2 hours, whichever is less; or
+(2) for aeroplanes with turbine engines, fuel to fly for 2 hours at normal cruise consumption above the destination aerodrome, including final reserve fuel. “
+
+Options:
+A. B
+45 minutes plus 15% of the flying time planned to be spent at cruising level or 2 hours, whichever is more.
+B. C
+2 hours at normal cruise consumption above the destination aerodrome, excluding Final Reserve Fuel.
+C. D
+45 minutes plus 15% of the flying time planned to be spent at cruising level or 2 hours, whichever is less.
+D. A
+2 hours at normal cruise consumption above the destination aerodrome, including Final Reserve Fuel. ✓ (CORRECT)
+
+Correct Answer: D.
+
+--------------------
+
+Question Number: AT00055
+Subject: ATPL(A) (EASA 2020) | 033 - Flight Planning Monitoring
+
+Refer to figure.
+You are cruising at FL380 with a twin-engined jet aeroplane. Due to airspace restrictions ATC instructs you to reduce speed to Mach .786. Given the following information, what is the fuel you will use for the remainder of the cruise time?
+Distance to Top-of-Descent: 310 NM
+Aircraft mass: 60 000 kg
+TAT: -22°C
+Average wind component: 25 kt headwind
+Consider a constant aircraft of mass 60 000 kg for calculation purposes.
+
+Images:
+- images/AT00055_img_1.png
+
+Explanation:
+Refer to figure.
+Actual TAT at FL380 is -22o C, so it is above the standard TAT -32o C, given in the table, by 10o C.
+According to the table given, at FL380 with .786 Mach speed, 60 000 kg mass and TAT -32o C, the TAS is 451 kt and the Fuel Flow per engine is 1 087 kg/hr.
+To calculate the fuel flow required for the ground distance 310 NM, the actual time flown is required:
+Actual time= Ground distance / Ground speed.
+With a 25 kt headwind, the groundspeed will be 451 - 25 = 426 kt. Applying the note, the TAS must be increased by 1 kts for each degree above standard TAT. So, it becomes: 426 + 10 = 436 kt
+The a/c will cover the ground distance 310 NM with 436 kt groundspeed in: 310/436 = 0.71 hour.
+For 0.71 hr flight time, the a/c will burn: 1 087 x 0.71 = 772 kg per engine, so both engines will burn: 772 x 2 = 1 544 kg.
+Applying the note, the fuel flow must be increased by 3% per 10o C above standard TAT. So, it becomes: 1 544 + (3% x 1 544) = 1 590 kg.
+
+Explanation Images:
+- images/explanation_AT00055_img_1.png
+
+Options:
+A. A
+1 544 kg
+B. B
+837 kg
+C. C
+1 196 kg
+D. D
+1 590 kg ✓ (CORRECT)
+
+Correct Answer: D.
+
+--------------------
+
+Question Number: AT00056
+Subject: ATPL(A) (EASA 2020) | 033 - Flight Planning Monitoring
+
+An aircraft is flying under IFR using its FMS for area navigation. According to its FMS, the Estimated Time Over (ETO) a waypoint is 1443, but ATC has cleared the aircraft at 1446. After decreasing the groundspeed accordingly, what is the appropriate way of checking that the new speed is suitable to arrive overhead the waypoint at 1446?
+
+Explanation:
+The FMC contains two main databases:
+The navigation database, which among others includes the position of beacons, waypoints and airways.
+The performance database, which is able to calculate maximum and optimum cruise altitudes, optimum speeds for climb, cruise and descent and the required thrust settings for each phase of flight.
+The FMC has the ability to calculate speeds to arrive over a waypoint at a defined time, a selection known as Required Time of Arrival (RTA).
+Using the two databases in combination, the FMC will give running estimates of time and fuel remaining over waypoints and at destination.
+For this question, the Estimated Time Overhead (ETO) prediction is calculated based on the groundspeed and distance from the active waypoint, so the FMS will calculate a new ETO with the new groundspeed and distance to go, which can be compared against the time of the ATC clearance.
+
+Options:
+A. A
+The FMS gives a new transit time for the leg, which can be used to calculate the ETO.
+B. B
+The FMS gives a new speed and distance which can be used to calculate the ETO.
+C. C
+The FMS will give a new GS which can be compared against the ATC clearance.
+D. D
+The FMS will give a new ETO which can be compared against the ATC clearance. ✓ (CORRECT)
+
+Correct Answer: D.
+
+--------------------
+
+Question Number: AT00057
+Subject: ATPL(A) (EASA 2020) | 033 - Flight Planning Monitoring
+
+Refer to ALICANTE - charts 10-2D, 13-3 from Jeppesen GSPRM 2017.
+An aircraft is flying on airway A-34 to Alicante / Spain (LEAL) and arrives at MAGAL for an approach on runway 28. What is the distance from the IAF to ALICANTE VOR?
+
+Images:
+- images/AT00057_img_1.png
+- images/AT00057_img_2.png
+
+Explanation:
+Refer to figure.
+Refer to 10-2D (STAR). Check note 4 denotes: "IAF for runway 28 when arriving via airways A-34, (U)L-150 and UP-34 northbound."
+We are looking for runway 28, IAF = MAGAL. Below MAGAL you can find the answer: "(ATE R128/D21.1)"
+Distance is 21.1 NM.
+Note: The distance of 19.9 NM pertains solely to the segment from MAGAL to the initial VOR ALT (ALTET). However, please take into account that the question specifically refers to ATE (ALICANTE), so be sure to carefully consider note 4.
+
+Explanation Images:
+- images/explanation_AT00057_img_1.png
+
+Options:
+A. B
+26 NM
+B. C
+45.4 NM
+C. D
+19.9 NM
+D. A
+21.1 NM ✓ (CORRECT)
+
+Correct Answer: D.
+
+--------------------
+
+Question Number: AT00058
+Subject: ATPL(A) (EASA 2020) | 033 - Flight Planning Monitoring
+
+At 14:58 ATC instructs you to fly directly to OAL VOR/DME and reduce speed to M 0.76, for traffic separation purposes. Given the following information, what is the Revised ETA at OAL?
+Distance to OAL via the flight-planned route: 120 NM
+Direct distance to OAL: 90 NM
+Magnetic Track to OAL from present position: 053°
+Variation: 2°E
+Pre-flight planned Mach: 0.80
+Forecast Wind: 350°/40 kt
+Actual Wind: 045°/65 kt
+OAT: -35°C
+ETA at OAL: 15:08
+
+Explanation:
+Refer to figures.
+This question asks for the Revised or Actual time of arrival at OAL VOR/DME, so use the actual data given below the answer:
+1. Following the rhyme "Variation East, Magnetic Least", the True Track from present position to OAL is: 053o(M) + 2oE = 055o(T).
+2. Using your Flight/Navigation computer find the actual TAS:
+Rotate the inner dial until you see the "Mach No. Index" inside the airspeed correction window on the inner dial.
+Line up the OAT -35°C opposite to the "Mach No. Index".
+Reduded Mach number 0.76(76) on the inner scale, reads opposite TAS 456 kt.
+3. Using again your Flight/Navigation computer find the Groundspeed:
+Set wind direction to 045º under the "TRUE HEADING" index at the top.
+Set the center point on the True Airspeed (TAS) of 456 kt.
+Mark the wind velocity 65 kt down from the centre point.
+Initially, set the True Track to 055º under the "TRUE HEADING" index.
+Note that this heading would result in 2ºR drift and a track of 057º.
+Reduce the heading value under the index until the heading plus the drift gives a track of 055º. This occurs at a heading of 053º with 1ºR drift.
+The groundspeed for this track is approximately 395 kt.
+4. The Revised flight time to OAL VOR/DME is given by the formula: Time = Direct Distance to OAL / Grounspeed = 90 NM / 395 KT = 0.23 hr or 13.8 min , rounded 14 min.
+Therefore, the Revised ETA at OAL will be: 14:58 + 14 min = 15:12.
+
+Explanation Images:
+- images/explanation_AT00058_img_1.png
+- images/explanation_AT00058_img_2.png
+
+Options:
+A. A
+15:14
+B. B
+15:10
+C. C
+15:16
+D. D
+15:12 ✓ (CORRECT)
+
+Correct Answer: D.
+
+--------------------
+
+Question Number: AT00059
+Subject: ATPL(A) (EASA 2020) | 033 - Flight Planning Monitoring
+
+Given the following data, what is the TAS of the aeroplane?
+FL390
+OAT: ISA -10 C
+Mach number : M 0.82
+Wind component : -42 kt
+
+Explanation:
+- METHOD 1: FORMULA
+ISA temperature at FL390 = -56.5ºC
+ISA - 10ºC
+Therefore, OAT at FL390 = -66.5ºC
+M = TAS / LSS
+LSS = 38.95 x √ OAT (KELVIN)
+TAS = M x 38.95 √ OAT (KELVIN)
+TAS = 0.82 x 38.95 √ (-66.5 + 273) = 459 kt (Closest Option: 460 kt)
+- METHOD 2: FLIGHT COMPUTER
+(1) Airspeed window - Rotate to see "MACH No Index". Set OAT (-66.5ºC).
+(2) Inner scale, find 8.2 (Mach 0.82).
+(3) Read TAS on outer scale 460 kts.
+
+Options:
+A. B
+452 kt
+B. C
+440 kt
+C. D
+482 kt
+D. A
+460 kt ✓ (CORRECT)
+
+Correct Answer: D.
+
+--------------------
+
+Question Number: AT00060
+Subject: ATPL(A) (EASA 2020) | 033 - Flight Planning Monitoring
+
+During the pre-flight preparation, the pilot calculates a take-off fuel of 53 US gallons. Considering a fuel density of 6 lb per US gallon, this equals…
+
+Explanation:
+1 USG       6 lb
+53 USG       x
+X= 6*53 /1 =318 lb
+1kg = 2.2 lb
+So, 318 lb / 2.2  equals 144 kg.
+
+Options:
+A. A
+701 kg.
+B. B
+318 kg.
+C. D
+24 kg.
+D. C
+144 kg. ✓ (CORRECT)
+
+Correct Answer: D.
+
+--------------------
+
+Question Number: AT00061
+Subject: ATPL(A) (EASA 2020) | 033 - Flight Planning Monitoring
+
+Refer to figure.
+You are flying from Ajaccio, Corsica to Grosseto, Italy. Using the in-flight actual groundspeed, what are the new ETAs for ELB and UPADU?
+
+Images:
+- images/AT00061_img_1.png
+
+Explanation:
+Refer to figure.
+The ATA at LIBLO is at 13:19 and the ATA at BTA is 13:31. So, the aircraft needs 12 minutes to cover a distance of 35 NM.
+So, its Actual GS will be: Distance from LIBLO to BTA / Sector time = 35 NM/12 min x 60 = 175 kt.
+Thus:
+The new ETA at ELB will be: Sector time from BTA to ELB + ATA at BTA = 14 min (41 NM / 175 kt x 60) + 13:31 = 13:45
+The new ETA at UPADU will be: Sector time from ELB to UPADU + ATA at ELB = 2 min (5 NM / 175 kt x 60) +13:45 = 13:47.
+
+Explanation Images:
+- images/explanation_AT00061_img_1.png
+
+Options:
+A. A
+ELB 13:42 and UPADU 13:44
+B. C
+ELB 13:44 and UPADU 13:46
+C. D
+ELB 13:46 and UPADU 13:48
+D. B
+ELB 13:45 and UPADU 13:47 ✓ (CORRECT)
+
+Correct Answer: D.
+
+--------------------
+
+Question Number: AT00062
+Subject: ATPL(A) (EASA 2020) | 033 - Flight Planning Monitoring
+
+An IFR flight is planned across terrain where the maximum elevation is 4385 ft. The forecast temperature is ISA +12° C, and the Minimum Obstacle Clearance required is 1500 ft. A nearby aerodrome elevation 875 ft reports a QNH of 1025 hPa.
+What is the minimum flight level that could be planned for the cruise?
+
+Explanation:
+Refer to figure.
+The aircraft must fly at 5 885 ft (4 385 ft + 1 500 ft). This altitude must be the true altitude of the aircraft. This altitude must be corrected for any temperature ISA deviation and then any difference in pressure from standard (1013 hPa), to get the pressure altitude, allowing us to work out the lowest usable flight level.
+The first step is to determine the temperature correction. The ISA deviation is ISA +12ºC. For the temperature correction, the airfield elevation must be taken into account: 5 885 ft - 875 ft = 5 010 ft. Based on the 4% rule and its calculation mentioned in the rules below, the height correction for the temperature can be calculated as follows: Height correction for temperature = 4 × (12) × (5 010/1 000) = 240 ft.
+In this case, the temperature correction is subtracted from the true altitude as per the rules below (refer to the table below), to give an indicated altitude of 5 645 ft.
+Next, we need to compute the pressure correction by considering the deviation from the standard mean sea level pressure of 1013 hPa: 1025 hPa - 1013 hPa = 12 hPa. Since the barometric lapse rate near the surface is 30 ft/hPa, the pressure correction can be calculated as follows: Pressure correction = 12 hPa x 30 ft/hPa = 360 ft. This value needs to be subtracted from the indicated altitude as per the rules below:
+Pressure Altitude = 5 645 ft - 360 ft = 5 285 ft.
+The Minimum Flight Level, which provides obstacle clearance, after both pressure and temperature correction, that must be selected is: FL60.
+RULES. The following rules should be considered for altimetry calculations:
+All calculations are based on rounded pressure values to the nearest lower hPa.
+The value for the barometric lapse rate between MSL and 500 hPa to be used is 30 ft/hPa as an acceptable approximation of the barometric lapse rate.
+To determine the true altitude/height, the following rule of thumb, called the ‘4 %-rule’, shall be used: the altitude/height changes by 4% for each 10°C temperature deviation from ISA.
+For simplification: Height correction for the temp = 4 × (ISA DEV) × Indicated alt/1000 = ___ ft
+If no further information is given, the deviation of the outside-air temperature from ISA is considered to be the same throughout the whole layer.
+The elevation of the aerodrome has to be taken into account. The temperature correction has to be considered for the layer between the station (usually an aerodrome) and the position of the aircraft.
+IF
+THEN
+Higher pressure
+Indicated Altitude > Pressure Altitude
+Lower pressure
+Indicated Altitude < Pressure Altitude
+Warmer than ISA
+True Altitude > Indicated Altitude
+Colder than ISA
+True Altitude < Indicated Altitude
+Definitions
+Pressure Altitude: The altimeter indication with standard pressure (1013.2 hPa) set.
+Indicated Altitude: The altimeter indication with local QNH set.
+True altitude: The actual altitude of the aircraft above mean sea level.
+
+Explanation Images:
+- images/explanation_AT00062_img_1.png
+
+Options:
+A. A
+FL50
+B. B
+FL40
+C. C
+FL80
+D. D
+FL60 ✓ (CORRECT)
+
+Correct Answer: D.
+
+--------------------
+
+Question Number: AT00063
+Subject: ATPL(A) (EASA 2020) | 033 - Flight Planning Monitoring
+
+Refer to AMSTERDAM 10-2 chart from Jeppesen GSPRM 2017. An aircraft is departing from EDDG and is heading west. The aircraft experiences a critical fuel situation and cannot return to its departure airport. The crew decide to land at Amsterdam Airport. Which STAR should the crew expect? Choose the shortest STARs and the ones closest to the departure airport.
+
+Images:
+- images/AT00063_img_1.png
+
+Explanation:
+Refer to figure.
+The 2 STARs which are closest to Munster/Osnabruck airport and that have the shortest and most direct routing to Amsterdam airport are NORKU 2A and REKEN 2A.
+The red line represents the routing via NORKU 2A. The green line represents the routing via REKKEN 2A.
+The length of the STARs are:
+NORKU 2A - 56.2 NM (Red line)
+NORKU 2B - 77.4 NM
+REKKEN 2A - 51.4 NM (Green line)
+REKKEN 2B - 78 NM
+
+Explanation Images:
+- images/explanation_AT00063_img_1.png
+
+Options:
+A. A
+NORKU 2B, REKKEN 2A
+B. B
+NORKU 2A, REKKEN 2B
+C. D
+NORKU 2B, REKKEN 2B
+D. C
+NORKU 2A, REKKEN 2A ✓ (CORRECT)
+
+Correct Answer: D.
+
+--------------------
+
+Question Number: AT00064
+Subject: ATPL(A) (EASA 2020) | 033 - Flight Planning Monitoring
+
+A flight has been diverted off the planned route due to the bad weather. ATC clears the flight to re-join the planned route at TUSKA. The pilot wishes to decide early, if there is enough fuel to safely complete the flight or if a fuel diversion is needed, so he/she checks the fuel at 18:06 UTC. Following the data, what is minimum fuel required at 18:06 UTC to complete the planned flight?
+Minimum fuel at TUSKA to complete the flight: 144 litres
+Average fuel flow: 45 kg/h
+ETO TUSKA: 18:43 UTC
+Fuel density: 0.72 kg/lt
+
+Explanation:
+You want to be at TUSKA 18:43 with 144 litres fuel on board. The time now is 18:06. You need 37 minutes of flight from now to TUSKA.
+With Fuel flow = 45 kg/hour or 0.75 kg/min, you must have 0.75 x 37=27,75 kg of fuel or 28 kg.
+With a fuel density of 0,72 kg/lt, the 28 kg = 38,5 litres.
+So 144+39=183 litres.
+
+Options:
+A. B
+105 litres
+B. C
+172 litres
+C. D
+164 litres
+D. A
+183 litres ✓ (CORRECT)
+
+Correct Answer: D.
+
+--------------------
+
+Question Number: AT00065
+Subject: ATPL(A) (EASA 2020) | 033 - Flight Planning Monitoring
+
+Refer to chart "E LO 2" from Jeppesen GSPRM 2017.
+Find the distance and magnetic track of the waypoint TIPIL by flying out of TRENT VOR/DME (TNT): (Note: when using the original chart from GSPRM both locations can be found in chart section 7 C)
+
+Images:
+- images/AT00065_img_1.png
+
+Explanation:
+Refer to figure.
+You can find a black solid circle with a white letter "C" on the airway between TRENT and TIPIL. The designator "C" indicates that there is a box on the chart which contains some more information. You can find box C in the upper right corner. It contains all information about this part of the airway:
+Airway M868 (MEA FL90)
+Airway N57 (MEA FL80)
+Course 341°
+Distance 7 NM
+
+Explanation Images:
+- images/explanation_AT00065_img_1.png
+
+Options:
+A. A
+161° / 23 NM
+B. B
+329° / 13 NM
+C. D
+340° / 5 NM
+D. C
+341° / 7 NM ✓ (CORRECT)
+
+Correct Answer: D.
+
+--------------------
+
+Question Number: AT00066
+Subject: ATPL(A) (EASA 2020) | 033 - Flight Planning Monitoring
+
+For pre-flight planning purposes what is the total fuel required for a Commercial Air Transport flight in a Long-Range Jet Transport (LRJT) aeroplane? Assume the Basic Fuel Scheme WITHOUT variations applies.
+Taxi Fuel: 235 kg
+Trip Fuel: 52 319 kg
+Additional Fuel: 2 700 kg
+Contingency Fuel: 5% of the Trip Fuel
+Destination Alternate Fuel: 1 550 kg
+Final Reserve Fuel: 1 850 kg
+Extra Fuel: 0 kg
+Discretionary Fuel: 0 kg
+
+Explanation:
+Please Note: This conforms to the Basic Fuel scheme WITHOUT variations under the new fuel/energy regulations. The primary difference if variations are included is the ability to use lesser amounts of contingency fuel, such as 3% if a suitable ERA is provided.
+AMC1 CAT.OP.MPA.181 Fuel/energy scheme - fuel/energy planning and in-flight re-planning policy — aeroplane
+PLANNING CRITERIA — AEROPLANES
+The operator should base the defined fuel policy, including calculation of the amount of fuel to be on board for departure, on the following planning criteria:
+(refer to the last paragraph of the explanation for full Regulation details)
+(a) Basic Fuel Scheme
+The usable fuel to be on board for dispatch should be the sum of the following:
+(1) Taxi fuel In this case, as stated in the question text. 235 kg
+(2) Trip fuel In this case, as stated in the question text. 52 319 kg
+(3) Contingency Fuel In this case, as stated in the question text. 5% x 52 319 kg = 2 616 kg
+(4) Alternate Fuel In this case, as stated in the question text. 1 550 kg
+(5) Final Reserve Fuel In this case, as stated in the question text. 1 850 kg
+(6) Additional Fuel In this case, as stated in the question text. 2 700 kg
+(7) Extra Fuel For if there are anticipated delays or specific operational constraints. N/A
+(8) Discretionary Fuel This is a new addition to the regulations in 2022, and is the “Commander’s discretionary fuel”. N/A
+TOTAL
+---------------------------------------------------------------------------------------------------------------------------------------
+61 270 kg
+Closest answer = 61 270 kg
+Regulation (EU) No 965/2012
+AMC1 CAT.OP.MPA.181 Fuel/energy scheme - fuel/energy planning and in-flight re-planning policy — aeroplane
+BASIC FUEL SCHEME — PRE-FLIGHT CALCULATION OF USABLE FUEL FOR PERFORMANCE CLASS A AEROPLANES
+For the pre-flight calculation of the usable fuel in accordance with point CAT.OP.MPA.181, the operator should:
+(a) for taxi fuel, take into account the local conditions at the departure aerodrome and the APU consumption;
+(b) for trip fuel, include:
+(1) fuel for take-off and climb from the aerodrome elevation to the initial cruising level/altitude, taking into account the expected departure routing;
+(2) fuel from the top of climb to the top of descent, including any step climb/descent;
+(3) fuel from the top of descent to the point where the approach procedure is initiated, taking into account the expected arrival routing; and
+(4) fuel for making an approach and landing at the destination aerodrome;
+(c) for contingency fuel, calculate for unforeseen factors either:
+(1) 5 % of the planned trip fuel or, in the event of in-flight re-planning, 5 % of the trip fuel for the remainder of the flight; or
+(2) an amount to fly for 5 minutes at holding speed at 1 500 ft (450 m) above the destination aerodrome in standard conditions,
+whichever is the higher;
+(d) for destination alternate fuel, include:
+(1) when the aircraft is operated with one destination alternate aerodrome:
+(i) fuel for a missed approach from the applicable DA/H or MDA/H at the destination aerodrome to the missed-approach altitude, taking into account the complete missed-approach procedure;
+(ii) fuel for climb from the missed-approach altitude to the cruising level/altitude, taking into account the expected departure routing;
+(iii) fuel for cruising from the top of climb to the top of descent, taking into account the expected routing;
+(iv) fuel for descent from the top of descent to the point where the approach is initiated, taking into account the expected arrival routing; and
+(v) fuel for making an approach and landing at the destination alternate aerodrome; and
+(2) when the aircraft is operated with two destination alternate aerodromes, the amount of fuel that is calculated in accordance with point (d)(1), based on the destination alternate aerodrome that requires the greater amount of fuel;
+(e) for FRF, comply with point CAT.OP.MPA.181(c);
+...(c) final reserve fuel/energy that shall be the amount of fuel/energy that is calculated at holding speed at 1 500ft (450 m) above the aerodrome elevation in standard conditions according to the aeroplane estimated mass on arrival at the destination alternate aerodrome, or destination aerodrome when no destination alternate aerodrome is required, and shall not be less than:
+(i) for aeroplanes with reciprocating engines, the fuel/energy to fly for 45 minutes; or
+(ii) for turbine-engined aeroplanes, the fuel/energy to fly for 30 minutes;...
+(f) for additional fuel, include an amount of fuel that allows the aeroplane to proceed, in the event of an engine failure or loss of pressurisation, from the most critical point along the route to a fuel en route alternate (fuel ERA) aerodrome in the relevant aircraft configuration, hold there for 15 minutes at 1 500 ft (450 m) above the aerodrome elevation in standard conditions, make an approach, and land;
+(g) for extra fuel, include anticipated delays or specific operational constraints that can be predicted; and
+(h) for discretionary fuel, include a quantity at the sole discretion of the commander.
+
+Options:
+A. A
+61 035 kg
+B. B
+58 654 kg
+C. C
+58 570 kg
+D. D
+61 270 kg ✓ (CORRECT)
+
+Correct Answer: D.
+
+--------------------
+
+Question Number: AT00067
+Subject: ATPL(A) (EASA 2020) | 033 - Flight Planning Monitoring
+
+Refer to Stuttgart SID chart 10-3P from the Jeppesen GSPRM 2017.
+An aircraft taking-off from Stuttgart has received clearance for the DKB4H RNAV SID. Traditional IFR equipment is required to continue the flight in case the GNSS integrity is lost. Which of the following equipment must be available in order to execute the RNAV SID?
+1. Aircraft VOR and DME receivers
+2. Aircraft GPS receivers
+3. Aircraft ADF receiver
+4. STG and LBU navigational aids
+5. STG and DKB navigational aids
+
+Images:
+- images/AT00067_img_1.png
+
+Explanation:
+Refer to figure.
+Area Navigation (RNAV) is defined as a method of navigation which permitts aircraft operation on any desired flight path within the coverage of station - referenced navigation aids or within the limits of the capability of self-contained aids, or a combination of these. In simple words, the ability to fly from point to point, rather than following VOR radials or NDB bearings.
+The conventional Standard Instrument Departure procedures (SIDs) use ground navigational aids, while the RNAV SIDs use Fly-by and Fly-over waypoints and are followed by the FMS.
+RNAV equipment tends to be more accurate than basic fixing and can be based on either VOR/DME information, satellite systems, inertial systems or combinations of these.
+GNSS/GPS receiver is an essential part of the RNAV system, as many of the waypoints will rely upon GPS coordinates.
+The FMS takes navigational inputs from GPS, IRS and ground navigational aids. If GPS signal is lost, then IRS and ground navigational aids still work, as a back-up option.
+Thus, the aircraft's GPS receiver must be always available for the RNAV SID procedure and the others are required in case of problem with the GNSS.
+Obviously, the aircraft's VOR and DME receivers must be serviceable, since the DKB4H RNAV SID procedure uses the ground navigational aids STG and DKB VOR/DMEs for guidance, which must be serviceable too.
+
+Explanation Images:
+- images/explanation_AT00067_img_1.png
+
+Options:
+A. A
+2, 3, and 4
+B. B
+2 only
+C. D
+1, 3, and 4
+D. C
+1, 2, and 5 ✓ (CORRECT)
+
+Correct Answer: D.
+
+--------------------
+
+Question Number: AT00068
+Subject: ATPL(A) (EASA 2020) | 033 - Flight Planning Monitoring
+
+Refer to figure or CAP 697 Figure 2.2, Table 2.2.1.
+Given the following information, what is the fuel flow?
+Power setting: Full throttle / 2500 RPM
+Altitude: 11 000 ft
+OAT: -7°C
+
+Images:
+- images/AT00068_img_1.png
+
+Explanation:
+ISA at 11000 ft: -7˚C
+OAT = ISA
+Interpolate in the middle schedule (ISA deviation = zero) between 10000 ft and 12000 ft to get the fuel flow: 70.55 lb / h
+
+Explanation Images:
+- images/explanation_AT00068_img_1.png
+
+Options:
+A. A
+11.30 lb/h
+B. B
+11.75 lb/h
+C. C
+73.30 lb/h
+D. D
+70.55 lb/h ✓ (CORRECT)
+
+Correct Answer: D.
+
+--------------------
+
+Question Number: AT00069
+Subject: ATPL(A) (EASA 2020) | 033 - Flight Planning Monitoring
+
+When planning to fly through a mountaineous area, the minimum safe altitude (MSA) is 8 000 ft. The QNH from an airport in the vicinity, elevation 0 ft, is 990 hPa and the temperature at FL100 is -25°C. Determine the lowest usable flight level.
+(Assume 1 hPa = 27 ft)
+
+Explanation:
+Refer to figure.
+The aircraft must fly at 8 000 ft (MSA). This altitude must be the true altitude of the aircraft. This altitude must be corrected for any temperature ISA deviation and then any difference in pressure from standard (1013 hPa), to get the pressure altitude, allowing us to work out the lowest usable flight level.
+To compute the temperature correction, it is necessary to have knowledge of the ISA air temperature. In the International Standard Atmosphere (ISA), the air temperature at sea level is 15ºC, and the temperature lapse rate is -2ºC/1 000 ft. The formula to calculate the ISA temperature is: ISA temperature = 15ºC - (10 000/1 000) x 2, giving an ISA temperature of ­­­-5ºC. The actual temperature is ­­­-25ºC, which is an ISA deviation of ISA -20ºC.
+The first step is to determine the temperature correction. The ISA deviation is ISA -20ºC. Based on the 4% rule and its calculation mentioned in the rules below, the height correction for the temperature can be calculated as follows: Height correction for temperature = 4 × (-20) × (8 000/1000) = -640 ft.
+In this case, the temperature correction is added to the true altitude as per the rules below (refer to the table below), to give an indicated altitude of ­­8 640 ft.
+Next, we need to compute the pressure correction by considering the deviation from the standard mean sea level pressure of 1013 hPa: 1013 hPa - 990 hPa = 23 hPa. The question provides a barometric lapse rate of 27 ft/hPa, the pressure correction can be calculated as follows: Pressure correction = 23 hPa x 27 ft/hPa = 621 ft. This value needs to be added to the indicated altitude as per the rules below:
+Pressure Altitude = 8 640 ft + 621 ft = 9 261 ft.
+The Minimum Flight Level, which provides obstacle clearance, after both pressure and temperature correction, that must be selected is: FL100.
+RULES. The following rules should be considered for altimetry calculations:
+All calculations are based on rounded pressure values to the nearest lower hPa.
+The value for the barometric lapse rate between MSL and 500 hPa to be used is 30 ft/hPa as an acceptable approximation of the barometric lapse rate.
+To determine the true altitude/height, the following rule of thumb, called the ‘4 %-rule’, shall be used: the altitude/height changes by 4% for each 10°C temperature deviation from ISA.
+For simplification: Height correction for the temp = 4 × (ISA DEV) × Indicated alt/1000 = ___ ft
+If no further information is given, the deviation of the outside-air temperature from ISA is considered to be the same throughout the whole layer.
+The elevation of the aerodrome has to be taken into account. The temperature correction has to be considered for the layer between the station (usually an aerodrome) and the position of the aircraft.
+IF
+THEN
+Higher pressure
+Indicated Altitude > Pressure Altitude
+Lower pressure
+Indicated Altitude < Pressure Altitude
+Warmer than ISA
+True Altitude > Indicated Altitude
+Colder than ISA
+True Altitude < Indicated Altitude
+Definitions
+Pressure Altitude: The altimeter indication with standard pressure (1013.2 hPa) set.
+Indicated Altitude: The altimeter indication with local QNH set.
+True altitude: The actual altitude of the aircraft above mean sea level.
+
+Explanation Images:
+- images/explanation_AT00069_img_1.png
+
+Options:
+A. A
+FL090
+B. C
+FL120
+C. D
+FL080
+D. B
+FL100 ✓ (CORRECT)
+
+Correct Answer: D.
+
+--------------------
+
+Question Number: AT00070
+Subject: ATPL(A) (EASA 2020) | 033 - Flight Planning Monitoring
+
+An aircraft is flying at FL180, OAT -11°C, QNH 1003. What is the true altitude?
+
+Explanation:
+Refer to figure.
+True altitude calculation from a Flight Level:
+In this question, we are given a pressure altitude (in the form of a flight level) and are asked for the terrain clearance, therefore we need to determine the corresponding true altitude.
+The first step is to compute the pressure correction by considering the deviation from the standard mean sea level pressure of 1013 hPa: 1013 hPa - 1003 hPa = 10 hPa. Since the barometric lapse rate near the surface is 30 ft/hPa, the pressure correction can be calculated as follows: Pressure correction = 10 hPa x 30 ft/hPa = ­­­300 ft. This value needs to be subtracted from the pressure altitude as per the rules below:
+Indicated altitude = 18 000 ft - 300 ft = 17 700 ft.
+To determine the temperature correction, it is necessary to have knowledge of the ISA air temperature for the given flight level/altitude (FL250). In the International Standard Atmosphere (ISA), the air temperature at sea level is 15ºC, and the temperature lapse rate is -2ºC/1 000 ft. The formula to calculate the ISA temperature is therefore: ISA temperature = 15ºC - (18 000/1 000) x 2, giving an ISA temperature of ­­­-21 ºC. The actual outside air temperature is ­­­-11 ºC, which means we have an ISA deviation of ISA +10ºC.
+Next, we need to determine the temperature correction. The ISA deviation is ISA +10ºC. Based on the 4% rule and its calculation mentioned in the rules below, the height correction for the temperature can be calculated as follows: Height correction for temperature = 4 × (+10) × (17 700/1000) = + 708 ft.
+The temperature correction is added to the indicated altitude as per the rules below, to give a true altitude of 17 700 ft + 708 ft = 18 408 ft
+RULES. The following rules should be considered for altimetry calculations:
+All calculations are based on rounded pressure values to the nearest lower hPa.
+The value for the barometric lapse rate between MSL and 500 hPa to be used is 30 ft/hPa as an acceptable approximation of the barometric lapse rate (if not provided by the question).
+To determine the true altitude/height, the following rule of thumb, called the ‘4 %-rule’, shall be used: the altitude/height changes by 4% for each 10°C temperature deviation from ISA.
+For simplification: Height correction for the temp = 4 × (ISA DEV) × Indicated alt/1000 = ___ ft
+If no further information is given, the deviation of the outside-air temperature from ISA is considered to be the same throughout the whole layer.
+The elevation of the aerodrome has to be taken into account. The temperature correction has to be considered for the layer between the station (usually an aerodrome) and the position of the aircraft.
+HIGHER PRESSURE; INDICATED ALTITUDE > PRESSURE ALTITUDE
+LOWER PRESSURE; INDICATED ALTITUDE < PRESSURE ALTITUDE WARMER THAN ISA; TRUE ALTITUDE > INDICATED ALTITUDE
+COLDER THAN ISA; TRUE ALTITUDE < INDICATED ALTITUDE
+DEFINITIONS.
+Pressure Altitude: The altimeter indication with standard pressure (1013.2 hPa) set.
+Indicated Altitude: The altimeter indication with local QNH set.
+True altitude: The actual altitude of the aircraft above mean sea level.
+
+Explanation Images:
+- images/explanation_AT00070_img_1.png
+
+Options:
+A. A
+18 000 ft
+B. C
+16 992 ft
+C. D
+17 500 ft
+D. B
+18 408 ft ✓ (CORRECT)
+
+Correct Answer: D.
+
+--------------------
+
+Question Number: AT00071
+Subject: ATPL(A) (EASA 2020) | 033 - Flight Planning Monitoring
+
+Refer to ALICANTE - charts 19-1, 19-2 and 19-3 from Jeppesen GSPRM 2017.
+On a VFR flight, you need to overfly Alicante CTR from NE1 and exit at SW. Who shall you be in contact with to get transit clearance and what would be an appropriate altitude?
+
+Images:
+- images/AT00071_img_1.png
+- images/AT00071_img_2.png
+- images/AT00071_img_3.png
+
+Explanation:
+Refer to Alicante 19-3. The instructions for VFR overflights read:
+“Except other ATC clearance, ACFT overflying CTR have to use VFR corridors “NORTH CORRIDOR” and “SOUTH CORRIDOR” as described above. Two-way radio contact with Valencia Control must be maintained to get transit clearance. MAX ALT is FL75 and MNM ALT is 4 500’.”
+
+Options:
+A. A
+Alicante Tower, 4 000 ft
+B. B
+Valencia Control, 1 000 ft
+C. C
+Alicante Tower, 2 000 ft
+D. D
+Valencia Control, 5 000 ft ✓ (CORRECT)
+
+Correct Answer: D.
+
+--------------------
+
+Question Number: AT00072
+Subject: ATPL(A) (EASA 2020) | 033 - Flight Planning Monitoring
+
+What Type and Category of approach is a 2D APCH with a MDH of 350 ft?
+
+Explanation:
+Refer to figure.
+According to ICAO Annex 6, Annex 10 and Annex 14, there are two types of classification for approach operations, dependent upon the achieved minima at the end of the approach:
+Type A: may be either 2D or 3D operations; 2D will only have a lateral path defined for the approach operation where 3D will have both a lateral and vertical path defined for that operation. A Type A operation will permit aircraft operations down to a minimum height or altitude of 250 ft. All NPAs and Approcahes with Vertical guidance (APV) using Barometric altimetry are Type A approach operations.
+Type B: are 3D operations; a lateral and vertical path is defined and guidance along this path is provided either from GPS with SBAS (APV SBAS) or by a precision approach system.
+Only the Type B (3D) approaches are further divided into the following categories of approach:
+Category I (CAT I)
+Category II (CAT II)
+Category IIIA (CAT IIIA)
+Category IIIB (CAT IIIB)
+Category IIIC (CAT IIIC)
+
+Explanation Images:
+- images/explanation_AT00072_img_1.png
+
+Options:
+A. A
+Type A, CAT I.
+B. C
+Type B, no category.
+C. D
+Type B, Cat II.
+D. B
+Type A, no category. ✓ (CORRECT)
+
+Correct Answer: D.
+
+--------------------
+
+Question Number: AT00073
+Subject: ATPL(A) (EASA 2020) | 033 - Flight Planning Monitoring
+
+Considering the following NOTAM, which of the following statements is correct?
+Q EGTT/QNMAS/IV/BO/E/000/999/5129N00113W025 B FROM: 16/04/29 09:59 C TO: 16/05/27 18:00 E COMPTON DVOR ‘CPT’ FREQ 114.35 MHZ/COMPTON DME ‘CPT’ CHANNEL 090Y BOTH U/S. PLEASE NOTE BETWEEN 03 MAY AND 12 MAY DUE TO TEST ACTIVITIES TAKING PLACE AT COMPTON, DVOR TEST VOICE MESSAGES MAY BE TRANSMITTED FOR SHORT PERIODS ON THE CPT DVOR FREQUENCY 114.35 MHZ. IF SUCH TRANSMISSIONS ARE INTERCEPTED BY AIRSPACE USERS THE CONTENT OF THESE MESSAGES SHOULD BE IGNORED
+
+Explanation:
+This question refers to the following section of the NOTAM:
+"Q EGTT/QNMAS/IV/BO/E/000/999/5129N00113W025 B FROM: 16/04/29 09:59 C TO: 16/05/27 18:00 E COMPTON DVOR ‘CPT’ FREQ 114.35 MHZ/COMPTON DME ‘CPT’ CHANNEL 090Y BOTH U/S. PLEASE NOTE BETWEEN 03 MAY AND 12 MAY DUE TO TEST ACTIVITIES TAKING PLACE AT COMPTON, DVOR TEST VOICE MESSAGES MAY BE TRANSMITTED FOR SHORT PERIODS ON THE CPT DVOR FREQUENCY 114.35 MHZ. IF SUCH TRANSMISSIONS ARE INTERCEPTED BY AIRSPACE USERS THE CONTENT OF THESE MESSAGES SHOULD BE IGNORED"
+From 09:59 of the 29th of April 2016 to 18:00 of the 25th of May 2016 CPT DVOR/DME are both U/S => Unserviceable
+
+Options:
+A. A
+CPT DVOR is unserviceable during the stated period except when the test transmissions are being made.
+B. C
+The voice test messages can be heard on VHF RT equipment.
+C. D
+The range information from the DME is still usable during the stated period.
+D. B
+CPT DVOR/DME is unserviceable during the stated period. ✓ (CORRECT)
+
+Correct Answer: D.
+
+--------------------
+
+Question Number: AT00074
+Subject: ATPL(A) (EASA 2020) | 033 - Flight Planning Monitoring
+
+Refer to figure.
+(For this question use CAP 697 Figure 3.4). An aeroplane is flying at FL90 at the economy power setting. What is the TAS if the OAT is ISA -10C?
+
+Images:
+- images/AT00074_img_1.png
+
+Explanation:
+Refer to figure.
+The graph at Figure 3.4 is used to determine the true airspeed for the various combinations of ambient temperature, Pressure Altitude and power settings in the cruise configuration:
+Enter from the bottom left side with Outside Air Temperature: OAT = ISA deviation + ISA temperature at FL90 = -10°C + (15°C - 2°C x 9000ft /1000) = -13°C.
+Move vertically up to 9000 ft pressure altitude.
+Then, continue horizontally until intersecting the economy power setting (65%) line.
+Finally, vertically down and read the TAS 170 kt.
+
+Explanation Images:
+- images/explanation_AT00074_img_1.png
+
+Options:
+A. A
+175 kt
+B. C
+179 kt
+C. D
+143 kt
+D. B
+170 kt ✓ (CORRECT)
+
+Correct Answer: D.
+
+--------------------
+
+Question Number: AT00075
+Subject: ATPL(A) (EASA 2020) | 033 - Flight Planning Monitoring
+
+Given the following information for a Commercial Air Transport operation, calculate the maximum possible Extra Fuel to be uplifted.
+Maximum Zero Fuel Mass: 62 731 kg
+Actual Zero Fuel Mass: 55 031 kg
+Regulated Take-Off Mass: 76 000 kg
+Maximum Landing Mass: 66 360 kg
+Fuel Tank Capacity: 16 000 kg
+Taxi Fuel: 240 kg
+Trip Fuel: 7 931 kg
+Minimum Block Fuel: 16 000 kg
+
+Explanation:
+The tank capacity corresponds to the minimum block fuel => Therefore, no extra fuel can be uplifted.
+
+Options:
+A. A
+4751 kg.
+B. B
+240 kg.
+C. C
+4991 kg.
+D. D
+Not able to carry Extra Fuel. ✓ (CORRECT)
+
+Correct Answer: D.
+
+--------------------
+
+Question Number: AT00076
+Subject: ATPL(A) (EASA 2020) | 033 - Flight Planning Monitoring
+
+When reviewing the wind charts in the briefing room, you notice that the average wind in cruise will be 25 kt headwind.Given following data, what will be the flight time to destination?
+Time to top of climb : 30 min
+Cruise leg: 740 NM
+FL380
+TAS: 460 kt
+ISA -10°C
+Time to from top of descent to landing : 22 minutes
+
+Explanation:
+Cruise GS = 460-25 = 435.
+Distance 740/GS 435 = 1 hr 42 minutes = 102 minutes.
+So 30 (Time to climb)+ 102 (Cruise)+ 22( Time to descent) = 154 minutes = 2 hr 34 mins.
+
+Options:
+A. A
+1 h 36 mins
+B. B
+1 h 42 mins
+C. C
+2 h 28 mins
+D. D
+2 h 34 mins ✓ (CORRECT)
+
+Correct Answer: D.
+
+--------------------
+
+Question Number: AT00077
+Subject: ATPL(A) (EASA 2020) | 033 - Flight Planning Monitoring
+
+Refer to figures and/or to chart E(LO)13 from the Jeppesen GSPRM 2017.
+You are planning a flight from Ajaccio (LFKJ) to Marina di Campo (LIRJ), routing along airways A9 and L146. Extract the information from the chart and complete the navigation plan. What will be the total distance and estimated flight time?
+
+Images:
+- images/AT00077_img_1.png
+- images/AT00077_img_2.png
+
+Explanation:
+Refer to figures.
+Identify the route on the chart, then to fill in the gaps in the navigation plan, we need the true track of BTA to MOULE and MOULE to XOPTA. Both of these tracks are the same, and the magnetic track is 075º, so with magnetic variation of 2ºE, the true track is 077º.
+Then using the CRP-5 or other navigation computer, calculate the required heading to fly 077º track. The true heading of 076º equals a magnetic heading of 074º. The navigation computer gives a groundspeed of 150 kt.
+The missing distances from the navigation plan can be found next to the airway line on the chart, 13 nm from BTA to MOULE and 5nm from MOULE to XOPTA.
+At 150 kt groundspeed, the time from BTA to MOULE is (13/150) x 60 = 5.2 minutes (round to 5 minutes). The time from MOULE to XOPTA is (5/150) x 60 = 2 minutes.
+Adding up the distances for each leg gives us a total of 123 nm and adding up the times gives a total of 57 minutes
+
+Explanation Images:
+- images/explanation_AT00077_img_1.png
+- images/explanation_AT00077_img_2.png
+
+Options:
+A. A
+18 nm and 7 minutes
+B. C
+135 nm and 52 minutes
+C. D
+118 nm and 55 minutes
+D. B
+123 nm and 57 minutes ✓ (CORRECT)
+
+Correct Answer: D.
+
+--------------------
+
+Question Number: AT00078
+Subject: ATPL(A) (EASA 2020) | 033 - Flight Planning Monitoring
+
+Refer to figure.
+An Aircraft is planned to fly from Blaubeuren aerodrome (EDMC) (N 48°25’,E009°48’) to Schwenningen at Neckaraerodrom (EDTS) (N 48°04’, E008°34’) following the most direct routing. The route can include any airspace at these two airports, but the remaining portions of the route shall remain clear of any airspaces classes D, E or F and any danger or restricted areas. Which of the following is the most suitable visual turning point for the route?
+
+Images:
+- images/AT00078_img_1.png
+
+Explanation:
+Refer to figure.
+Only using the mast SW of BALINGEN avoids controlled airspac and ED R 132 A/B.
+NOTE: We received feedback from students who encountered this question in the Polish authorities that the current answer and "Münsingen Eisberg gliding site" answer are incorrect. The current answer is the one we believe to be most correct, therefore we also consider the possibility that they may have encountered one of the different versions of this question. So please send us anything you can remember from the exam via the comments, the feedback section of the website, or by email to info@atplquestions.com, thank you!
+
+Explanation Images:
+- images/explanation_AT00078_img_1.png
+
+Options:
+A. B
+Albstadt Degerfeld (EDSA) airfield (N 48°15’, E009°04’)
+B. C
+Münsingen Eisberg gliding site (N 48°25’, E009°26’)
+C. D
+Hayingen gliding site (N 48°17’, E009°28’)
+D. A
+The mast south-west of Balingen (N 48°13’, E 008°49’) ✓ (CORRECT)
+
+Correct Answer: D.
+
+--------------------
+
+Question Number: AT00079
+Subject: ATPL(A) (EASA 2020) | 033 - Flight Planning Monitoring
+
+Refer to figure High_5_AT. Refer to Jeppesen GSPRM Training Route Manual - Chart "AT HI 5".
+Find the initial magnetic course from BENBECULA (N57°27.9' W007°23') to KEFLAVÍK (N63°59.1' W022°36.3')?
+
+Images:
+- images/AT00079_img_1.png
+
+Explanation:
+Refer to figure.
+1- Locate both locations (Benbecula and Keflavik).
+2- Connect them by drawing a line.
+3- Measure the initial true course angle.
+The true course is approximately 360 - 43 = 317˚.
+Look for the isogonal line (dashed line). The local Magnetic Variation equals 5°W. Therefore, the Magnetic North is 5°W of True North: Magnetic course = True course + 005° = 317° + 005° = 322°.
+
+Explanation Images:
+- images/explanation_AT00079_img_1.png
+
+Options:
+A. B
+302º
+B. C
+303º
+C. D
+317º
+D. A
+322º ✓ (CORRECT)
+
+Correct Answer: D.
+
+--------------------
+
+Question Number: AT00080
+Subject: ATPL(A) (EASA 2020) | 033 - Flight Planning Monitoring
+
+How much additional fuel should be carried based on the following critical points along your flight?
+ETP1: FOB: 8100 kg, CFS: 8260 kg
+ETP2: FOB: 6250 kg, CFS: 6360 kg
+
+Explanation:
+Additional fuel is essential for ensuring the safety of a flight in case of emergencies. It is calculated to allow an aircraft to reach an alternate airport from the most critical point along its route. In the event of an emergency, the aircraft should have enough fuel to fly to the alternate, hold at an altitude of 1500 feet AGL for 15 minutes, and then safely execute an approach and landing.
+To calculate this, you must find the difference between the block fuel and critical fuel scenario. If the fuel required for the trip is greater than the fuel required for the critical fuel scenario, there is no need to take additional fuel, however if it is not enough, the difference between must then be added as additional fuel.
+ETP stands for estimated time of passage, for example estimated time of passing over waypoint 1 e.g. ETP1.
+For this scenario, there are 2 critical points along the flight. At ETP1, you would have 8100 kg of fuel left to reach your destination but in case of an emergency you would need 8260 kg to reach your alternate airport, hold and land. In this case, the difference in fuel (8260 - 8100 = 160 kg) should be added as additional fuel.
+The same calculation should be done for ETP2: 6360 - 6250 = 110 kg.
+The higher of the two differences (160 kg from ETP1) should be used for the additional fuel, ensuring that the aircraft will have enough fuel to handle either emergency scenario and safely reach the alternate airport.
+
+Options:
+A. A
+110 kg
+B. B
+8260 kg
+C. C
+6360 kg
+D. D
+160 kg ✓ (CORRECT)
+
+Correct Answer: D.
+
+--------------------
+
+Question Number: AT00081
+Subject: ATPL(A) (EASA 2020) | 033 - Flight Planning Monitoring
+
+Refer to Jeppesen GSPRM Training Route Manual - Chart "E LO 2".
+On an IFR flight close to airfleld LELYSTAD (EHLE, N52°28' E005° 32') you need to determine the distance to the corresponding DME station. Which of the following is the correct frequency and identier?
+
+Images:
+- images/AT00081_img_1.png
+
+Explanation:
+Refer to figure.
+Locate Lelystad airfield in the bottom right corner of the ELO 2 chart.
+Read DME station 111.4mhz, identifier FRO.
+See annex for location of this data.
+
+Explanation Images:
+- images/explanation_AT00081_img_1.png
+
+Options:
+A. A
+Channel 51, FRO
+B. B
+326 kHz, LLS
+C. D
+123.67 MHz, AFIS
+D. C
+111.4 MHz, FRO ✓ (CORRECT)
+
+Correct Answer: D.
+
+--------------------
+
+Question Number: AT00082
+Subject: ATPL(A) (EASA 2020) | 033 - Flight Planning Monitoring
+
+Refer to figures.
+What does an entry of G mean in ITEM 10 EQUIPMENT of the ICAO Flight Plan form?
+
+Images:
+- images/AT00082_img_1.png
+- images/AT00082_img_2.png
+
+Explanation:
+ICAO Doc 4444
+Appendix 2
+ITEM 10: EQUIPMENT AND CAPABILITIES
+Radiocommunication, navigation and approach aid equipment and capabilities
+INSERT one letter as follows:
+N if no COM/NAV/approach aid equipment for the route to be flown is carried, or the equipment is unserviceable,
+OR S if standard COM/NAV/approach aid equipment for the route to be flown is carried and serviceable (see Note 1),
+AND/OR INSERT one or more of the following letters to indicate the serviceable COM/NAV/approach aid equipment and capabilities available:
+A - (Not allocated)
+M - Omega
+B - (Not allocated)
+O - VOR
+C - LORAN C
+P - (Not allocated)
+D - DME
+Q - (Not allocated)
+E - (Not allocated)
+R - RNP type certification (see Note 5)
+F - ADF
+T - TACAN
+G - GNSS. If any portion of the flight is planned to be conducted under IFR, it refers to GNSS receivers that comply with the requirements of Annex 10, Volume I (See Note 2)
+U - UHF RTF
+H - HF RTF
+V - VHF RTF
+I - Inertial Navigation
+W - RVSM approved
+J - Data Link (see Note 3)
+X - MPNS approved
+K - MLS
+Y - VHF (with 8.33 kHz channel spacing capability)
+L - ILS
+Z - Other equipment carried (see Note 2)
+
+Note 1.— If the letter S is used, standard equipment is considered to be VHF RTF, VOR and ILS, unless another combination is prescribed by the appropriate ATS authority.
+Note 2.— If the letter G is used, the types of external GNSS augmentation, if any, are specified in Item 18 following the indicator NAV/ and separated by a space.
+
+Options:
+A. B
+The aircraft is suitably equipped for any published GNSS procedure.
+B. C
+A GPS receiver that complies with the requirements of ICAO Annex 10 is fitted.
+C. D
+A GPS receiver that can be augmented by Galileo is fitted.
+D. A
+A GNSS receiver that complies with the requirements of ICAO Annex 10 is fitted. ✓ (CORRECT)
+
+Correct Answer: D.
+
+--------------------
+
+Question Number: AT00083
+Subject: ATPL(A) (EASA 2020) | 033 - Flight Planning Monitoring
+
+Refer to figure.
+(For this question use the VFR chart ED-4 from the Jeppesen GSPRM 2017). An aircraft is flying a direct course from Straubing aerodrome (EDMS) (N48°54', E012°31') to Sonnen aerodrome (EDPS) (N48°41', E013°42').
+What is the highest obstacle within 5 NM off the course?
+
+Images:
+- images/AT00083_img_1.png
+
+Explanation:
+Refer to figure.
+When planning a VFR route, among other considerations, you should also take into account the height of the obstacles within a band of 5 NM on each side of your planned route, so as to establish the highest terrain.
+First of all, find the position of the Straubing (EDMS) and Sonnen (EDPS) aerodromes, using the coordinates given and connect them by drawing a line with your pencil.
+Using your plotter and the appropriate scale on it (1:500 000), draw a band of 5 NM on each side off the route line and mark all the natural or man-made obstacles within the band.
+The highest obstacle within the 5 NM band off the course line, is the lighted obstacle with an elevation 3754 ft AMSL.
+
+Explanation Images:
+- images/explanation_AT00083_img_1.png
+
+Options:
+A. A
+1540 ft
+B. B
+3111 ft
+C. C
+7200 ft
+D. D
+3754 ft ✓ (CORRECT)
+
+Correct Answer: D.
+
+--------------------
+
+Question Number: AT00084
+Subject: ATPL(A) (EASA 2020) | 033 - Flight Planning Monitoring
+
+A crew finds that the actual headwind is stronger than the forecast wind, and so flies at 140 kt TAS instead of the planned 130 kt TAS to minimise the delay to arrival. Determine the increase in fuel use for the flight leg, given:
+Fuel flow at 130 kt TAS: 162 kg/h
+Fuel flow at 140 kt TAS: 188 kg/h
+Forecast headwind component: 10 kt
+Actual headwind component: 25 kt
+Leg distance: 166 NM
+
+Explanation:
+1) Determine the planned fuel consumed flying at 130 kt TAS:
+Planned TAS: 130 kt
+Forecast headwind: 10 kt
+Therefore, the planned ground speed = 120 kt
+Planned flight time (to cover 166 NM) = 166 NM / 120 kt = 1 h 23 min
+Fuel flow at 130 kt TAS = 162 kg/h
+Planned fuel consumed = 162 kg/h x 1 h 23 min = 224 kg
+2) Determine the actual fuel consumed flying at 140 kt TAS:
+Actual TAS: 140 kt
+Actual headwind: 25 kt
+Therefore, the actual ground speed = 115 kt
+Actual flight time (to cover 166 NM) = 166 NM / 115 kt = 1 h 26 min
+Fuel flow at 140 kt TAS = 188 kg/h
+Actual fuel consumed = 188 kg/h x 1 h 26 min = 271 kg
+3) Determine the fuel increase:
+271 kg - 224 kg = 47 kg
+
+Options:
+A. A
+15 kg
+B. B
+25 kg
+C. D
+11 kg
+D. C
+47 kg ✓ (CORRECT)
+
+Correct Answer: D.
+
+--------------------
+
+Question Number: AT00085
+Subject: ATPL(A) (EASA 2020) | 033 - Flight Planning Monitoring
+
+How much is the clearance passing the highest obstacle in the following scenario? An aircraft is flying at FL170 in mountainous terrain on the northern side of the alps and the charted minimum grid-area altitude is 16200 feet.
+The outside air temperature at FL170 is -29°C
+The QNH is 1000.25 hPa given by a meteorological station with elevation 13500 feet.
+Assume 1hPa = 30 feet
+
+Explanation:
+Refer to figure.
+In this question, we are given a pressure altitude (in the form of a flight level) and are asked for the terrain clearance, therefore we need to determine the corresponding true altitude.
+The first step is to compute the pressure correction by considering the deviation from the standard mean sea level pressure of 1013 hPa: 1013 hPa - 1000 hPa = 13 hPa. Since the barometric lapse rate near the surface is 30 ft/hPa, the pressure correction can be calculated as follows: Pressure correction = 13 hPa x 30 ft/hPa = ­­­390 ft. This value needs to be subtracted from the pressure altitude as per the rules below:
+Indicated altitude = 17 000 ft - 390 ft = 16 610 ft.
+To determine the temperature correction, it is necessary to have knowledge of the ISA air temperature for the given flight level/altitude (FL170). In the International Standard Atmosphere (ISA), the air temperature at sea level is 15ºC, and the temperature lapse rate is -2ºC/1 000 ft. The formula to calculate the ISA temperature is therefore: ISA temperature = 15ºC - (17 000/1 000) x 2, giving an ISA temperature of ­­­-19 ºC. The actual outside air temperature is ­­­-29 ºC, which means we have an ISA deviation of ISA -10ºC.
+Next, we need to determine the temperature correction. The ISA deviation is ISA -10ºC. The elevation of the aerodrome has to be taken into account: 16 610 ft - 13 500 ft = 3 110 ft. Based on the 4% rule and its calculation mentioned in the rules below, the height correction for the temperature can be calculated as follows: Height correction for temperature = 4 × (-10) × (3 110/1000) = 124 ft.
+The temperature correction is subtracted from the indicated altitude as per the rules below, to give a true altitude of 16 610 ft - 124 ft = ­­­­­16 486 ft.
+The charted minimum grid altitude 16 200 ft in a mountainous terrain means that, an aircraft flying within this grid clears the highest obstacle by 2 000 ft. Thus, the highest obstacle is at: 16 200 ft - 2 000 ft = 14 200 ft.
+Therefore, the aircraft clears the obstacle by: 16 486 ft - 14 200 ft = 2 286 ft.
+RULES. The following rules should be considered for altimetry calculations:
+All calculations are based on rounded pressure values to the nearest lower hPa.
+The value for the barometric lapse rate between MSL and 500 hPa to be used is 30 ft/hPa as an acceptable approximation of the barometric lapse rate.
+To determine the true altitude/height, the following rule of thumb, called the ‘4 %-rule’, shall be used: the altitude/height changes by 4% for each 10°C temperature deviation from ISA.
+For simplification: Height correction for the temp = 4 × (ISA DEV) × Indicated alt/1000 = ___ ft
+If no further information is given, the deviation of the outside-air temperature from ISA is considered to be the same throughout the whole layer.
+The elevation of the aerodrome has to be taken into account. The temperature correction has to be considered for the layer between the station (usually an aerodrome) and the position of the aircraft.
+IF
+THEN
+Higher pressure
+Indicated Altitude > Pressure Altitude
+Lower pressure
+Indicated Altitude < Pressure Altitude
+Warmer than ISA
+True Altitude > Indicated Altitude
+Colder than ISA
+True Altitude < Indicated Altitude
+Definitions
+Pressure Altitude: The altimeter indication with standard pressure (1013.2 hPa) set.
+Indicated Altitude: The altimeter indication with local QNH set.
+True altitude: The actual altitude of the aircraft above mean sea level.
+
+Explanation Images:
+- images/explanation_AT00085_img_1.png
+
+Options:
+A. A
+286 ft
+B. C
+2676 ft
+C. D
+2120 ft
+D. B
+2286 ft ✓ (CORRECT)
+
+Correct Answer: D.
+
+--------------------
+
+Question Number: AT00086
+Subject: ATPL(A) (EASA 2020) | 033 - Flight Planning Monitoring
+
+Refer to Stuttgart charts 10-3C, 10-3D, 10-3F and 10-3L from the Jeppesen GSPRM.
+Which SID procedures would be suitable for a flight of a jet aircraft from Stuttgart aerodrome (EDDS) N48°41'24 E009°13'19 to Saarbrucken aerodrome (EDDR) N49°12'52 E007°06'34?
+
+Images:
+- images/AT00086_img_1.png
+- images/AT00086_img_2.png
+- images/AT00086_img_3.png
+- images/AT00086_img_4.png
+
+Explanation:
+Refer to figure.
+Standard Instrument Departure (SID) is a designated route linking the aerodrome or a specified runway of the aerodrome with a specified significant point, normally on a designated ATS route, at which the en-route phase of a flight commences.
+Examine each SID chart carefully:
+The SID procedures ETASA FOUR BRAVO and ETASA TWO HOTEL are only for flights to EDDF, EDFC, EDFE and ETOU.
+The SID procedures SULZ THREE BRAVO and SULZ THREE HOTEL are only for flights to EDNY, EDTL, LSZH and LSZR.
+The SID procedures KARLSRUHE 5B and KARLSRUHE 2H are only for flights to EDDR, EDRZ, EDSB and ETAR.
+The SID procedures DINKELSBUHL NINE BRAVO and DINKELSBUHL FOUR HOTEL are only for flights to continue via airway N869 NEbound or with destinations EDDN, EDTY, EDQ*.
+Therefore, the only SID procedures, which are suitable for a flight of a jet aircraft from Stuttgart aerodrome (EDDS) to Saarbrucken aerodrome (EDDR), are: KARLSRUHE 5B and KARLSRUHE 2H.
+
+Explanation Images:
+- images/explanation_AT00086_img_1.png
+
+Options:
+A. B
+DINKELSBUHL NINE BRAVO or DINKELSBUHL FOUR HOTEL
+B. C
+KARLSRUHE 5B, DINKELSBUHL NINE BRAVO or ETASA FOUR BRAVO
+C. D
+ETASA FOUR BRAVO, ETASA TWO HOTEL, SULZ THREE BRAVO, or SULZ THREE HOTEL
+D. A
+KARLSRUHE 5B or KARLSRUHE 2H ✓ (CORRECT)
+
+Correct Answer: D.
+
+--------------------
+
+Question Number: AT00087
+Subject: ATPL(A) (EASA 2020) | 033 - Flight Planning Monitoring
+
+Refer to Chart "E LO 2" from Jeppesen GSPRM 2017.
+ATC instructs you to follow the routing from POLE HILL (POL, N53°45' W002°06') via airway P17 to IPSIR, OBOXA, GASKO and then to continue via P18 to the north. What is the true track from OBOXA to GASKO?
+
+Images:
+- images/AT00087_img_1.png
+
+Explanation:
+Refer to figure.
+1- Locate OBOXA and GASKO north from POLE HILL VOR.
+2- notice that the Magnetic track written on the arrow the opposite way from GASKO to OBOXA is 150˚.
+Tracks over the arrows are magnetic, however if you measure track on this map will be true track and you will need to apply variation to get the magnetic track.
+3- Magnetic Track form OBOXA to GASKO = 150 + 180 = 330˚ M
+4- True Track = 330 - 2 = 328˚T
+Subtract 2˚ as variation is west.
+
+Explanation Images:
+- images/explanation_AT00087_img_1.png
+
+Options:
+A. A
+150°
+B. B
+332°
+C. C
+225°
+D. D
+328° ✓ (CORRECT)
+
+Correct Answer: D.
+
+--------------------
+
+Question Number: AT00088
+Subject: ATPL(A) (EASA 2020) | 033 - Flight Planning Monitoring
+
+Refer to figures or to Stuttgart charts 10-3P and 10-3C from the Jeppesen GSPRM 2017.
+The pilot is advised by ATC to expect either DKB 9B RNAV SID (OVERLAY) or DKB 9B SID. Which of the following applies to DKB 9B RNAV SID (OVERLAY)?
+
+Images:
+- images/AT00088_img_1.png
+- images/AT00088_img_2.png
+
+Explanation:
+In this case, from looking at the charts in question, the departure can be done using conventional nav aids, but there is a RNAV overlay departure, where the intended departure is programmed to be flown by the aircraft's lateral navigation system instead of using the conventional nav aids.
+This mostly uses GPS, as that is the most reliable and accurate source of navigation that an aircraft usually has available, and this system makes the pilots jobs much easier than a conventional departure.
+As for the other options;
+The DKB 9B RNAV SID (OVERLAY) departure may only be flown as RNAV, as per the chart in use. It cannot be flown using conventional navaids only.
+It does not mention what RNAV certification is required on the plate, and might not be RNAV 1.
+The ADF is not required to be serviceable
+
+Options:
+A. A
+It may be flown only with reference to VOR and DME.
+B. B
+It requires both the pilots and the aircraft to have an RNAV 1 certification.
+C. C
+It requires the on-board ADF to be serviceable.
+D. D
+It utilises on-board GPS to fly the DKB 9B SID. ✓ (CORRECT)
+
+Correct Answer: D.
+
+--------------------
+
+Question Number: AT00089
+Subject: ATPL(A) (EASA 2020) | 033 - Flight Planning Monitoring
+
+An aeroplane with reciprocating engines is planning to depart for an isolated destination Aerodrome as a Commercial Air Transport operation. Calculate the minimum amount of fuel required (to the nearest 10 kg), when overhead the isolated aerodrome, considering the following details.
+Flight time: 2 hours and 30 minutes
+Top of climb to top of descent time: 2 hours
+Normal fuel consumption cruise: 780 kg per hour
+Alternate fuel: to fly for 45 minutes plus 15% of the flying time planned to be spent at cruising level
+
+Explanation:
+Isolated aerodrome is one for which the alternate and final fuel reserve required to the nearest adequate destination alternate aerodrome is more than:
+for aeroplanes with reciprocating engines, fuel to fly for 45 minutes plus 15% of the flying time planned to be spent at cruising level or two hours, whichever is less or
+for aeroplanes with turbine engines, fuel to fly for two hours at normal cruise consumption above the destination aerodrome, including final reserve fuel.
+1) Fuel to fly for 45 minutes plus 15% of the planned flight time at cruising level is:
+45 min at 780 kg/hr: 45/60 hr x 780 kg/hr = 585 kg
+15% of 2 hours cruise with 780 kg/hr: 15% x (2 hr x 780 kg/hr) = 234 kg
+Totally, 585 kg + 234 kg = 819 kg, rounded to nearest 10 kg, becomes 820 kg.
+2) And, fuel to fly for 2 hours is: 2 hr x 780 kg/hr = 1560 kg.
+Therefore, the minimum amount of fuel required when overhead the Isolated aerodrome is the lower between 1) and 2); 820 kg.
+
+Options:
+A. B
+540 kg
+B. C
+760 kg
+C. D
+1440 kg
+D. A
+820 kg ✓ (CORRECT)
+
+Correct Answer: D.
+
+--------------------
+
+Question Number: AT00090
+Subject: ATPL(A) (EASA 2020) | 033 - Flight Planning Monitoring
+
+Refer to figure.
+Determine the amount of the Final Reserve Fuel (FINRES) for this Commercial Air Transport jet aircraft.
+
+Images:
+- images/AT00090_img_1.png
+
+Explanation:
+Refer to figure.
+Take-off fuel (T/OFF FUEL) = Trip fuel + Contingency fuel (CONT) + Alternate (ALTN) + Final Reserve fuel (FINRES) + Extra fuel (EXTRA)
+Therefore:
+Final Reserve fuel (FINRES) = T/OFF FUEL - (TRIP + CONT + ALTN + EXTRA)
+In order to make the above calculation, we must determine the Contingency Fuel:
+Fuel flow at holding speed is not given, therefore we will assume contingency to be 5% of trip fuel
+Contingency Fuel = 5% x 15 320 kg = 766 kg
+We can now calculate the Final reserve fuel:
+Final Reserve fuel (FINRES) = 19 764 kg - (15 320 kg + 766 kg + 1 504 kg + 1 000 kg)
+Final Reserve fuel (FINRES) = 1 174 kg
+
+Explanation Images:
+- images/explanation_AT00090_img_1.png
+
+Options:
+A. A
+1611 kg
+B. B
+1714 kg
+C. C
+2417 kg
+D. D
+1174 kg ✓ (CORRECT)
+
+Correct Answer: D.
+
+--------------------
+
+Question Number: AT00091
+Subject: ATPL(A) (EASA 2020) | 033 - Flight Planning Monitoring
+
+Refer to AMSTERDAM - Chart 10-2B from Jeppesen GSPRM 2017.
+An aircraft is flying from MOLIX to the IAF. Assuming the ground speed is constant and the same as the maximum allowed airspeed at the IAF, how long will it take the aircraft to reach the clearance limit?
+
+Images:
+- images/AT00091_img_1.png
+
+Explanation:
+Refer to figure.
+At the top right of the plate, in the instructions box, you can find key information needed to solve this exercise:
+Clearance limit is SUGOL;
+Unless otherwise instructed, MAX 250 kt at IAF.
+The distance from MOLIX to SUGAL equals:
+MOLIX ⇒ LUTEX (17 NM)
++ LUTEX ⇒ ROBVI (13 NM)
++ ROBVI ⇒ SUGOL (7.5 NM)
+= 37.5 NM
+The ground speed is 250 kt. Therefore, the time taken to cover 37.5 NM is: (37.5 NM ÷ 250 kt) x 60 = 9 minutes.
+
+Explanation Images:
+- images/explanation_AT00091_img_1.png
+
+Options:
+A. B
+11 minutes
+B. C
+18 minutes
+C. D
+7 minutes
+D. A
+9 minutes ✓ (CORRECT)
+
+Correct Answer: D.
+
+--------------------
+
+Question Number: AT00092
+Subject: ATPL(A) (EASA 2020) | 033 - Flight Planning Monitoring
+
+Refer to figure.
+Given the following information and based on the actual time overhead B, what will be the Estimated Time of Overflight (ETO) and estimated remaining fuel at waypoint C? Fuel flow: 900 lb/h
+
+Images:
+- images/AT00092_img_1.png
+
+Explanation:
+Estimated flight time from Departure to "B" = 30 min (ATO 1140 - ETO 1210)
+Estimated fuel burn = 450 lb (2800 lb - 2350 lb)
+Actual flight time = 34 min (ATO 1140 - ATO 1214)
+Actual fuel burn = 510 lb (2800 lb - 2290 lb)
+Which gives a fuel consumption of 510 lb / 34 min = 900 lb/h
+Second leg "B - C" is twice as long (distance) as the first leg (departure - B):
+Flight time = 2 x 34 min = 68 min = 1h 08
+ETO = 12h 14 + 1h 08 = 13h 22
+Fuel burn = 1h 08 x 900 lb/h = 1020 lb
+Fuel remaining = 2290 lb - 1020 lb = 1270 lb
+
+Options:
+A. B
+ETO 13:10, and estimated remaining fuel 1450 lb.
+B. C
+ETO 13:22, and estimated remaining fuel 1450 lb.
+C. D
+ETO 13:10, and estimated remaining fuel 1270 lb.
+D. A
+ETO 13:22, and estimated remaining fuel 1270 lb. ✓ (CORRECT)
+
+Correct Answer: D.
+
+--------------------
+
+Question Number: AT00093
+Subject: ATPL(A) (EASA 2020) | 033 - Flight Planning Monitoring
+
+Refer to ALICANTE - charts 19-1, 19-2 and 19-3 from Jeppesen GSPRM 2017.
+An aircraft is flying VFR along the coastline, approaching Alicante Aerodrome (LEAL) from the southwest with plans to enter via the South Route and land at the airport. What is the latest point at which two-way radio contact with Alicante Tower must be established?
+
+Images:
+- images/AT00093_img_1.png
+- images/AT00093_img_2.png
+- images/AT00093_img_3.png
+
+Explanation:
+Refer to figure.
+Chart 19-3
+Arrivals
+VFR ACFT, before entering ATZ, shall establish radio contact with Alicante TWR at or before reaching VFR REPs NE, SE or SW and request clearane before entering.
+Note: Question states "flying near the coast", hence SW (and not SE).
+
+Explanation Images:
+- images/explanation_AT00093_img_1.png
+
+Options:
+A. A
+At reporting point SE.
+B. C
+When crossing the ATZ boundary.
+C. D
+Overhead ALT VOR.
+D. B
+At reporting point SW. ✓ (CORRECT)
+
+Correct Answer: D.
+
+--------------------
+
+Question Number: AT00094
+Subject: ATPL(A) (EASA 2020) | 033 - Flight Planning Monitoring
+
+A pilot of a Commercial Air Transport operations company is planning to conduct an IFR flight from Departure aerodrome A, where a VOR approach can be only conducted with visibility below the landing minima, to a Destination aerodrome B above the planning minima but in IMC. Which considerations must be taken into account by the pilot during the pre-flight planning procedure, so as to determine the minimum fuel required, regarding that the above forecast conditions at both aerodromes are expected to remain the same?
+
+Explanation:
+The weather at destination aerodrome is above the operating minima and is expected to remain the same.
+Operating Mimima means minima for the IFR approach available, i.e. CAT ILS.
+Planning Mimima for a destination aerodrome are effectively the applicable approach operating minima. The RVR or visibility should be the same as or greater than the minima for the actual approach for a non-precision approach.
+Planning minima for alternate aerodromes are not the same as the aerodrome operating minima. Generally, higher cloud bases and visibilities are required than the minima. Thus, an alternate aerodrome with a CAT II approach allowing an RVR of 300 m would not be suitable for use as an alternate, unless the weather conditions were CAT I, 550 m RVR or better (allowing a safety margin).
+During the pre-flight planning procedure, the pilot must consider:
+Weather at Destination above Operating minima at ETA ± 1 hour.
+Weather at Destination Alternate above Planning minima at ETA ± 1 hour.
+Weather at Take-off Alternate Operating minima at ETA ± 1 hour.
+And after Take-off:
+Weather at Destination must be above Operating minima at ETA.
+Weather at Destination Alternate must be above Planning minima at ETA.
+Also, for a twin-engine aircraft, a Take-off alternate within 60 minutes flying time of the Deparure aerodrome with One-Engine-Inoperative must be considered.
+Therefore, the destination aerodrome can be considered as the Take-off alternate, thus no Additional fuel is required.
+
+Options:
+A. A
+The pilot must select a destination alternate aerodrome that is within 1 hour's flight time from the destination aerodrome, and carry sufficient Alternate Fuel to reach that following an approach at the destination.
+B. B
+The pilot must select two destination alternate aerodromes and carry sufficient Alternate Fuel to reach both aerodromes following an approach at the destination.
+C. C
+NO destination alternate aerodrome is required as the weather at the destination aerodrome is forecast to remain above the planning minima, avoiding the need for Alternate Fuel.
+D. D
+The pilot must select a take-off alternate aerodrome, which could be the destination aerodrome if operational minima permit, avoiding the need for Additional Fuel. ✓ (CORRECT)
+
+Correct Answer: D.
+
+--------------------
+
+Question Number: AT00095
+Subject: ATPL(A) (EASA 2020) | 033 - Flight Planning Monitoring
+
+During a navigation flight, the pilot makes in-flight checks to monitor the progress of the flight. During the last leg, he/she notices that the planned timings overhead the chosen waypoints are NOT corresponding to the actual timings, and that the aircraft is getting behind the timings. Both the planned and actual airspeed are 160 kt. What is the main reason for the deviation from the planned timings?
+
+Explanation:
+If the planned and actual airspeed are both 160 kt, and the pilot notices that the planned timings overhead the chosen waypoints are not corresponding to the actual timings, and that the aircraft is getting behind the timings, the main reason for the deviation from the planned timings is likely to be a headwind or tailwind component.
+Wind is a major factor that affects the progress of a flight, and it can cause a deviation from the planned timings. A headwind component will slow down the aircraft and increase the flight time, while a tailwind component will speed up the aircraft and decrease the flight time.
+The pilot should check the current wind conditions and make the necessary adjustments to the flight plan, such as adjusting the planned ground speed, fuel consumption, and arrival time. If the wind conditions are significantly different from those forecasted, the pilot may also consider diverting to an alternate airport or requesting a new clearance from ATC.
+
+Options:
+A. A
+The actual fuel consumption is different to the planned consumption.
+B. B
+The increase in aerodynamic drag resulting in a slower groundspeed.
+C. D
+The actual groundspeed is faster than that calculated during the planning phase.
+D. C
+The actual wind (direction or speed) is different to the forecast wind. ✓ (CORRECT)
+
+Correct Answer: D.
+
+--------------------
+
+Question Number: AT00096
+Subject: ATPL(A) (EASA 2020) | 033 - Flight Planning Monitoring
+
+Which statement is correct regarding the altimeter temperature error correction during a final approach to an aerodrome?
+
+Explanation:
+The altimeter is calibrated to standard atmosphere conditions and most of the time the environment is close enough to standard for any temperature induced errors to be minimal.
+When the environment is warmer than standard, the aircraft will be higher than indicated, usually a safe error.
+When the environment is colder than standard, the aircraft will be lower than indicated and this potentially a dangerous error. Temperature errors need to be taken into account when landing in very cold conditions. A temperature correction to the DH/DA or MDA/MDH and step-down fixes inside the Final Approach Fix (FAF) must be added in this case.
+According to ICAO-Doc 8168-Vol.1-Flight Procedures-Part 1-Section 4-Ch. 1:
+The flight crew is responsible for any necessary Temperature Error Correction to all all published minimum altitudes/heights including the altitudes/heights for the initial and intermediate segments; the DA/DH and subsequent missed approach altitudes/heights except for APV/BARO-VNAV approach procedures.
+NOTE: The pilot is not responsible for temperature error corrections, when being radar vectored by ATC or when issued a direct routing. But this does not relieve the pilot of the responsibilty that any clearances issued by ATC are safe.
+
+Options:
+A. A
+Temperature error correction should be applied when the aerodrome temperature is much lower than ISA and subtracted from the DH/DA or MDH/MDA and step-down fixes inside the FAF.
+B. B
+Temperature error correction should be applied when the aerodrome temperature is ISA and below and subtracted only from the DH/DA or MDH/MDA.
+C. D
+Temperature error correction should be applied when the aerodrome temperature is ISA and below and added only to the DH/DA and MDH/MDA.
+D. C
+Temperature error correction should be applied when the aerodrome temperature is much lower than ISA and added to the DH/DA or MDH/MDA and step-down fixes inside the FAF. ✓ (CORRECT)
+
+Correct Answer: D.
+
+--------------------
+
+Question Number: AT00097
+Subject: ATPL(A) (EASA 2020) | 033 - Flight Planning Monitoring
+
+An aircraft is routing in IMC towards Aberdeen aerodrome from the south-east, where the Minimum Sector Altitude (MSA) is 2500 feet. While routing towards the ATF NDB at 3000 feet on the Aberdeen QNH, the following instruction is received by the pilot from the Approach Radar controller:
+‘’Turn left, heading 285 degrees, descend 2300 feet. Radar vectors for the ILS Runway 34’’.
+The pilot should…
+
+Explanation:
+Radar vectoring means giving the pilot specific headings to maintain the desired track. When "under vectors" or "under radar control", it means that a radar control service is being provided, i.e. the PIC must do what he is told by the radar unit and the ATC assumes responsibility for separation and terrain clearance in flight, providing bearing, distance and height information on known conflicting traffic. Some services will also provide advisory avoiding action.
+Thus, the PIC when "under vectors", should follow the ATC's instructions.
+In a radar environment, heading information given by the pilot and heading instructions given by the controllers are in degrees magnetic.
+Minimum Radar Vectoring Altitude (MRVA), also known as Minimum Vectoring Altitude (MVA), is the lowest alltitude, expressed in feet AMSL, to which a radar controller may issue aircraft altitude clearances during vectoring. MRVA allows the ATC to vector and descent an aircraft below MSA to achieve VFR or to join a procedure.
+Therefore, the pilot should turn left to head 285°(M) and descend to 2300 feet. The minimum radar vectoring altitude may be below MSA.
+
+Options:
+A. A
+Maintain heading and altitude, and request new descent instructions, because 2300 feet is below MSA.
+B. C
+Turn left to head 285°(M) but maintain 3000 feet and request new descent instructions, because 2300 feet is below MSA.
+C. D
+Turn left to head 285°(T) and descend to 2500 feet altitude, because this is the MSA. Inform the controller about the change.
+D. B
+Turn left to head 285°(M) and descend to 2300 feet. The minimum radar vectoring altitude may be below MSA. ✓ (CORRECT)
+
+Correct Answer: D.
+
+--------------------
+
+Question Number: AT00098
+Subject: ATPL(A) (EASA 2020) | 033 - Flight Planning Monitoring
+
+Refer to figure.
+(For this question use chart E(LO)1 from the Jeppesen GSPRM 2017).
+For an IFR flight from KIRKWALL VOR(KWL)(N58°57', W002°54') to ABERDEEN VOR(ADN) (N57°18',W002°16'), via WICK VOR(WIK) (N58°27', W003°06'), following airways N560 and Y904, the magnetic track directions are respectively…
+
+Images:
+- images/AT00098_img_1.png
+
+Explanation:
+Refer to figure.
+On the leg from KWL to WIK, the opposite direction track is 015⁰(M) and, over such a short leg, the direction is not expected to change, so add 180⁰ and the reciprocal track 195⁰ (M) can be used.
+From WIK to AND, the track is directly written as 161⁰ (M). All airways are magnetic tracks, unless expressly stated.
+
+Explanation Images:
+- images/explanation_AT00098_img_1.png
+
+Options:
+A. B
+195° and 341°
+B. C
+015° and 161°
+C. D
+015° and 341°
+D. A
+195° and 161° ✓ (CORRECT)
+
+Correct Answer: D.
+
+--------------------
+
+Question Number: AT00099
+Subject: ATPL(A) (EASA 2020) | 033 - Flight Planning Monitoring
+
+Refer to figure.
+In an ATS flight plan item 15 (route), in terms of latitude and longitude, a significant point at 41°35'N 4°15'E should be entered as:
+
+Images:
+- images/AT00099_img_1.png
+
+Explanation:
+ICAO Doc 4444
+Appendix 2
+ITEM 15: ROUTE
+(2) Significant point (2 to 11 characters)
+The coded designator (2 to 5 characters) assigned to the point (e.g. LN, MAY, HADDY),
+or, if no coded designator has been assigned, one of the following ways:
+(...)
+— Degrees and minutes (11 characters):
+4 figures describing latitude in degrees and tens and units of minutes followed by “N” (North) or “S” (South), followed by 5 figures describing longitude in degrees and tens and units of minutes, followed by “E” (East) or “W” (West). Make up the correct number of figures, where necessary, by insertion of zeros, e.g. 4620N07805W.
+
+Options:
+A. A
+N04135E0415
+B. B
+N4135 E00415
+C. D
+41°35' N 04° 15'E
+D. C
+4135N00415E ✓ (CORRECT)
+
+Correct Answer: D.
+
+--------------------
+
+Question Number: AT00100
+Subject: ATPL(A) (EASA 2020) | 033 - Flight Planning Monitoring
+
+What will be the effect of an incorrect cruise level entry into the FMC?
+
+Explanation:
+Although the use of GNSS/FMC equipment has resulted in IFR navigation being much more accurate and less time consuming for the pilots, the systems can still suffer from errors and inaccuracies due to limitations such as the information and calculations provided by these systems are dependent upon the accurate input of data from the pilots and/or navigation database. Therefore, it is vital to ensure that the information input into the system is correct, especially when rerouting.
+The Flight Management Computer (FMC) restricts the input of a cruising altitude that is not achievable based on the aircraft's weight and the prevailing temperature conditions. However, while in cruise, the FMC continuously recalculates the aircraft's performance data based on the air data and weight to determine if a climb to a higher altitude is feasible.
+Entering an incorrect cruise level into the FMC can have significant consequences. The FMC uses the entered cruise level to calculate various parameters, including speeds, times, and fuel flows. If the cruise level is incorrect, these calculations will be based on inaccurate information. This can lead to incorrect flight performance predictions and affect the efficiency and accuracy of the aircraft's operation.
+
+Options:
+A. A
+The incorrect entry will be detected and the input will be prevented.
+B. B
+The aircraft will NOT be able to reach the ATC assigned cruise level.
+C. C
+There will be NO effect as the FMC will make an automatic correction.
+D. D
+The FMC will calculate incorrect speeds, times and fuel flows. ✓ (CORRECT)
+
+Correct Answer: D.
+
+--------------------
+
+Question Number: AT00101
+Subject: ATPL(A) (EASA 2020) | 033 - Flight Planning Monitoring
+
+What is the vertical distance flown for a climb from a departure aerodrome with elevation 3 500 ft and QNH 1030 hPa until a cruise altitude at FL250?
+(Assume 30 ft per 1 hPa)
+
+Explanation:
+Refer to figure.
+In this question, we are given a pressure altitude (in the form of a flight level) and are asked for the terrain clearance, therefore we need to determine the corresponding true altitude.
+The first step is to compute the pressure correction by considering the deviation from the standard mean sea level pressure of 1013 hPa: 1030 hPa - 1013 hPa = 17 hPa. The question provides a barometric lapse rate near the surface of 30 ft/hPa, the pressure correction can be calculated as follows: Pressure correction = 17 hPa x 30 ft/hPa = ­­­510 ft. This value needs to be added to the pressure altitude as per the rules below:
+Indicated altitude = 25 000 ft + 510 ft = 25 510 ft.
+Next, we need to determine the temperature correction. In this case, the temperature is not provided, therefore we will assume ISA conditions.
+Thus, the height of the aircraft above airfield datum will be: True Altitude - Airfield datum elevation = 25 510 - 3 500 ft = 22 010 ft.
+RULES. The following rules should be considered for altimetry calculations:
+All calculations are based on rounded pressure values to the nearest lower hPa.
+The value for the barometric lapse rate between MSL and 500 hPa to be used is 30 ft/hPa as an acceptable approximation of the barometric lapse rate.
+To determine the true altitude/height, the following rule of thumb, called the ‘4 %-rule’, shall be used: the altitude/height changes by 4% for each 10°C temperature deviation from ISA.
+For simplification: Height correction for the temp = 4 × (ISA DEV) × Indicated alt/1000 = ___ ft
+If no further information is given, the deviation of the outside-air temperature from ISA is considered to be the same throughout the whole layer.
+The elevation of the aerodrome has to be taken into account. The temperature correction has to be considered for the layer between the station (usually an aerodrome) and the position of the aircraft.
+IF
+THEN
+Higher pressure
+Indicated Altitude > Pressure Altitude
+Lower pressure
+Indicated Altitude < Pressure Altitude
+Warmer than ISA
+True Altitude > Indicated Altitude
+Colder than ISA
+True Altitude < Indicated Altitude
+Definitions
+Pressure Altitude: The altimeter indication with standard pressure (1013.2 hPa) set.
+Indicated Altitude: The altimeter indication with local QNH set.
+True altitude: The actual altitude of the aircraft above mean sea level.
+
+Explanation Images:
+- images/explanation_AT00101_img_1.png
+
+Options:
+A. A
+29 000 ft
+B. C
+24 500 ft
+C. D
+25 500 ft
+D. B
+22 000 ft ✓ (CORRECT)
+
+Correct Answer: D.
+
+--------------------
+
+Question Number: AT00102
+Subject: ATPL(A) (EASA 2020) | 033 - Flight Planning Monitoring
+
+Refer to E(LO)2 chart from Jeppesen GSPRM 2017.
+You are flying a Commercial Air Transport operation close to LELYSTAD aerodrome (EHLE, N52°28' E005°32'). To get your distance from the aerodrome, you want to tune in to the radio navigation aid at the aerodrome. What value do you to tune into and what is the identifier of this aid?
+
+Images:
+- images/AT00102_img_1.png
+
+Explanation:
+Refer to figure.
+Lelystad Aerodrome (EHLE) has a DME with a frequency of 111.4 MHZ and Identifier FRO. This would provide the pilot with a slant range to the beacon located on the aerodrome. The information of being a Commercial Air Transport operation is irrelevant as this is applicable regardless of aircraft type.
+
+Explanation Images:
+- images/explanation_AT00102_img_1.png
+
+Options:
+A. A
+The channel is 51, and the identifier is FRO
+B. B
+The frequency is 123.67 MHz, and the identifier is AFIS
+C. D
+The frequency is 326 kHz, and the identifier is LLS
+D. C
+The frequency is 111.4 MHz, and the identifier is FRO. ✓ (CORRECT)
+
+Correct Answer: D.
+
+--------------------
+
+Question Number: AT00103
+Subject: ATPL(A) (EASA 2020) | 033 - Flight Planning Monitoring
+
+Refer to figure or to Amsterdam chart 10-3C from the Jeppesen GSPRM 2017.
+An aircraft is cleared for the ANDIK2F SID to an altitude of 6000 ft and is then is reauthorized to climb to FL330. You are climbing with an average TAS of 381 kts and a 20 kt tailwind. The climb is 103 NAM (Nautical Air Miles). What is the total distance covered after waypoint ANDIK until top-of-climb?
+
+Images:
+- images/AT00103_img_1.png
+
+Explanation:
+Refer to figure.
+The distance from take-off until ANDIK is 2.4 + 1 + 9 + 20 = 32.4 NGM. (There is no indication for the distance from take-off until EH019)
+We must first calculate how much distance we will cover to reach FL330:
+NAM = NGM x (TAS/GS)
+NGM = NAM x (GS/TAS)
+NGM = 103 x (401/381)
+NGM = 108.4 NGM
+We can now calculate how far after ANDIK the aircraft will reach FL330:
+108.4 NGM - 32.4 NGM = 76 NGM
+The aircraft will reach FL330 76 NGM after ANDIK.
+Note: This question is based on incomplete feedback. If you encounter this question in your exam, please send us your feedback. Thank you!
+
+Explanation Images:
+- images/explanation_AT00103_img_1.png
+
+Options:
+A. A
+100 NGM
+B. B
+70 NAM
+C. C
+90 NGM
+D. D
+76 NGM ✓ (CORRECT)
+
+Correct Answer: D.
+
+--------------------
+
+Question Number: AT00104
+Subject: ATPL(A) (EASA 2020) | 033 - Flight Planning Monitoring
+
+Given the following data for the pre-flight calculations, determine the Contingency Fuel for a Commercial Air Transport flight with a Performance Class A aeroplane. Assume the Basic Fuel Scheme WITHOUT variations applies.
+Trip Fuel: 2300 lb
+Alternate Fuel: 950 lb
+Taxi Fuel: 180 lb
+Reserve Fuel: 480 lb
+En-route alternate: NOT applicable
+Fuel to fly 5 minutes at 1500 ft above destination: 80 lb
+Extra Fuel: 0 lb
+Discretionary Fuel: 0 lb
+
+Explanation:
+Please Note: This conforms to the Basic Fuel scheme WITHOUT variations under the new fuel/energy regulations. The primary difference if variations are included is the ability to use lesser amounts of contingency fuel, such as 3% if a suitable ERA is provided.
+Regulation (EU) No 965/2012
+AMC1 CAT.OP.MPA.181 Fuel/energy scheme - fuel/energy planning and in-flight re-planning policy — aeroplane
+BASIC FUEL SCHEME — PRE-FLIGHT CALCULATION OF USABLE FUEL FOR PERFORMANCE CLASS A AEROPLANES
+For the pre-flight calculation of the usable fuel in accordance with point CAT.OP.MPA.181, the operator should:
+(c) for contingency fuel, calculate for unforeseen factors either:
+(1) 5 % of the planned trip fuel or, in the event of in-flight re-planning, 5 % of the trip fuel for the remainder of the flight; or
+(2) an amount to fly for 5 minutes at holding speed at 1 500 ft (450 m) above the destination aerodrome in standard conditions,
+whichever is the higher;
+(c) Contingency Fuel the higher of:
+(A) 5 % of the planned trip fuel (...);
+OR
+(ii) or an amount to fly for 5 minutes at holding speed at 1 500 ft (450 m), (A) 5% x 2300 lb = 115 lb.
+
+
+(ii) 80 lbs
+
+Options:
+A. A
+80 lb
+B. B
+69 lb
+C. C
+230 lb
+D. D
+115 lb ✓ (CORRECT)
+
+Correct Answer: D.
+
+--------------------
+
+Question Number: AT00105
+Subject: ATPL(A) (EASA 2020) | 033 - Flight Planning Monitoring
+
+For the purposes of Item 9 (Wake turbulence category) of the ATC flight plan, an aircraft with a maximum certificated take-off mass of 62000 kg is:
+
+Explanation:
+ICAO Doc 4444
+Air Traffic Management (PANS-ATM)
+4.9.1 Wake turbulence categories of aircraft
+4.9.1.1 Wake turbulence separation minima shall be based on a grouping of aircraft types into three categories according to the maximum certificated take-off mass as follows:
+a) HEAVY (H) — all aircraft types of 136 000 kg or more;
+b) MEDIUM (M) — aircraft types less than 136 000 kg but more than 7 000 kg; and
+c) LIGHT (L) — aircraft types of 7 000 kg or less.
+
+Options:
+A. A
+heavy ”H”
+B. B
+unclassified “U”
+C. C
+light “L”
+D. D
+medium “M” ✓ (CORRECT)
+
+Correct Answer: D.
+
+--------------------
+
+Question Number: AT00106
+Subject: ATPL(A) (EASA 2020) | 033 - Flight Planning Monitoring
+
+A Commercial Air Transport flight of 3 hours total flight time is planned to an aerodrome where no alternate is required. 1.5 hours after take-off, the pilot is informed that there will be a delay due to traffic on arriving at destination, thus he/she has to use 8 minutes out of the 15 minutes additional fuel. What action should be done in this case?
+
+Explanation:
+Additional fuel is an amount of fuel which is only applicable to some operations and it can cater for the “what ifs” at the most critical point.
+1. According to EASA AIR OPS - CAT.OP.MPA.280 In-flight fuel management – aeroplanes:
+The operator shall establish a procedure to ensure that in-flight fuel checks and fuel management are carried out according to the following criteria.
+(b) In-flight fuel management
+(1) The flight shall be conducted so that the expected usable fuel remaining on arrival at the destination aerodrome is not less than:
+(i) the required alternate fuel plus final reserve fuel; or
+(ii) the final reserve fuel if no alternate aerodrome is required.
+(2) If an in-flight fuel check shows that the expected usable fuel remaining on arrival at the destination aerodrome is less than:
+(ii) the final reserve fuel if no alternate aerodrome is required, the commander shall take appropriate action and proceed to an adequate aerodrome so as to perform a safe landing with not less than final reserve fuel.
+2. According to AMC1-CAT.OP.MPA.150(b)-Fuel Policy Planning Criteria-Aeroplanes:
+(6) The minimum additional fuel, which should permit:
+(ii) holding for 15 minutes at 1 500 ft (450 m) above destination aerodrome elevation in standard conditions, when a flight is operated without a destination alternate aerodrome.
+Since it is expected that only 8 out of the 15 minutes will be burnt on arriving at destination due to traffic, that means that the aircraft is expected to land with the final reserve fuel in tanks.
+Thus, the best action is to proceed to the destination given that the aircraft can land with final reserve fuel intact.
+
+Options:
+A. A
+Check the weather and if within minima proceed to the destination.
+B. B
+Proceed to an in-flight re-planning at a destination alternate.
+C. C
+Declare an emergency when arriving at destination and ask for a priority clearance.
+D. D
+Proceed to the destination given that the aircraft can land with final reserve fuel intact. ✓ (CORRECT)
+
+Correct Answer: D.
+
+--------------------
+
+Question Number: AT00107
+Subject: ATPL(A) (EASA 2020) | 033 - Flight Planning Monitoring
+
+A crew is planning a flight from an airfield with NO ICAO designator and NO IFR procedures. Due to the weather and preferred routing, they intend to join airway L975 at point MALUD soon after departure. The route section of item 15 on the ATS Flight Plan should begin with...
+
+Explanation:
+Refer to figures.
+ICAO Doc 4444
+Appendix 2 FLIGHT PLAN
+ITEM 15: ROUTE
+(c) Route (including changes of speed, level and/or flight rules)
+Flights along designated ATS routes
+INSERT, if the departure aerodrome is located on or connected to the ATS route, the designator of the first ATS route,
+OR, if the departure aerodrome is not on or connected to the ATS route, the letters DCT followed by the point of joining the first ATS route, followed by the designator of the ATS route.
+THEN
+INSERT each point at which either a change of speed and/or level is planned to commence, or a change of ATS route, and/or a change of flight rules is planned,
+
+Explanation Images:
+- images/explanation_AT00107_img_1.png
+- images/explanation_AT00107_img_2.png
+- images/explanation_AT00107_img_3.png
+
+Options:
+A. B
+MALUD L975...
+B. C
+ZZZZ MALUD L975...
+C. D
+DCT L975 VIA MALUD
+D. A
+DCT MALUD L975... ✓ (CORRECT)
+
+Correct Answer: D.
+
+--------------------
+
+Question Number: AT00108
+Subject: ATPL(A) (EASA 2020) | 033 - Flight Planning Monitoring
+
+Refer to figure or chart E(HI)2 from the Jeppesen GSPRM 2017.
+You have been requested to perform a flight overflying the Rennes VOR (REN) (N48°04' W001°45') and the ORIST waypoint (N50°00' W001°51'). Which airway would you file in your flight plan?
+
+Images:
+- images/AT00108_img_1.png
+
+Explanation:
+Refer to figure.
+After Rennes VOR (REN) three airways follow: UP87, UY110 and UN862. Examine the waypoints that each one airway intersects and decide which one crosses ORIST RNAV waypoint.
+The airway UP87 after REVTU RNAV waypoint diverts to BOLRO RNAV waypoint.
+The airway UN862 after UPALO waypoint diverts to SKESO waypoint.
+The airway UY110 after REVTU RNAV waypoint diverts to ORIST RNAV waypoint.
+Therefore, to perform a flight overflying the Rennes VOR (REN) and the ORIST waypoint, the only airway filed in your flight plan must be the UY110.
+
+Explanation Images:
+- images/explanation_AT00108_img_1.png
+
+Options:
+A. A
+UP87
+B. B
+UT 507
+C. C
+UN862
+D. D
+UY110 ✓ (CORRECT)
+
+Correct Answer: D.
+
+--------------------
+
+Question Number: AT00109
+Subject: ATPL(A) (EASA 2020) | 033 - Flight Planning Monitoring
+
+Refer to figure.
+The annex depicts a pilot's flight log from LPFR to LEMG extracted by a flight planning software. When approaching VJF, the pilots feels abnormal airframe vibrations and reduces speed from VJF. Their IAS and TAS both decrease by 30 kt. What will be the new leg times of Tarifa to Estepona and Estepona to Benalmaneda?
+
+Images:
+- images/AT00109_img_1.png
+
+Explanation:
+Refer to figure.
+Keeping this as simple as possible, if the TAS decreases by 30 kt then the GS will decrease by 30 kt also, which gives us an expected GS of 87 kt to Estepona, 85 kt to TOD then 88 kt to Benalmadena. There are more precise methods to do this, but given the spread of the options, this is absolutely the fastest way to get the correct answer
+To Estepona
+With a GS of 87 kt, the 32.6 nm leg to Estepona will now take (32.6/87) x 60 = 22.5 minutes.
+To TOD
+With a GS of 85 kt, the 30.9 nm leg to TOD will now take (30.9/85) x 60 = 21.8 minutes.
+To Benalmadena
+With a GS of 88 kt the 0.9 nm leg to Benalmadena will now take (0.9/88) x 60 = 0.6 minutes.
+Tarifa to Estepona 22.5 min.
+Estepona To Benalmadena 21.8 + 0.6 = 22.4 min.
+The closest answer here is 23 min and 23 min.
+
+Explanation Images:
+- images/explanation_AT00109_img_1.png
+
+Options:
+A. B
+13 minutes to Estepona then 19 minutes to Benalmadena.
+B. C
+19 minutes to Estepona then 20 minutes to Benalmadena.
+C. D
+20 minutes to Estepona then 20 minutes to Benalmadena.
+D. A
+23 minutes to Estepona then 23 minutes to Benalmadena. ✓ (CORRECT)
+
+Correct Answer: D.
+
+--------------------
+
+Question Number: AT00110
+Subject: ATPL(A) (EASA 2020) | 033 - Flight Planning Monitoring
+
+Which of the following circumstances would be considered suitable for fuel tankering?
+1. The estimated landing mass is equal to the maximum landing mass.
+2. The weather at the destination is below landing minima.
+3. Unable to climb to the Minimum Obstacle Clearance Altitude (MOCA) should an engine fail.
+4. There is no fuel available at the destination aerodrome.
+
+Explanation:
+Aviation is a very competitive market and each airline needs to minimise operating costs, in order to keep its ticket prices as competitive as possible. Fuel tankering is a practice whereby an aircraft carries more fuel than required for its next flight (trip fuel + reserve) in order to reduce or avoid refuelling at the destination airport. However, the additional fuel carried when doing fuel tankering increases the aircraft's weight and therefore increases its fuel consumption, resulting in additional CO2 emissions.
+Fuel tankering provides financial savings mainly due to fuel price differences at airports. It is done in 90% of cases for fuel price reasons, and only in 10% of cases for social disruption, technical failures at the refuelling facility, fuel shortages, risks of delays, or contaminated fuel at destination airports. For fuel tankering to be economical the fuel price at the destination must be greater than the break even fuel price.
+You may tanker fuel in case of/if: You will not tanker fuel if:
+Adverse destination weather The cost of fuel is higher at the Departure than destination aerodrome
+Fuel shortages at destination
+Low performance – not sufficient to clear MOCA with one engine inop
+The cost of fuel at destination is higher than at the departure aerodrome Estimated landing mass at destination equals maximum landing mass
+
+Options:
+A. A
+1 and 2
+B. C
+2 and 3
+C. D
+1 and 4
+D. B
+2 and 4 ✓ (CORRECT)
+
+Correct Answer: D.
+
+--------------------
+
+Question Number: AT00111
+Subject: ATPL(A) (EASA 2020) | 033 - Flight Planning Monitoring
+
+Refer to figure.
+The figure depicts a fuel plan as created by a flight planning tool for a return flight LFPG-EIDW-LFPG. During the pre-flight preparations, the Operations Department calls the pilot and advises him/her to refuel at LFPG, due to some fuel-supply issues at EIDW. In order to reduce the environmental impact, the pilot will consider the least possible fuel tankering. What is the MINIMUM amount of fuel tankering to ensure the target fuel for EIDW-LFPG remains on board after landing at EIDW?
+
+Images:
+- images/AT00111_img_1.png
+
+Explanation:
+Refer to figure.
+The Minimum Block Fuel that is required at EIDW to return to LFPG is: 7 100 kg.
+We will assume that trip, contingency* and taxi fuel will be burnt: 230 kg + 2 933 kg + 157 kg = 3 320 kg.
+* We should assume contingency is burnt, because if we do use it, we will below minimum block fuel for the return.
+For the flight LFPG-EIDW, the crew have loaded a total of 5 226 kg. This means they will land at EIDW with 1 906 kg onboard (after burning taxi, contingency and trip fuel).
+For the flight back (EIDW - LFPG), the crew needs a minimum block fuel of 7 100 kg. Therefore, at LFPG, they should load 7 100 kg - 1 906 kg = 5 194 kg extra.
+However, carrying more fuel, adds weight to the aircraft and increases the fuel consumption. So, the fuel penalty from LFPG to EIDW must be applied. For every weight change per 1 000 kg, add 60 Kg to the Total fuel: 5 194 kg / 1 000 x 60 kg = 312 kg.
+Therefore, the Minimum fuel amount that must be tankered, after applying the Fuel Penalty at LFPG must be: 5 194 kg + 312 kg = 5 506 kg.
+
+Explanation Images:
+- images/explanation_AT00111_img_1.png
+
+Options:
+A. A
+4432 kg
+B. B
+7526 kg
+C. C
+3495 kg
+D. D
+5506 kg ✓ (CORRECT)
+
+Correct Answer: D.
+
+--------------------
+
+Question Number: AT00112
+Subject: ATPL(A) (EASA 2020) | 033 - Flight Planning Monitoring
+
+A flight from aerodrome A to aerodrome B is planned using the Reduced Contingency Fuel Procedure. The decision point along the route is DP and aerodrome C is the optional refuelling destination. Given the following data calculate the minimum fuel required for the flight from A to B.
+Taxi Fuel: 250 kg
+Alternate Fuel: 2000 kg
+Final Reserve Fuel: 1500
+Trip Fuel A to B via DP: 13000 kg
+Trip Fuel A to C via DP: 11000 kg
+Trip Fuel DP to B: 5000 kg
+
+Explanation:
+Refer to figure.
+When an operator's fuel policy includes pre-flight using Reduced Contingency Fuel (RCF) procedure to a Destination 1 aerodrome (commercial destination), a Decision Point (DP) will be defined enroute along with a Destination 2 aerodrome (optional refuelling destination), the amount of usable fuel, on board for departure, shall be the greater of (1) or (2) below:
+(1) The sum of:
+Taxi fuel: 250 kg
+Trip fuel to the destination B aerodrome, via the decision point: 13000 kg
+Contingency fuel equal to not less than 5 % of the estimated fuel consumption from the decision point to the destination 1 aerodrome: 5% x 5000 kg = 250 kg
+Alternate fuel: 2000 kg
+Final reserve fuel: 1500 kg
+Additional fuel: 0
+Extra fuel: 0
+RCF1: 17 000 kg
+(2) The sum of:
+Taxi fuel: 250 kg
+Trip fuel to the destination C aerodrome, via the decision point: 11000 kg
+Contingency fuel equal to not less than the amount that is calculated in accordance with point (c)* of this AMC, from the departure aerodrome to the destination 2 aerodrome; 11000 kg x 5% = 550 kg
+or
+an amount to fly for 5 minutes at holding speed at 1 500 ft (450 m), above the destination aerodrome in standard conditions: In this case, the question does not provide fuel flow, so we are unable to calculate this.
+Alternate fuel: 2000 kg
+Final reserve fuel: 1500 kg,
+Additional fuel: 0
+Extra fuel: 0
+RCF2: 15 300kg
+The greater sum between RCF1 and RCF2 is RCF1: 17 000 kg.
+Note: 95 % of the time RCF 1 (A to B) will require the largest total fuel. However, always calculate RCF 2, because there are questions where that is the largest.
+
+Explanation Images:
+- images/explanation_AT00112_img_1.png
+
+Options:
+A. B
+15300 kg
+B. C
+16700 kg
+C. D
+17400 kg
+D. A
+17000 kg ✓ (CORRECT)
+
+Correct Answer: D.
+
+--------------------
+
+Question Number: AT00113
+Subject: ATPL(A) (EASA 2020) | 033 - Flight Planning Monitoring
+
+Refer to figure or to Stuttgart (EDDS) chart 12-2 RNP Rwy 25 from the Jeppesen GSPRM 2017.
+The LNAV/VNAV decision altitude for the RNP approach to runway 25 for aircraft approach categories A, B or C is:
+
+Images:
+- images/AT00113_img_1.png
+
+Explanation:
+Refer to figure.
+The decision altitude for the RNP approach to runway 25, using LNAV/VNAV, can be found at the bottom of the plate. Look for the LNAV/VNAV Decision Altitude (DA), which is specified as 1590 feet (with a Decision Height, DH, of 409 feet).
+
+Explanation Images:
+- images/explanation_AT00113_img_1.png
+
+Options:
+A. A
+1590 m
+B. C
+409 ft
+C. D
+1 620 ft
+D. B
+1 590 ft ✓ (CORRECT)
+
+Correct Answer: D.
+
+--------------------
+
+Question Number: AT00114
+Subject: ATPL(A) (EASA 2020) | 033 - Flight Planning Monitoring
+
+Refer to figure.
+The flight crew of a turbojet aeroplane prepares a flight using the following data.
+Flight leg distance: 4 000 NM
+Flight level FL 310
+True airspeed: 450 kt
+Headwind component at this level: 50 kt
+Initially planned take-off mass (without extra fuel on board): 170 000 kg
+Fuel price: 0.27 Euro/l at departure 0.30 Euro/l at destination
+To maximize savings, the commander chooses to carry extra fuel in addition to that which is necessary. Using the appended annex, the optimum quantity of fuel which should be carried in addition to the prescribed quantity is:
+
+Images:
+- images/AT00114_img_1.png
+- images/AT00114_img_2.png
+
+Explanation:
+Refer to figure.
+To enter the table we first need to know fuel/price ratio and distance in NAM:
+Calculate the fuel/price ratio. Use the formula: fuel/price ratio = Fuel price at departure/Fuel price at destination
+Fuel/price ratio = 0.27 ÷ 0.30 = 0.9
+Convert NGM into NAM. Use the formula: NAM = NGM x TAS ÷ GS
+NAM = 4 000 x 450/400 = 4500 NAM
+Using the table provided, find your optimum aircraft mass for tankering purposes:
+1. Enter the table on the left-hand side with your fuel price ratio of 0.90.
+2. Draw a horizontal line to the right, intersect with the Air Distance Covered: 4500 NM.
+3. From this point, continue downwards and read an optimum aircraft mass of 178 000 kg.
+With regards to this question, planned take-off mass: 170 000 kg => from this result we could say that tankering would be beneficial => an additional 8 000 kg (178 000 kg - 170 000 kg) should be carried.
+Note: If the actual Take-off Mass is higher, there would be no economic benefit in tankering.
+
+Explanation Images:
+- images/explanation_AT00114_img_1.png
+
+Options:
+A. A
+18 000 kg
+B. B
+32 000 kg
+C. C
+The fuel transport operation is not recommended in this case.
+D. D
+8 000 kg ✓ (CORRECT)
+
+Correct Answer: D.
+
+--------------------
+
+Question Number: AT00115
+Subject: ATPL(A) (EASA 2020) | 033 - Flight Planning Monitoring
+
+What is the difference between GNSS planned and unplanned outages?
+
+Explanation:
+Notice Advisory to Navstar Users (NANU) is an advisory message to inform users of a change in the GPS constellation. These messages are released 72 hours in advance of planned maintenance. These messages are also used to notify users of unscheduled outages. General NANUs can be used to disseminate general GPS information.
+Outages come in two varieties: planned and unplanned.
+Planned are all the activities/events that have been scheduled and that could potentially have an impact on the Signal-in-Space (SiS) and/or the performance levels. Planned NAGUs aim to inform users about the activity/event with a reasonable advance notice, ahead of their occurrence. The planned outages, in space or ground segment, can potentially cause an outage of the broadcast satellite SiS. A planned outage will be announced ahead of time and usually means some sort of maintenance is taking place.
+Unplanned are all the activities/events that have an impact on the SiS and/or the performance levels that have not been scheduled and could not be foreseen in advance, before their occurrence. The aim of unplanned NAGUs is to inform users about the activity/event within a reasonable time, after their occurrence.
+The difference between the planned and unplanned outages of GPS is that a planned outage is well recognisable during flight preparation, because relevant monitoring tools and NOTAMs will most probably indicate some problems. On the other hand, in case of unplanned outage, it is possible that the pilot will become aware mid-flight that integrity is lost. Therefore, the pilot should develop and maintain good practise in using backup conventional navigation whenever possible.
+
+Options:
+A. A
+Unplanned outages are notified weekly.
+B. B
+Unplanned outages are NOT notified.
+C. D
+Planned outages are not notified.
+D. C
+Planned outages are notified in advance. ✓ (CORRECT)
+
+Correct Answer: D.
+
+--------------------
+
+Question Number: AT00116
+Subject: ATPL(A) (EASA 2020) | 033 - Flight Planning Monitoring
+
+Refer to chart E(LO)2 from Jeppesen GSPRM 2017.
+Find the magnetic bearing and distance from Trent (TNT) VOR/DME (53°03'N, 001°40'W) to waypoint AMVEL (53°11'N, 000° 02'W).
+
+Images:
+- images/AT00116_img_1.png
+
+Explanation:
+Refer to figure.
+For this question you need a plotter to find the true bearing initially and a ruler to measure the distance between Trent (TNT) VOR/DME and waypoint AMVEL.
+Firstly, find the exact position of Trent (TNT) VOR/DME and waypoint AMVEL on your E(LO)2 chart, using the coordinates given and draw a line with your pencil to connect these two points.
+Center your plotter at the centre of Trent (TNT) VOR/DME symbol, since the question asks for the magnetic bearing from Trent (TNT) VOR/DME.
+Align the upper section of your plotter with the drawn line which connects the two points.
+Rotate the plotter’s disc, until its arrows are parallel with the chart’s meridians and indicate the True North.
+The course arrow indicates the true bearing from Trent (TNT) VOR/DME to waypoint AMVEL: 082oT.
+Variation is 001oW, thus the magnetic bearing from Trent (TNT) VOR/DME to waypoint AMVEL is: 082oT+ 1o = 083o M(Variation West, Magnetic Best).
+Furthermore, it is known that the E(LO)2 chart's scale is "1 INCH = 15 NM", depicted on the upper section of the chart. So, using a ruler, you will find that the distance in inches between Trent (TNT) VOR/DME and waypoint AMVEL is 37/8 inches. Thus, the distance in nautical miles is approximately 58.1 NM.
+Therefore, the closest to the above findings option is: 084°M / 59 NM.
+
+Explanation Images:
+- images/explanation_AT00116_img_1.png
+
+Options:
+A. A
+080°M / 51 NM
+B. B
+264°M / 58 NM
+C. C
+260°M / 52 NM
+D. D
+084°M / 59 NM ✓ (CORRECT)
+
+Correct Answer: D.
+
+--------------------
+
+Question Number: AT00117
+Subject: ATPL(A) (EASA 2020) | 033 - Flight Planning Monitoring
+
+Refer to figure.
+After the pre-flight preparation, the flight plan log shown in the annex was completed, taking into account the meteorological conditions for the scheduled Estimated Time of Departure at 07:30 UTC. Due to the passage of a cold front, a delay is expected for 3 hours. What will be the revised Groundspeed between WPT B and WPT C because of the expected delay?
+
+Images:
+- images/AT00117_img_1.png
+
+Explanation:
+Refer to figures.
+Because of the 3-hour delay, the Estimated Time of Departure will be at 10:30 UTC. Thus, the right hand wind and temperature forecast table should be taken into account. So, there will be differentiation to the TAS and as a consequence to the Groundspeed from Waypoint B to C, because of the new OAT (M25).
+Using your Flight/Nav computer, find the new TAS at FL100:
+In the Airspeed correction window, align FL100 with OAT -25ºC.
+Opposite CAS 155 kt on inner scale, read TAS 173 kt on outer scale.
+Using again your Flight/Nav computer, find the new Groundspeed: TAS 173 kt, Wind 165°(T)/55kt, True Track 245° from the flight plan/log:
+Set wind direction 165º under the True index.
+Mark wind velocity 55 kt up from the centre dot.
+Rotate the disc until the true course 245º is under the True index.
+Slide wind velocity mark to TAS 173 kt.
+New Goundspeed 155 kt reads under the centre dot.
+
+Explanation Images:
+- images/explanation_AT00117_img_1.png
+- images/explanation_AT00117_img_2.png
+- images/explanation_AT00117_img_3.png
+- images/explanation_AT00117_img_4.png
+
+Options:
+A. A
+181 knots
+B. C
+164 knots
+C. D
+149 knots
+D. B
+155 knots ✓ (CORRECT)
+
+Correct Answer: D.
+
+--------------------
+
+Question Number: AT00118
+Subject: ATPL(A) (EASA 2020) | 033 - Flight Planning Monitoring
+
+For pre-flight planning purposes, what is the minimum Fuel required for the Commercial Air Transport flight with a Jet aircraft, given the following information? Assume the Basic Fuel Scheme WITHOUT variations applies.
+Trip Fuel: 3 780 kg
+Fuel to alternate: 987 kg
+Taxi Fuel: 120 kg
+Fuel flow at 1 500 feet above destination alternate aerodrome: 2 232 kg/h
+Extra Fuel: 0 kg
+Discretionary Fuel: 0 kg
+
+Explanation:
+Please Note: This conforms to the Basic Fuel scheme WITHOUT variations under the new fuel/energy regulations. The primary difference if variations are included is the ability to use lesser amounts of contingency fuel, such as 3% if a suitable ERA is provided.
+AMC1 CAT.OP.MPA.181 Fuel/energy scheme - fuel/energy planning and in-flight re-planning policy — aeroplane
+PLANNING CRITERIA — AEROPLANES
+The operator should base the defined fuel policy, including calculation of the amount of fuel to be on board for departure, on the following planning criteria:
+(refer to the last paragraph of the explanation for full Regulation details)
+(a) Basic Fuel Scheme
+The usable fuel to be on board for dispatch should be the sum of the following:
+(1) Taxi fuel
+Taxi fuel including APU usage
+In this case, as stated in the question text.
+120 kg
+(2) Trip fuel In this case, as stated in the question text. 3780 kg
+(3) Contingency Fuel In this case, the higher of:
+(A) 5 % of the planned trip fuel;
+OR
+(ii) or an amount to fly for 5 minutes at holding speed at 1 500 ft (450 m), (A) 5% x 3 780 kg = 189 kg
+
+
+(ii) 5 min x 2 232 kg/h = 186 kg
+(4) Alternate Fuel
+In this case, as stated in the question text.
+The fuel to reach the destination alternate from the destination, based on the destination alternate aerodrome that requires the greater amount of fuel.
+987 kg
+(5) Final Reserve Fuel “for aeroplanes with turbine engines, fuel to fly for 30 minutes at holding speed at 1 500 ft (450 m) above aerodrome elevation in standard conditions” 30 min x 2232 kg/h = 1116 kg
+(6) Additional Fuel N/A
+(7) Extra Fuel N/A
+(8) Discretionary Fuel (This is a new addition to the regulations in 2022, and is the “Commander’s discretionary fuel”) N/A
+TOTAL
+-----------------------------
+6192 kg
+Regulation (EU) No 965/2012
+AMC1 CAT.OP.MPA.181 Fuel/energy scheme - fuel/energy planning and in-flight re-planning policy — aeroplane
+BASIC FUEL SCHEME — PRE-FLIGHT CALCULATION OF USABLE FUEL FOR PERFORMANCE CLASS A AEROPLANES
+For the pre-flight calculation of the usable fuel in accordance with point CAT.OP.MPA.181, the operator should:
+(a) for taxi fuel, take into account the local conditions at the departure aerodrome and the APU consumption;
+(b) for trip fuel, include:
+(1) fuel for take-off and climb from the aerodrome elevation to the initial cruising level/altitude, taking into account the expected departure routing;
+(2) fuel from the top of climb to the top of descent, including any step climb/descent;
+(3) fuel from the top of descent to the point where the approach procedure is initiated, taking into account the expected arrival routing; and
+(4) fuel for making an approach and landing at the destination aerodrome;
+(c) for contingency fuel, calculate for unforeseen factors either:
+(1) 5 % of the planned trip fuel or, in the event of in-flight re-planning, 5 % of the trip fuel for the remainder of the flight; or
+(2) an amount to fly for 5 minutes at holding speed at 1 500 ft (450 m) above the destination aerodrome in standard conditions,
+whichever is the higher;
+(d) for destination alternate fuel, include:
+(1) when the aircraft is operated with one destination alternate aerodrome:
+(i) fuel for a missed approach from the applicable DA/H or MDA/H at the destination aerodrome to the missed-approach altitude, taking into account the complete missed-approach procedure;
+(ii) fuel for climb from the missed-approach altitude to the cruising level/altitude, taking into account the expected departure routing;
+(iii) fuel for cruising from the top of climb to the top of descent, taking into account the expected routing;
+(iv) fuel for descent from the top of descent to the point where the approach is initiated, taking into account the expected arrival routing; and
+(v) fuel for making an approach and landing at the destination alternate aerodrome; and
+(2) when the aircraft is operated with two destination alternate aerodromes, the amount of fuel that is calculated in accordance with point (d)(1), based on the destination alternate aerodrome that requires the greater amount of fuel;
+(e) for FRF, comply with point CAT.OP.MPA.181(c);
+...(c) final reserve fuel/energy that shall be the amount of fuel/energy that is calculated at holding speed at 1 500ft (450 m) above the aerodrome elevation in standard conditions according to the aeroplane estimated mass on arrival at the destination alternate aerodrome, or destination aerodrome when no destination alternate aerodrome is required, and shall not be less than:
+(i) for aeroplanes with reciprocating engines, the fuel/energy to fly for 45 minutes; or
+(ii) for turbine-engined aeroplanes, the fuel/energy to fly for 30 minutes;...
+(f) for additional fuel, include an amount of fuel that allows the aeroplane to proceed, in the event of an engine failure or loss of pressurisation, from the most critical point along the route to a fuel en route alternate (fuel ERA) aerodrome in the relevant aircraft configuration, hold there for 15 minutes at 1 500 ft (450 m) above the aerodrome elevation in standard conditions, make an approach, and land;
+(g) for extra fuel, include anticipated delays or specific operational constraints that can be predicted; and
+(h) for discretionary fuel, include a quantity at the sole discretion of the commander.
+
+Options:
+A. A
+7119 kg
+B. B
+6003 kg
+C. D
+4887 kg
+D. C
+6192 kg ✓ (CORRECT)
+
+Correct Answer: D.
+
+--------------------
+
+Question Number: AT00119
+Subject: ATPL(A) (EASA 2020) | 033 - Flight Planning Monitoring
+
+Refer to VFR chart ED(4) from GSPRM 2017.
+While planning a day VFR flight between Freistadt aerodrome LOLF (N48°31', E014°25') to Dingolfing aerodrome EDPD (N48°40', E012°30'), you need to select visually conspicuous point for the sector West of the E013°45' to record the progress of the flight. Which of the following is the best waypoint?
+
+Images:
+- images/AT00119_img_1.png
+- images/AT00119_img_2.png
+
+Explanation:
+Refer to figure.
+During VFR flying it is important to mark the route with some visual points to check the progress of your flight, those visual points can be lakes, mountain to be crossed, railway, big road, etc.
+1- Locate the location of both airports.
+2- Draw a line between them.
+3- you will find that after crossing 13˚45’E that the first visual location that can be checkpoint is the motorway bridge at N48˚36’,E13˚22’.
+
+Explanation Images:
+- images/explanation_AT00119_img_1.png
+
+Options:
+A. B
+The lighted mass at N48°47', E012°53'.
+B. C
+Vilshofen aerodrome (EDMV) at N48°38', E013°12'.
+C. D
+The mast at N48°32', E013°36'.
+D. A
+The motorway bridge at N48°36', E13°22'. ✓ (CORRECT)
+
+Correct Answer: D.
+
+--------------------
+

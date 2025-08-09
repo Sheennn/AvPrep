@@ -7,7 +7,14 @@ export interface Question {
   category: string;
   difficulty: 'easy' | 'medium' | 'hard';
   tags?: string[];
-  imageUrl?: string;
+  // Optional code from the source dataset (e.g., AT00001)
+  code?: string;
+  // One or more images shown with the question prompt
+  imageUrls?: string[];
+  // One or more images shown within the explanation tab
+  explanationImageUrls?: string[];
+  // Raw comments text aggregated for display in the comments tab
+  commentsText?: string;
   source?: string;
 }
 
