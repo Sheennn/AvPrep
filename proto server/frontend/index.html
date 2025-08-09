@@ -1,0 +1,291 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ATPL Scraped Questions</title>
+  <style>
+    body { font-family: system-ui, Arial, sans-serif; margin: 0; background: #fafafa; color: #222; }
+    header { background: #111827; color: #fff; padding: 10px 16px; display: flex; gap: 12px; align-items: center; }
+    header select { padding: 6px; }
+    .layout { display: grid; grid-template-columns: 240px 1fr; gap: 16px; max-width: 1200px; margin: 16px auto; padding: 0 12px; }
+    .sidebar { background: #fff; border: 1px solid #e5e7eb; border-radius: 8px; padding: 12px; max-height: calc(100vh - 120px); overflow: auto; }
+    .nav-title { font-weight: 600; margin-bottom: 8px; }
+    .nav-list { display: grid; grid-template-columns: repeat(4, 1fr); gap: 6px; }
+    .nav-item { text-align: center; padding: 6px 0; border: 1px solid #e5e7eb; border-radius: 6px; cursor: pointer; font-size: 12px; background: #f9fafb; }
+    .nav-item.current { outline: 2px solid #3b82f6; }
+    .nav-item.correct { background: #ecfdf5; border-color: #10b981; }
+    .nav-item.wrong { background: #fef2f2; border-color: #ef4444; }
+
+    .content { }
+    .card { background: #fff; border: 1px solid #e5e7eb; border-radius: 8px; padding: 16px; box-shadow: 0 1px 2px rgba(0,0,0,0.04); }
+    .title { font-size: 18px; font-weight: 600; margin-bottom: 8px; }
+    .qtext { white-space: pre-wrap; margin: 12px 0; }
+    #expText { white-space: pre-wrap; }
+    .options { margin: 16px 0; }
+    .option { padding: 8px 10px; border: 1px solid #e5e7eb; border-radius: 6px; margin: 6px 0; cursor: pointer; user-select: none; }
+    .option.revealed-correct { background: #ecfdf5; border-color: #10b981; }
+    .option.selected-wrong { background: #fef2f2; border-color: #ef4444; }
+    .images { display: flex; flex-wrap: wrap; gap: 8px; margin: 8px 0; }
+    .images img { max-height: 220px; border: 1px solid #e5e7eb; border-radius: 6px; cursor: zoom-in; }
+    .tabs { display: flex; gap: 8px; border-bottom: 1px solid #e5e7eb; margin-top: 12px; }
+    .tab { padding: 8px 10px; cursor: pointer; border: 1px solid transparent; border-radius: 6px 6px 0 0; }
+    .tab.active { background: #fff; border-color: #e5e7eb; border-bottom-color: #fff; }
+    .tabpanes > div { display: none; padding: 12px 0; }
+    .tabpanes > .active { display: block; }
+    .footer { display: flex; justify-content: space-between; margin-top: 16px; }
+    button { padding: 8px 12px; border: 1px solid #e5e7eb; background: #f9fafb; border-radius: 6px; cursor: pointer; }
+
+    /* Modal viewer */
+    .modal { position: fixed; inset: 0; background: rgba(0,0,0,0.8); display: none; align-items: center; justify-content: center; z-index: 1000; }
+    .modal.open { display: flex; }
+    .modal-content { position: relative; max-width: 95vw; max-height: 95vh; }
+    .modal-content img { max-width: 95vw; max-height: 95vh; }
+    .modal-actions { position: absolute; top: 8px; right: 8px; display: flex; gap: 8px; }
+    .modal-actions button { background: #111827; color: #fff; border: 1px solid #374151; }
+  </style>
+</head>
+<body>
+  <header>
+    <div>Subject:</div>
+    <select id="subjectSelect"></select>
+    <div>Run:</div>
+    <select id="runSelect"></select>
+  </header>
+  <div class="layout">
+    <aside class="sidebar">
+      <div class="nav-title">Questions</div>
+      <div id="navList" class="nav-list"></div>
+    </aside>
+    <main class="content">
+      <div class="card" id="viewer" style="display:none;">
+        <div class="title" id="qTitle"></div>
+        <div class="qtext" id="qText"></div>
+        <div class="images" id="qImages"></div>
+
+        <div class="options" id="qOptions"></div>
+
+        <div class="tabs">
+          <div class="tab active" data-tab="explanation">Explanation</div>
+          <div class="tab" data-tab="comments">Comments</div>
+        </div>
+        <div class="tabpanes">
+          <div id="pane-explanation" class="active">
+            <div id="expText"></div>
+            <div class="images" id="expImages"></div>
+          </div>
+          <div id="pane-comments">
+            <div id="comments"></div>
+          </div>
+        </div>
+
+        <div class="footer">
+          <button id="prevBtn">Prev</button>
+          <div>
+            <span id="pos"></span>
+          </div>
+          <button id="nextBtn">Next</button>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <div id="imgModal" class="modal" role="dialog" aria-modal="true">
+    <div class="modal-content">
+      <div class="modal-actions">
+        <button id="openNewTabBtn">Open in new tab</button>
+        <button id="closeModalBtn">Close</button>
+      </div>
+      <img id="modalImg" src="" alt="Preview" />
+    </div>
+  </div>
+
+  <script>
+    const subjectSelect = document.getElementById('subjectSelect');
+    const runSelect = document.getElementById('runSelect');
+    const viewer = document.getElementById('viewer');
+
+    const qTitle = document.getElementById('qTitle');
+    const qText = document.getElementById('qText');
+    const qImages = document.getElementById('qImages');
+    const qOptions = document.getElementById('qOptions');
+
+    const expText = document.getElementById('expText');
+    const expImages = document.getElementById('expImages');
+
+    const commentsDiv = document.getElementById('comments');
+
+    const tabs = document.querySelectorAll('.tab');
+    const paneExplanation = document.getElementById('pane-explanation');
+    const paneComments = document.getElementById('pane-comments');
+
+    const prevBtn = document.getElementById('prevBtn');
+    const nextBtn = document.getElementById('nextBtn');
+    const pos = document.getElementById('pos');
+
+    const navList = document.getElementById('navList');
+
+    const imgModal = document.getElementById('imgModal');
+    const modalImg = document.getElementById('modalImg');
+    const closeModalBtn = document.getElementById('closeModalBtn');
+    const openNewTabBtn = document.getElementById('openNewTabBtn');
+
+    let questions = [];
+    let commentsByQ = {};
+    let idx = 0;
+    // answered[q.id] = { selectedIndex: number, isCorrect: boolean }
+    let answered = {};
+
+    function setTabs(active) {
+      tabs.forEach(t => t.classList.toggle('active', t.dataset.tab === active));
+      paneExplanation.classList.toggle('active', active === 'explanation');
+      paneComments.classList.toggle('active', active === 'comments');
+    }
+
+    tabs.forEach(t => t.addEventListener('click', () => setTabs(t.dataset.tab)));
+
+    async function loadSubjects() {
+      const res = await fetch('/api/subjects');
+      const data = await res.json();
+      subjectSelect.innerHTML = '<option value="">Select…</option>' + data.map(s => `<option value="${s}">${s}</option>`).join('');
+    }
+
+    async function loadRuns(subject) {
+      const res = await fetch(`/api/runs?subject=${encodeURIComponent(subject)}`);
+      const data = await res.json();
+      runSelect.innerHTML = '<option value="">Select…</option>' + data.map(r => `<option value="${r}">${r}</option>`).join('');
+    }
+
+    async function loadData(subject, run) {
+      const [qRes, cRes] = await Promise.all([
+        fetch(`/api/questions?subject=${encodeURIComponent(subject)}&run=${encodeURIComponent(run)}`),
+        fetch(`/api/comments?subject=${encodeURIComponent(subject)}&run=${encodeURIComponent(run)}`)
+      ]);
+      questions = await qRes.json();
+      commentsByQ = await cRes.json();
+      idx = 0;
+      answered = {}; // reset
+      if (questions.length) {
+        viewer.style.display = '';
+        buildNavigator();
+        render();
+      } else {
+        viewer.style.display = 'none';
+        navList.innerHTML = '';
+      }
+    }
+
+    function buildNavigator() {
+      navList.innerHTML = '';
+      questions.forEach((q, i) => {
+        const item = document.createElement('div');
+        item.className = 'nav-item';
+        item.textContent = (i + 1);
+        item.addEventListener('click', () => { idx = i; render(); });
+        navList.appendChild(item);
+      });
+    }
+
+    function updateNavigator() {
+      const items = navList.querySelectorAll('.nav-item');
+      items.forEach((el, i) => {
+        el.classList.toggle('current', i === idx);
+        el.classList.remove('correct', 'wrong');
+        const q = questions[i];
+        const a = answered[q.id];
+        if (a) {
+          el.classList.add(a.isCorrect ? 'correct' : 'wrong');
+        }
+      });
+    }
+
+    function makeImgHtml(src) {
+      const url = `/images/${encodeURIComponent(subjectSelect.value)}/${encodeURIComponent(runSelect.value)}/${encodeURIComponent(src.split('/').pop())}`;
+      return `<img src="${url}" />`;
+    }
+
+    function attachImageHandlers(container) {
+      container.querySelectorAll('img').forEach(img => {
+        img.addEventListener('click', (e) => {
+          if (e.ctrlKey || e.metaKey) {
+            window.open(img.src, '_blank');
+          } else {
+            modalImg.src = img.src;
+            imgModal.classList.add('open');
+          }
+        });
+      });
+    }
+
+    closeModalBtn.addEventListener('click', () => imgModal.classList.remove('open'));
+    imgModal.addEventListener('click', (e) => { if (e.target === imgModal) imgModal.classList.remove('open'); });
+    openNewTabBtn.addEventListener('click', () => { if (modalImg.src) window.open(modalImg.src, '_blank'); });
+
+    function render() {
+      const q = questions[idx];
+      qTitle.textContent = `${q.id || ''} — ${q.subject || ''}`;
+      qText.textContent = q.text || '';
+      pos.textContent = `${idx + 1} / ${questions.length}`;
+
+      // Images
+      qImages.innerHTML = (q.images || []).map(makeImgHtml).join('');
+      expImages.innerHTML = (q.explanationImages || []).map(makeImgHtml).join('');
+      attachImageHandlers(qImages);
+      attachImageHandlers(expImages);
+
+      // Options (no correct revealed until answered)
+      const labels = ['A.', 'B.', 'C.', 'D.'];
+      const a = answered[q.id];
+      const opts = (q.options || []).slice(0, 4);
+      qOptions.innerHTML = opts.map((opt, i) => {
+        let classes = 'option';
+        if (a) {
+          if (i === q.correctIndex) classes += ' revealed-correct';
+          if (i === a.selectedIndex && !a.isCorrect) classes += ' selected-wrong';
+        }
+        return `<div class="${classes}" data-idx="${i}">${labels[i] || (i+1)+'.'} ${opt}</div>`;
+      }).join('');
+
+      // Attach option handlers; lock after first answer
+      qOptions.querySelectorAll('.option').forEach(el => {
+        el.addEventListener('click', () => {
+          if (answered[q.id]) return; // lock
+          const selected = parseInt(el.getAttribute('data-idx'), 10);
+          const isCorrect = (selected === q.correctIndex);
+          answered[q.id] = { selectedIndex: selected, isCorrect };
+          render(); // re-render to reveal
+          updateNavigator();
+        });
+      });
+
+      // Comments
+      const cList = commentsByQ[q.id] || [];
+      commentsDiv.innerHTML = cList.length ? cList.map(c => `<div class="option"><strong>${c.name || 'Unknown'}:</strong><br/>${(c.text || '').replace(/\n/g, '<br/>')}</div>`).join('') : '<div class="option">No comments</div>';
+
+      // Disable buttons at bounds
+      prevBtn.disabled = idx === 0;
+      nextBtn.disabled = idx === questions.length - 1;
+
+      updateNavigator();
+    }
+
+    subjectSelect.addEventListener('change', () => {
+      const subj = subjectSelect.value;
+      if (!subj) { runSelect.innerHTML = ''; viewer.style.display = 'none'; navList.innerHTML = ''; return; }
+      loadRuns(subj);
+    });
+
+    runSelect.addEventListener('change', () => {
+      const subj = subjectSelect.value;
+      const run = runSelect.value;
+      if (!subj || !run) { return; }
+      loadData(subj, run);
+    });
+
+    prevBtn.addEventListener('click', () => { if (idx > 0) { idx--; render(); } });
+    nextBtn.addEventListener('click', () => { if (idx < questions.length - 1) { idx++; render(); } });
+
+    loadSubjects();
+  </script>
+</body>
+</html>

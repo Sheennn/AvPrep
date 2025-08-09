@@ -20,9 +20,7 @@ const QuestionView = ({
 
   // Auto-switch to explanation tab in study mode when answer is selected
   useEffect(() => {
-    if (selectedMode?.id === 'study' && selectedAnswer !== undefined && question.explanation) {
-      setActiveTab('explanation');
-    }
+    // Do not auto-switch to explanation; stay on question tab per requirements
   }, [selectedAnswer, selectedMode, question.explanation]);
 
   const getOptionClass = (index: number) => {
@@ -46,8 +44,6 @@ const QuestionView = ({
   const tabs = [
     { id: 'question', label: 'Question' },
     { id: 'explanation', label: 'Explanation' },
-    { id: 'note', label: 'Note' },
-    { id: 'exam', label: 'Exam Question' },
     { id: 'comments', label: 'Comments' }
   ];
 
@@ -87,13 +83,13 @@ const QuestionView = ({
 
             {/* Question Images */}
             {question.imageUrls && question.imageUrls.length > 0 && (
-              <div className="space-y-3">
+              <div className="flex flex-wrap gap-3">
                 {question.imageUrls.map((src, idx) => (
                   <img
                     key={idx}
                     src={src}
                     alt={`Question image ${idx + 1}`}
-                    className="max-h-96 rounded border border-gray-200 dark:border-gray-700"
+                    className="max-h-60 rounded border border-gray-200 dark:border-gray-700"
                   />
                 ))}
               </div>
@@ -163,13 +159,13 @@ const QuestionView = ({
 
             {/* Explanation Images */}
             {question.explanationImageUrls && question.explanationImageUrls.length > 0 && (
-              <div className="space-y-3">
+              <div className="flex flex-wrap gap-3">
                 {question.explanationImageUrls.map((src, idx) => (
                   <img
                     key={idx}
                     src={src}
                     alt={`Explanation image ${idx + 1}`}
-                    className="max-h-96 rounded border border-gray-200 dark:border-gray-700"
+                    className="max-h-60 rounded border border-gray-200 dark:border-gray-700"
                   />
                 ))}
               </div>
@@ -177,26 +173,19 @@ const QuestionView = ({
           </div>
         )}
 
-        {activeTab === 'note' && (
-          <div className="text-gray-600 dark:text-gray-400">
-            <p className="text-sm text-gray-500 dark:text-gray-500 italic">
-              No notes available for this question.
-            </p>
-          </div>
-        )}
-
-        {activeTab === 'exam' && (
-          <div className="text-gray-600 dark:text-gray-400">
-            <p className="text-sm text-gray-500 dark:text-gray-500 italic">
-              This question may appear in official exams.
-            </p>
-          </div>
-        )}
+        {/* Note and Exam tabs removed per requirements */}
 
         {activeTab === 'comments' && (
           <div className="text-gray-600 dark:text-gray-400 space-y-3">
-            {question.commentsText ? (
-              <pre className="whitespace-pre-wrap text-sm leading-relaxed">{question.commentsText}</pre>
+            {question.comments && question.comments.length > 0 ? (
+              <div className="space-y-3">
+                {question.comments.map((c, idx) => (
+                  <div key={idx} className="p-3 rounded border border-gray-200 dark:border-gray-700">
+                    <div className="text-sm font-medium text-gray-900 dark:text-white">{c.name || 'Unknown'}</div>
+                    <div className="text-sm text-gray-700 dark:text-gray-300 whitespace-pre-wrap">{c.text || ''}</div>
+                  </div>
+                ))}
+              </div>
             ) : (
               <p className="text-sm text-gray-500 dark:text-gray-500 italic">
                 No comments available for this question.

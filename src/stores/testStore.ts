@@ -21,6 +21,8 @@ interface TestState {
   // Actions
   startTest: (test: Test) => void;
   endTest: () => void;
+  saveTest: () => void;
+  calculateScore: () => { correct: number; total: number; percent: number } | null;
   pauseTest: () => void;
   resumeTest: () => void;
   
@@ -90,6 +92,27 @@ export const useTestStore = create<TestState>()(
             endTime: new Date(),
           },
         });
+      },
+
+      saveTest: () => {
+        // Persist current state via zustand persist (already active)
+        // This method exists to be called from UI and is a no-op because persist plugin auto-saves.
+        const state = get();
+        // Touch to ensure storage writes happen
+        set({ currentSession: { ...state.currentSession! } });
+      },
+
+      calculateScore: () => {
+        const { currentTest, answers } = get();
+        if (!currentTest) return null;
+        let correct = 0;
+        for (const q of currentTest.questions) {
+          const a = answers[q.id];
+          if (a !== undefined && a === q.correctAnswer) correct += 1;
+        }
+        const total = currentTest.questions.length;
+        const percent = total > 0 ? Math.round((correct / total) * 100) : 0;
+        return { correct, total, percent };
       },
       
       pauseTest: () => set({ isPaused: true }),

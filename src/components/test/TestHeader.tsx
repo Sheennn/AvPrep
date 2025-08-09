@@ -19,6 +19,8 @@ interface TestHeaderProps {
   onFlagQuestion: (flagType: FlagType) => void;
   onPrevious: () => void;
   onNext: () => void;
+  onSave?: () => void;
+  onFinish?: () => void;
 }
 
 const TestHeader = ({
@@ -29,7 +31,9 @@ const TestHeader = ({
   timeRemaining,
   onFlagQuestion,
   onPrevious,
-  onNext
+  onNext,
+  onSave,
+  onFinish
 }: TestHeaderProps) => {
   const formatTime = (seconds: number) => {
     const hours = Math.floor(seconds / 3600);
@@ -113,6 +117,14 @@ const TestHeader = ({
             title="Next Question"
           >
             <ChevronRightIcon className="h-6 w-6 text-gray-600 dark:text-gray-400" />
+          </button>
+        </div>
+        <div className="mt-3 flex items-center justify-center gap-3">
+          <button onClick={onSave} className="btn btn-secondary">
+            Save Test
+          </button>
+          <button onClick={onFinish} className="btn btn-primary">
+            Finish Test
           </button>
         </div>
       </div>

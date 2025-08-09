@@ -15,6 +15,8 @@ export interface Question {
   explanationImageUrls?: string[];
   // Raw comments text aggregated for display in the comments tab
   commentsText?: string;
+  // Structured comments parsed from the dataset
+  comments?: { name: string; text: string }[];
   source?: string;
 }
 

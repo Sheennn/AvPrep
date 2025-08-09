@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { ChevronLeftIcon, ChevronRightIcon } from '@heroicons/react/24/outline';
+import { Question } from '@/types/Question';
 
 
 interface QuestionGridProps {
@@ -8,6 +9,8 @@ interface QuestionGridProps {
   answers: Record<number, number>;
   flags: Record<number, any>;
   onQuestionSelect: (questionNumber: number) => void;
+  questions: Question[];
+  revealCorrect: boolean; // show correct/wrong colors (study mode or after finish)
 }
 
 const QuestionGrid = ({
@@ -15,25 +18,36 @@ const QuestionGrid = ({
   currentQuestion,
   answers,
   flags,
-  onQuestionSelect
+  onQuestionSelect,
+  questions,
+  revealCorrect
 }: QuestionGridProps) => {
   const [currentPage, setCurrentPage] = useState(1);
   const questionsPerPage = 100;
   const totalPages = Math.ceil(totalQuestions / questionsPerPage);
 
   const getQuestionStatus = (questionNumber: number) => {
-    const isAnswered = answers[questionNumber] !== undefined;
-    const isFlagged = flags[questionNumber];
+    const question = questions[questionNumber - 1];
+    const selected = question ? answers[question.id] : undefined;
+    const isAnswered = selected !== undefined;
     const isCurrent = questionNumber === currentQuestion;
 
+    // Base class
     let statusClass = 'bg-gray-100 dark:bg-gray-700 text-gray-900 dark:text-white';
-    
-    if (isCurrent) {
-      statusClass = 'bg-primary-500 text-white';
+
+    if (revealCorrect && question && isAnswered) {
+      const isCorrect = selected === question.correctAnswer;
+      statusClass = isCorrect
+        ? 'bg-green-100 text-green-700 dark:bg-green-900/20 dark:text-green-300'
+        : 'bg-red-100 text-red-700 dark:bg-red-900/20 dark:text-red-300';
     } else if (isAnswered) {
-      statusClass = 'bg-success-100 dark:bg-success-900/20 text-success-700 dark:text-success-400';
-    } else if (isFlagged) {
-      statusClass = 'bg-warning-100 dark:bg-warning-900/20 text-warning-700 dark:text-warning-400';
+      // Answered but not revealing correctness (e.g., exam mode before finish)
+      statusClass = 'bg-gray-200 dark:bg-gray-600 text-gray-900 dark:text-white';
+    }
+
+    // Highlight current with a ring overlay
+    if (isCurrent) {
+      statusClass += ' ring-2 ring-primary-500';
     }
 
     return statusClass;
@@ -124,12 +138,12 @@ const QuestionGrid = ({
       <div className="mt-4 pt-4 border-t border-gray-200 dark:border-gray-700">
         <div className="text-xs text-gray-500 dark:text-gray-400 space-y-1">
           <div className="flex items-center space-x-2">
-            <div className="w-3 h-3 bg-primary-500 rounded"></div>
-            <span>Current</span>
+            <div className="w-3 h-3 bg-green-500 rounded"></div>
+            <span>Correct</span>
           </div>
           <div className="flex items-center space-x-2">
-            <div className="w-3 h-3 bg-success-100 dark:bg-success-900/20 rounded"></div>
-            <span>Answered</span>
+            <div className="w-3 h-3 bg-red-500 rounded"></div>
+            <span>Wrong</span>
           </div>
           <div className="flex items-center space-x-2">
             <div className="w-3 h-3 bg-gray-100 dark:bg-gray-700 rounded"></div>

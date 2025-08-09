@@ -3,7 +3,6 @@ import {
   ArrowUpIcon, 
   ArrowDownIcon,
   ComputerDesktopIcon,
-  BookmarkIcon,
   CommandLineIcon,
   CheckCircleIcon,
   XCircleIcon
@@ -16,6 +15,7 @@ import { useTestStore } from '@/stores/testStore';
 import { useSubjectStore } from '@/stores/subjectStore';
 import { loadSubjectQuestions } from '@/utils/questionDataLoader';
 import { Test } from '@/types/Test';
+import { useLocation, useNavigate } from 'react-router-dom';
 
 import { FlagType } from '@/types/Question';
 import { useKeyboard } from '@/hooks/useKeyboard';
@@ -36,10 +36,15 @@ const TestInterface = () => {
     flagQuestion,
     pauseTest,
     resumeTest,
-    endTest
+    endTest,
+    saveTest,
+    calculateScore
   } = useTestStore();
 
   const { selectedMode, selectedSubject } = useSubjectStore();
+  const location = useLocation();
+  const navigate = useNavigate();
+  const runSettings = (location.state as any) || {};
   const [showCorrectAnswers, setShowCorrectAnswers] = useState(false);
   const [showFeedback, setShowFeedback] = useState(false);
   const [feedbackMessage, setFeedbackMessage] = useState('');
@@ -52,7 +57,16 @@ const TestInterface = () => {
   useEffect(() => {
     if (!currentTest && selectedSubject && selectedMode) {
       (async () => {
-        const questions = await loadSubjectQuestions(selectedSubject.id);
+        const questionsAll = await loadSubjectQuestions(selectedSubject.id, selectedSubject.name, runSettings.db);
+        const desiredCount: number | undefined = runSettings.questionCount;
+        const questions = desiredCount && questionsAll.length > desiredCount
+          ? questionsAll.slice(0, desiredCount)
+          : questionsAll;
+
+        if (!questions || questions.length === 0) {
+          navigate('/');
+          return;
+        }
         const test: Test = {
           id: `${selectedSubject.id}-${selectedMode.id}-${Date.now()}`,
           name: `${selectedSubject.name} — ${selectedMode.name}`,
@@ -79,17 +93,13 @@ const TestInterface = () => {
       const currentQuestion = currentTest.questions[currentQuestionIndex];
       answerQuestion(currentQuestion.id, answerIndex);
       
-      // Show immediate feedback in study mode
+      // Do not auto-switch to explanation; optional toast feedback only for study mode if desired
       if (selectedMode?.id === 'study') {
         const isAnswerCorrect = answerIndex === currentQuestion.correctAnswer;
         setIsCorrect(isAnswerCorrect);
-        setFeedbackMessage(isAnswerCorrect ? 'Correct!' : 'Incorrect. Try again.');
+        setFeedbackMessage(isAnswerCorrect ? 'Answer recorded.' : 'Answer recorded.');
         setShowFeedback(true);
-        
-        // Auto-hide feedback after 3 seconds
-        setTimeout(() => {
-          setShowFeedback(false);
-        }, 3000);
+        setTimeout(() => setShowFeedback(false), 1500);
       }
     }
   };
@@ -153,6 +163,15 @@ const TestInterface = () => {
         onFlagQuestion={handleFlagQuestion}
         onPrevious={previousQuestion}
         onNext={nextQuestion}
+        onSave={() => { saveTest(); }}
+        onFinish={() => {
+          endTest();
+          const score = calculateScore();
+          setShowCorrectAnswers(true);
+          if (score) {
+            alert(`Score: ${score.correct}/${score.total} (${score.percent}%)`);
+          }
+        }}
       />
 
       {/* Feedback Banner for Study Mode */}
@@ -209,13 +228,7 @@ const TestInterface = () => {
               </button>
             </div>
 
-            {/* Save Test Button */}
-            <div>
-              <button className="w-full btn btn-secondary">
-                <BookmarkIcon className="h-4 w-4 mr-2" />
-                Save Test
-              </button>
-            </div>
+            {/* Save/Finish moved to header */}
 
             {/* Question Grid */}
             <QuestionGrid
@@ -223,6 +236,8 @@ const TestInterface = () => {
               currentQuestion={currentQuestionIndex + 1}
               answers={answers}
               flags={flags}
+              questions={currentTest.questions}
+              revealCorrect={showCorrectAnswers || selectedMode?.id === 'study'}
               onQuestionSelect={handleQuestionSelect}
             />
 

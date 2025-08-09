@@ -22,15 +22,15 @@ export const parseSubjectFromText = (raw: string, commentsRaw: string | null, ct
   const questions: Question[] = [];
 
   // Build a map of code -> comments chunk from comments.txt
-  const commentsByCode = new Map<string, string>();
+  const commentsByCode = new Map<string, { name: string; text: string }[]>();
   if (commentsRaw) {
     // Iterate lines to build per-question comments
     const lines = commentsRaw.split(/\r?\n/);
     let currentCode: string | null = null;
-    let buffer: string[] = [];
+    let buffer: { name: string; text: string }[] = [];
     const flush = () => {
       if (currentCode) {
-        commentsByCode.set(currentCode, buffer.join('\n').trim());
+        commentsByCode.set(currentCode, buffer);
       }
       buffer = [];
     };
@@ -41,7 +41,19 @@ export const parseSubjectFromText = (raw: string, commentsRaw: string | null, ct
         currentCode = codeMatch[1];
         continue;
       }
-      if (currentCode) buffer.push(line);
+      if (currentCode) {
+        const m = line.match(/^\-\s*Name:\s*(.*)$/);
+        if (m) {
+          const nm = m[1].trim();
+          buffer.push({ name: nm, text: '' });
+          continue;
+        }
+        // Aggregate text lines for the last pushed comment
+        const last = buffer[buffer.length - 1];
+        if (last && !/^Question Number:/i.test(line)) {
+          last.text += (last.text ? '\n' : '') + line;
+        }
+      }
     }
     flush();
   }
@@ -150,7 +162,7 @@ export const parseSubjectFromText = (raw: string, commentsRaw: string | null, ct
 
     // Build question object
     const text = promptLines.join('\n').trim();
-    const commentsText = code ? commentsByCode.get(code) : undefined;
+    const commentsList = code ? commentsByCode.get(code) : undefined;
     const q: Question = {
       id: questions.length + 1,
       code,
@@ -163,7 +175,7 @@ export const parseSubjectFromText = (raw: string, commentsRaw: string | null, ct
       tags: ['ATPL', 'EASA', '033'],
       imageUrls: imageUrls.length ? imageUrls : undefined,
       explanationImageUrls: explImageUrls.length ? explImageUrls : undefined,
-      commentsText,
+      comments: commentsList,
       source: 'questionDATA',
     };
     questions.push(q);
